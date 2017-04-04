@@ -1,0 +1,9473 @@
+/*
+Theme Name: Melnik-psy
+Theme URI: http://melnik-psy.com/
+Author: M2
+Author URI: http://mkvadrat.com/
+Description: Тема для сайта melnik-psy.com
+Version: 1.0
+*/
+
+*::-webkit-input-placeholder {
+
+	color: #666;
+
+	opacity: 1
+
+}
+
+*:-moz-placeholder {
+
+	color: #666;
+
+	opacity: 1
+
+}
+
+*::-moz-placeholder {
+
+	color: #666;
+
+	opacity: 1
+
+}
+
+*:-ms-input-placeholder {
+
+	color: #666;
+
+	opacity: 1
+
+}
+
+
+
+body input:focus:required:invalid,
+
+body textarea:focus:required:invalid {
+
+	
+
+}
+
+body input:required:valid,
+
+body textarea:required:valid {
+
+	
+
+}
+
+
+
+/*.container,
+
+.row {
+
+	width: 970px !important;
+
+}*/
+
+
+
+@keyframes city {
+
+    from { background-position: 0px -327px, 0 0;}
+
+    to { background-position: 0 100%, 0 0; }
+
+   }
+
+@-webkit-keyframes city {
+
+    from { background-position: 0px 100%, 0 0;}
+
+    to { background-position: 0 100%, 0 0; }
+
+   }
+
+
+
+@keyframes appearance {
+
+    from { background-image: url(./img/bg-body.jpg);
+
+    	   opacity: 0;}
+
+    to { background-image: url(./img/bg-body.jpg);
+
+    	   opacity: 1;}
+
+   }
+
+@-webkit-keyframes appearance {
+
+    from { background-image: url(./img/bg-body.jpg);
+
+    	   opacity: 0;}
+
+    to { background-image: url(./img/bg-body.jpg);
+
+    	   opacity: 1;}
+
+   }
+
+
+
+html {
+
+	animation: appearance 0.5s linear;
+
+    -webkit-animation: appearance 0.5s linear;
+
+}
+
+
+
+body {
+
+	width: 100% !important;
+
+	font-family: "RobotoRegular", sans-serif;
+
+	font-size: 16px;
+
+	background-image: url(./img/bg-body.jpg);
+
+	background-repeat: repeat-y;
+
+	background-size: 100%;
+
+    animation: city 150s linear infinite;
+
+    -webkit-animation: city 150s linear infinite;
+
+}
+
+
+
+.pad-non {
+
+	padding-left: 0px;
+
+	padding-right: 0px;
+
+}
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* ------------   Start header   ------------ */
+
+/* ------------------------------------------ */
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* ----------   Start menu line   ----------- */
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+header {
+
+	background-color: #fff;
+
+	border-radius: 15px 15px 0px 0px;
+
+	margin-top: 25px;
+
+	box-shadow: 0px 0px 20px 0px rgba(2, 2, 2, 0.5);
+	padding-bottom: 7px;
+
+}
+
+
+
+.menu-line {
+
+	position: relative;
+
+	height: 100px;
+
+	outline: visible !important;
+
+	box-shadow: 0 2px 5px rgba(29, 22, 14, 0.1);
+
+}
+
+.portait-block {
+	background: #FFF;
+	margin-top: -7px;
+	border-radius: 0px 0px 15px 15px;
+}
+
+
+
+.logo {
+
+	display: block;
+
+	width: 170px;
+
+	height: 85px;
+
+	font-family: "Palatino-Linotype-Regular";
+
+	color: #17194a;
+
+	font-size: 24px;
+
+	font-weight: 400;
+
+	line-height: 21px;
+
+	text-decoration: none !important;
+
+	outline: none !important;
+
+	padding-top: 16px;
+
+	margin-left: 30px;
+
+}
+
+
+
+.logo:hover,
+
+.logo:hover span {
+
+	transition: 1s;
+
+	color: #555BC3;
+
+}
+
+
+
+.logo:not(:hover),
+
+.logo:not(:hover) span {
+
+	transition: 1s;
+
+}
+
+
+
+.logo span {
+
+	display: block;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 11px;
+
+	font-weight: 400;
+
+	line-height: 11px;
+
+	color: #17194a;
+
+	letter-spacing: 1.3px;
+
+}
+
+
+
+.logo img {
+
+	float: left;
+
+	width: 50px;
+
+	height: 63px;
+
+	margin-right: 12px;
+
+	position: relative;
+
+	top: -7px;
+
+}
+
+
+
+.social {
+
+	position: absolute;
+
+	top: 1px;
+
+	right: 32px;
+
+}
+
+
+
+.social a {
+
+	text-decoration: none;
+
+	outline: none !important;
+
+	color: #327a95;
+
+	font-size: 20px;
+
+}
+
+
+
+.social a:hover {
+
+	color: #063f54;
+
+	transition: 1s;
+
+}
+
+
+
+.social a:not(:hover) {
+
+	transition: 1s;
+
+}
+
+
+
+.contacts-line {
+
+	position: absolute;
+
+	top: 28px;
+
+	right: 31px;
+
+	width: 535px;
+
+	text-align: right;
+
+}
+
+
+
+.online-support {
+
+	color: #17194a;
+
+	font-size: 18px;
+
+	font-weight: 400;
+
+	font-family: "MyriadPro-Regular";
+
+	text-decoration: none !important;
+
+	background-image: url(./img/online-support.png);
+
+	background-repeat: no-repeat;
+
+	background-position: 0px 3px;
+
+	padding-left: 24px;
+
+	color: #17194a;
+
+	margin-right: 27px;
+
+	outline: none !important;
+
+	position: relative;
+
+	position: relative;
+
+	z-index: 100;
+
+}
+
+
+
+.online-support:hover {
+
+	color: #17194a;
+
+}
+
+
+
+.fa-skype,
+
+.fa-phone {
+
+	color: #327a95;
+
+	font-size: 18px !important;
+
+	margin-right: 9px;
+
+}
+
+
+
+.contacts-line span {
+
+	color: #17194a;
+
+}
+
+
+
+.skype {
+
+	margin-right: 31px;
+
+}
+
+
+
+.menu {
+
+	position: absolute;
+
+	top: 58px;
+
+	right: 18px;
+
+}
+
+
+
+.menu ul {
+
+	width: 690px;
+
+}
+
+
+
+.menu ul li {
+
+	display: inline-block;
+
+}
+
+
+
+.menu ul li a {
+
+	display: block;
+
+	padding: 5px 8px 19px 8px;
+
+	background-color: #fff;
+
+	text-shadow: 0 1px 1px white;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 18px;
+
+	font-weight: 400;
+
+	text-decoration: none !important;
+
+	color: #0b455a;
+
+	outline: none !important;
+
+}
+
+
+
+.active-link,
+.menu .current-menu-item a {
+
+	position: relative;
+
+	top: 1px;
+
+    background-image: -moz-linear-gradient( 90deg, rgba(142,166,188,0.5) 0%, rgba(255,255,255,0.5) 100%);
+
+    background-image: -webkit-linear-gradient( 90deg, rgba(142,166,188,0.5) 0%, rgba(255,255,255,0.5) 100%);
+
+    background-image: -ms-linear-gradient( 90deg, rgba(142,166,188,0.5) 0%, rgba(255,255,255,0.5) 100%);
+
+    box-shadow: 0px 3px 5px 0px rgba(29, 22, 14, 0.1);
+
+}
+
+
+
+.active-link:hover {
+
+	border-bottom: none !important;
+
+}
+
+
+
+.menu ul li a:hover {
+
+	color: #17194a;
+
+    background-image: -moz-linear-gradient( 90deg, rgba(142,166,188,0.5) 0%, rgba(255,255,255,0.5) 100%);
+
+    background-image: -webkit-linear-gradient( 90deg, rgba(142,166,188,0.5) 0%, rgba(255,255,255,0.5) 100%);
+
+    background-image: -ms-linear-gradient( 90deg, rgba(142,166,188,0.5) 0%, rgba(255,255,255,0.5) 100%);
+
+    box-shadow: 0px 3px 5px 0px rgba(29, 22, 14, 0.1);
+
+	border-bottom: 1px solid #dadcde;
+
+}
+
+
+
+.portrait {
+
+	width: 100%;
+
+	height: auto;
+
+	z-index: 1;
+
+	position: relative;
+
+}
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* -----------   End menu line   ------------ */
+
+/* ------------------------------------------ */
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* -----------   Start portait   ------------ */
+
+/* ------------------------------------------ */
+
+
+
+
+
+.consultation {
+
+	position: absolute;
+
+	left: 29px;
+
+	top: 125px;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 30px;
+
+	font-weight: bold;
+
+	line-height: 30px;
+
+	color: white;
+
+	z-index: 1;
+
+}
+
+
+
+.talk {
+
+	position: absolute;
+
+	left: 30px;
+
+	top: 193px;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 18px;
+
+	font-weight: 400;
+
+	line-height: 25px;
+
+	color: white;
+
+	z-index: 1;
+
+}
+
+
+
+.more {
+
+	position: absolute;
+
+	width: 150px;
+
+	height: 50px;
+
+	border: 1px solid #99a2a3;
+
+	text-align: center;
+
+	border-radius: 0px 5px 5px 0px;
+
+	box-shadow: 0 5px 5px rgba(29, 22, 14, 0.1);
+
+	border-left: none;
+
+	left: 0px;
+
+	top: 260px;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 18px;
+
+	font-weight: 400;
+
+	line-height: 47px;
+
+	color: white;
+
+	text-decoration: none !important;
+
+	outline: none !important;
+
+	background-image: -moz-linear-gradient( 0deg, rgba(130,205,233, 0.2) 0%, rgba(205,241,255, 0.2) 80%, rgba(130,205,233, 0.2) 100%);
+
+	background-image: -webkit-linear-gradient( 0deg, rgba(130,205,233, 0.2) 0%, rgba(205,241,255, 0.2) 80%, rgba(130,205,233, 0.2) 100%);
+
+	background-image: -ms-linear-gradient( 0deg, rgba(130,205,233, 0.2) 0%, rgba(205,241,255, 0.2) 80%, rgba(130,205,233, 0.2) 100%);
+
+	z-index: 1;
+
+}
+
+
+
+.more:hover,
+
+.more:active,
+
+.more:visited {
+
+	background-image: -moz-linear-gradient( 0deg, rgba(130,205,233, 0.5) 0%, rgba(205,241,255, 0.5) 80%, rgba(130,205,233, 0.5) 100%);
+
+	background-image: -webkit-linear-gradient( 0deg, rgba(130,205,233, 0.5) 0%, rgba(205,241,255, 0.5) 80%, rgba(130,205,233, 0.5) 100%);
+
+	background-image: -ms-linear-gradient( 0deg, rgba(130,205,233, 0.5) 0%, rgba(205,241,255, 0.5) 80%, rgba(130,205,233, 0.5) 100%);
+
+	width: 180px;
+
+	border-radius: 0px 25px 25px 0px;
+
+	color: #fff !important;
+
+	transition: 1s;
+
+}
+
+
+
+.more:not(:hover) {
+
+	transition: 1s;
+
+}
+
+
+
+.line-to-button-more {
+
+	position: absolute;
+
+	top: 385px;
+
+	left: 0px;
+
+	background-color: rgba(10, 238, 239, 0.3);
+
+	border: 1px solid #99a2a3;
+
+	border-right: none;
+
+	height: 50px;
+
+	width: 50%;
+
+	border-left: none;
+
+	background-image: -moz-linear-gradient( 0deg, rgb(130,205,233) 0%, rgb(205,241,255) 80%, rgb(130,205,233) 100%);
+
+    background-image: -webkit-linear-gradient( 0deg, rgb(130,205,233) 0%, rgb(205,241,255) 80%, rgb(130,205,233) 100%);
+
+    background-image: -ms-linear-gradient( 0deg, rgb(130,205,233) 0%, rgb(205,241,255) 80%, rgb(130,205,233) 100%);
+
+    opacity: 0.251;
+
+}
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* ------------   End portait   ------------- */
+
+/* ------------------------------------------ */
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* --------   Start mental states   --------- */
+
+/* ------------------------------------------ */
+
+
+
+
+
+.emotional,
+
+.depression,
+
+.critical {
+
+	width: 300px;
+
+	height: 150px;
+
+	background-color: #fff;
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 5px;
+
+	box-shadow: 0 2px 5px rgba(29, 22, 14, 0.1);
+
+	display: inline-block;
+
+	position: relative;
+
+}
+
+
+
+.emotional,
+
+.depression {
+
+	top: -16px;
+
+}
+
+
+
+.critical {
+
+	top: 0px;
+
+}
+
+
+
+.emotional a,
+
+.depression a,
+
+.critical a {
+
+	width: 297px;
+
+	height: auto;
+
+	display: block;
+
+	outline: none !important;
+
+	text-decoration: none !important;
+
+	position: relative;
+
+	top: 0px;
+
+	border-radius: 5px;
+
+}
+
+
+
+.emotional a:hover,
+
+.depression a:hover,
+
+.critical a:hover {
+
+	background-color: #edf9fd;
+
+	box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.3);
+
+	transition: 1s;
+
+}
+
+
+
+.emotional a:hover img,
+
+.depression a:hover img,
+
+.critical a:hover  img {
+
+	transition: 1s;
+
+}
+
+
+
+.emotional a:not(:hover) img,
+
+.depression a:not(:hover) img,
+
+.critical a:not(:hover)  img {
+
+	transition: 1s;
+
+}
+
+
+
+.emotional a:not(:hover),
+
+.depression a:not(:hover),
+
+.critical a:not(:hover) {
+
+	transition: 1s;
+
+}
+
+
+
+.emotional img,
+
+.depression img,
+
+.critical img {
+
+	border-radius: 50%;
+
+	width: 93px;
+
+	height: 93px;
+
+	float: right;
+
+	padding-top: 8px;
+
+	padding-right: 8px;
+
+}
+
+
+
+.emotional {
+
+	margin: 16px 0px 0px 16px;
+
+}
+
+
+
+.critical {
+
+	margin: 12px 16px 0px 0px;
+
+}
+
+
+
+.depression {
+
+	margin: 14px;
+
+	margin-bottom: 0px;
+
+}
+
+
+
+.emotional h3,
+
+.depression h3,
+
+.critical h3 {
+
+	font-family: "MyriadPro-Regular";
+
+	font-weight: bold;
+
+	text-shadow: 0.7px 0.7px 0 white;
+
+	color: #0b455a;
+
+	font-size: 18px;
+
+	line-height: 22px;
+
+	padding-top: 15px;
+
+	padding-left: 15px;
+
+	padding-bottom: 5px;
+
+}
+
+
+
+.emotional ul li,
+
+.depression ul li,
+
+.critical ul li {
+
+	font-family: "MyriadPro-Regular";
+
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+
+	color: #0b455a;
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+	padding-bottom: 2px;
+
+	padding-left: 15px;
+
+}
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* ---------   End mental states   ---------- */
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* -------------   End header   ------------- */
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* ------   Start mental appartment   ------- */
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+.mental-appartment {
+	border-radius: 15px 15px 15px 15px;
+}
+
+.new-article {
+	border-radius: 15px 15px 0px 0px;
+}
+
+.mental-appartment,
+
+.new-article {
+
+	background-color: #fff;
+
+	margin-top: 25px;
+
+	margin-bottom: 1px;
+
+	/*box-shadow: 0px 0px 20px 0px rgba(2, 2, 2, 0.5);*/
+
+}
+
+
+
+/*.new-article {
+
+	margin-bottom: 20px;
+
+}*/
+
+
+
+.mental-appartment-photo {
+
+	width: 484px;
+
+	height: 295px;
+
+	box-shadow: -3.147px 3.886px 5px 0px rgba(0, 0, 0, 0.21);
+
+	float: right;
+
+	margin-top: 30px;
+
+}
+
+
+
+.mental-appartment h3 {
+
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 30px;
+
+	font-weight: bold;
+
+	padding-top: 34px;
+
+	padding-left: 30px;
+
+	letter-spacing: 0.4px;
+
+}
+
+
+
+.mental-appartment p {
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+	line-height: 17px;
+
+	padding-left: 30px;
+
+	padding-right: 515px;
+
+	padding-bottom: 13px;
+
+}
+
+
+
+.carousel {
+
+	height: 154px;
+
+	width: 430px;
+
+	margin-left: 30px;
+
+}
+
+
+
+.carousel-indicators li {
+
+	width: 11px !important;
+
+	height: 11px !important;
+
+	background-color: #fff;
+
+	border-radius: 50%;
+
+	border: 1px solid #1c1e4e;
+
+}
+
+
+
+.carousel-indicators .active {
+
+	width: 11px !important;
+
+	height: 11px !important;
+
+	background-image: url(./img/dot.jpg);
+
+	background-repeat: no-repeat;
+
+	background-position: 2px 2px;
+
+	margin-bottom: 1px;
+
+}
+
+
+
+.carousel-indicators {
+
+	width: 11% !important;
+
+	margin: 0px !important;
+
+	left: 0px !important;
+
+	bottom: 5px !important;
+
+}
+
+
+
+.mental-appartment span {
+
+	display: block;
+
+	font-family: "MyriadPro-It";
+
+	color: #17194a;
+
+	font-size: 14px;
+
+	padding: 30px 0px 15px 30px;
+
+}
+
+
+
+.go-program {
+
+	display: block;
+
+	width: 213px;
+
+	height: 53px;
+
+	text-align: center;
+
+	line-height: 48px;
+
+	outline: none !important;
+
+	text-decoration: none !important;
+
+	color: #0b455a;
+
+	#margin-left: 30px;
+
+	background-color: rgba(0, 174, 239, 0);
+
+	background-image: linear-gradient(to right, rgba(130,205,233,0.3) 0%, rgba(205,241,255,0.3) 80%, rgba(130,205,233,0.3) 100%);
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 5px;
+
+	box-shadow: 0 8px 5px rgba(29, 22, 14, 0.1);
+
+	box-shadow: 0px 8px 5px 0px rgba(29, 22, 14, 0.1);
+
+}
+
+
+
+.go-program:hover {
+
+	color: #0b455a;
+
+	background-color: rgba(0, 174, 239, 0.1);
+
+	box-shadow: 0 4px 5px rgba(29, 22, 14, 0.1);
+
+	transition: 1s;
+
+}
+
+
+
+.go-program:not(:hover) {
+
+	transition: 1s;
+
+}
+
+
+
+.therapeutic-group-meetings,
+
+.cinema-сlub {
+
+	display: inline-block;
+
+	width: 450px;
+	
+	margin-bottom: 30px;
+	vertical-align: top;
+}
+
+
+
+.cinema-сlub {
+
+	margin-left: 30px;
+
+}
+
+.mental-appartment .therapeutic-group-meetings .group-meetings-title {
+	background-image: url(./img/user-group.png);
+
+	background-repeat: no-repeat;
+
+	background-position: 30px 13px;
+}
+
+.mental-appartment .cinema-сlub .cinema-сlub-title {
+	background-image: url(./img/cineva-club.png);
+
+	background-repeat: no-repeat;
+
+	background-position: 16px 20px;
+}
+
+.therapeutic-group-meetings h4,
+
+.cinema-сlub h4 {
+
+	font-family: "MyriadPro-Regular";
+
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+
+	color: #17194a;
+
+	font-size: 18px;
+
+	font-weight: 700;
+
+	padding: 20px 0px 20px 30px;
+
+}
+
+
+
+.cinema-сlub h4 {
+
+	padding: 20px 0px 15px 29px;
+
+}
+
+.cinema-сlub .go-program {
+	margin-top: 38px;
+}
+
+
+
+.therapeutic-group-meetings p {
+
+	padding-right: 0px;
+
+}
+
+
+
+.cinema-сlub p {
+
+	#padding-bottom: 35px;
+
+	padding-right: 10px;
+
+}
+
+
+
+.more-group {
+
+	width: 130px;
+
+}
+
+
+
+.text-slide {
+
+	padding: 0px !important;
+
+	padding-right: 10px !important;
+
+	line-height: 22px !important;
+
+}
+
+
+
+.carousel-inner > .active {
+
+	width: 100%;
+
+	outline: none !important;
+
+}
+
+
+
+.carousel-caption {
+
+	left: 0px;
+
+	right: 0px;
+
+	text-align: left;
+
+	bottom: 0px !important;
+
+	position: relative !important;
+
+	text-shadow: none;
+
+	bottom: 5px !important;
+
+}
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* -------   End mental appartment   -------- */
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* ---------   Start news article   --------- */
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+.new-article h3 {
+
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 30px;
+
+	font-weight: bold;
+
+	padding-top: 20px;
+
+	padding-left: 30px;
+
+	padding-bottom: 23px;
+
+}
+
+
+
+.big-news {
+
+	position: relative;
+
+	width: 531px;
+
+	height: 350px;
+
+	margin-left: 30px;
+
+	margin-bottom: 31px;
+
+}
+
+
+
+.big-news h4 {
+
+	text-shadow: 0px 0px 8px rgba(58, 58, 58, 1);
+
+	color: white;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 36px;
+
+	font-weight: 700;
+
+	line-height: 36px;
+
+	position: absolute;
+
+	top: 77px;
+
+	left: 25px;
+
+}
+
+
+
+.big-news p {
+
+	text-shadow: 0px 0px 8px rgba(58, 58, 58, 1);
+
+	color: white;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 20px;
+
+	font-weight: 400;
+
+	line-height: 25px;
+
+	position: absolute;
+
+	top: 161px;
+
+	left: 25px;
+
+}
+
+
+
+.new-article-more {
+
+	position: absolute;
+
+	width: 200px;
+
+	top: 236px;
+
+	left: -30px;
+
+	background-image: -moz-linear-gradient( 0deg, rgba(130,205,233, 0.2) 0%, rgba(205,241,255, 0.2) 80%, rgba(130,205,233, 0.2) 100%);
+
+	background-image: -webkit-linear-gradient( 0deg, rgba(130,205,233, 0.2) 0%, rgba(205,241,255, 0.2) 80%, rgba(130,205,233, 0.2) 100%);
+
+	background-image: -ms-linear-gradient( 0deg, rgba(130,205,233, 0.2) 0%, rgba(205,241,255, 0.2) 80%, rgba(130,205,233, 0.2) 100%);
+
+	text-align: center;
+
+	border-style: solid;
+
+    border-width: 1px;
+
+    border-color: rgba(50, 122, 149, 0.25);
+
+}
+
+
+
+.new-article-more:hover {
+
+	width: 230px;
+
+	border-radius: 0px 25px 25px 0px;
+
+	background-image: -moz-linear-gradient( 0deg, rgba(130,205,233, 0.5) 0%, rgba(205,241,255, 0.5) 80%, rgba(130,205,233, 0.5) 100%);
+
+	background-image: -webkit-linear-gradient( 0deg, rgba(130,205,233, 0.5) 0%, rgba(205,241,255, 0.5) 80%, rgba(130,205,233, 0.5) 100%);
+
+	background-image: -ms-linear-gradient( 0deg, rgba(130,205,233, 0.5) 0%, rgba(205,241,255, 0.5) 80%, rgba(130,205,233, 0.5) 100%);
+
+}
+
+
+
+.line-to-button-more2 {
+
+	top: 1843px;
+
+}
+
+
+
+.small-news-block {
+
+	width: 385px;
+
+	height: 350px;
+
+	float: right;
+
+}
+
+
+
+.small-news1,
+
+.small-news2,
+
+.small-news3 {
+
+	height: 105px;
+
+	width: 360px;
+
+}
+
+
+
+.small-news1,
+
+.small-news2 {
+
+	margin-bottom: 1.5px;
+
+}
+
+
+
+.small-news1 a,
+
+.small-news2 a,
+
+.small-news3 a {
+
+	display: block;
+
+	width: 100%;
+
+	height: 100%;
+
+	text-decoration: none !important;
+
+	outline: none !important;
+
+}
+
+
+
+.small-news1 a:hover img,
+
+.small-news2 a:hover img,
+
+.small-news3 a:hover img {
+
+	opacity: 0.8;
+
+	transition: 1s;
+
+}
+
+
+
+.small-news1 a:not(:hover) img,
+
+.small-news2 a:not(:hover) img,
+
+.small-news3 a:not(:hover) img {
+
+	transition: 1s;
+
+}
+
+
+
+.small-news1 a:hover h5,
+
+.small-news1 a:hover p,
+
+.small-news2 a:hover h5,
+
+.small-news2 a:hover p,
+
+.small-news3 a:hover h5,
+
+.small-news3 a:hover p {
+
+	color: #5255a4;
+
+	transition: 1s;
+
+}
+
+
+
+.small-news1 a:not(:hover) h5,
+
+.small-news1 a:not(:hover) p,
+
+.small-news2 a:not(:hover) h5,
+
+.small-news2 a:not(:hover) p,
+
+.small-news3 a:not(:hover) h5,
+
+.small-news3 a:not(:hover) p {
+
+	transition: 1s;
+
+}
+
+
+
+.small-news1 a:hover p,
+
+.small-news2 a:hover p,
+
+.small-news3 a:hover p {
+
+	transition: 1s;
+
+}
+
+
+
+.small-news1 a:not(:hover) p,
+
+.small-news2 a:not(:hover) p,
+
+.small-news3 a:not(:hover) p {
+
+	transition: 1s;
+
+}
+
+
+
+/*.small-news1 a:hover .date,
+
+.small-news2 a:hover .date,
+
+.small-news3 a:hover .date {
+
+	font-size: 12px;
+
+}*/
+
+
+
+.small-news1 a img,
+
+.small-news2 a img,
+
+.small-news3 a img {
+
+	float: left;
+
+}
+
+
+
+.small-news1 h5,
+
+.small-news2 h5,
+
+.small-news3 h5 {
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 18px;
+
+	font-weight: 700;
+
+	line-height: 24px;
+
+	position: relative;
+
+	top: -6px;
+
+	padding-left: 175px;
+
+}
+
+.small-news1 p,
+
+.small-news2 p,
+
+.small-news3 p {
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+	padding-left: 175px;
+
+	line-height: 15px;
+
+	margin-bottom: 5px;
+
+	padding-top: 5px;
+
+}
+
+.small-news1 .date,
+
+.small-news2 .date,
+
+.small-news3 .date {
+
+	color: #3a4b4d;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 12px;
+
+	font-weight: 400;
+
+	padding-left: 175px;
+
+}
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* ----------   End news article   ---------- */
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* -------   Start contacts and form   ------ */
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+.cont-header {
+
+	padding-top: 0px !important;
+
+}
+
+
+
+.сontact-information {
+
+	padding-left: 30px;
+
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+
+	font-family: "MyriadPro-Regular";
+
+	line-height: 20px;
+
+	color: #17194a;
+
+	font-size: 18px;
+
+	font-weight: 400;
+
+	padding-bottom: 58px;
+
+}
+
+
+
+.сontact-information span {
+
+	color: #0b455a;
+
+	font-size: 14px;
+
+}
+
+
+
+.ph,
+
+.sk,
+
+.in-the-map {
+
+	display: block;
+
+	margin-top: 8px;
+
+}
+
+
+
+.adr,
+
+.ph,
+
+.sk,
+
+.in-the-map {
+
+	font-family: "MyriadPro-It";
+
+}
+
+
+
+.form {
+
+	float: right;
+
+	width: 455px;
+
+	height: 210px;
+
+	position: relative;
+
+	margin-right: 30px;
+
+	top: -3px;
+
+}
+
+
+
+#name,
+.name,
+#email,
+.email {
+
+	width: 225px;
+
+	height: 35px;
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 3px;
+
+	box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+
+	padding: 5px;
+
+	color: #0b455a;
+
+}
+
+
+
+#comment,
+.comment {
+
+	width: 454px;
+
+	height: 75px;
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 3px;
+
+	box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+
+	resize: none;
+
+	padding: 5px;
+
+	color: #0b455a;
+
+}
+
+
+
+#submit,
+.submit {
+
+	width: 130px;
+
+	height: 50px;
+
+	background-color: rgba(0, 174, 239, 0);
+
+	background-image: linear-gradient(to right, rgba(130,205,233,0.3) 0%, rgba(205,241,255,0.3) 80%, rgba(130,205,233,0.3) 100%);
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 5px;
+
+	box-shadow: 0 8px 5px rgba(29, 22, 14, 0.1);
+
+	margin-top: 10px;
+
+	color: #0b455a;
+
+	padding-bottom: 2px;
+
+}
+
+
+
+#submit:hover,
+.submit:hover {
+
+	background-color: rgba(0, 174, 239, 0.1);
+
+	box-shadow: 0 4px 5px rgba(29, 22, 14, 0.1);
+
+	transition: 1s;
+
+}
+
+
+
+#submit:not(:hover),
+.submit:not(:hover) {
+
+	transition: 1s;
+
+}
+
+
+
+.new-article .form p {
+
+	display: block;
+
+	position: absolute;
+
+	width: 110px;
+
+	height: 15px;
+
+	color: #0b455a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+}
+
+
+
+.name-f {
+
+	top: 4px;
+
+}
+
+
+
+.e-mail-f {
+
+	top: 4px;
+
+	right: 116px;
+
+}
+
+
+
+.form input {
+
+	margin-top: 20px;
+
+}
+
+
+
+.text-message {
+
+	top: 64px;
+
+}
+
+
+
+.form textarea {
+
+	margin-top: 25px;
+
+}
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* --------   End contacts and form   ------- */
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* ------------   Start footer   ------------ */
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+footer {
+	background: #FFF;
+	border-radius: 0 0 15px 15px;
+	margin-top: -1px;
+	margin-bottom: 20px;
+}
+
+
+.done {
+
+	float: right;
+
+	color: #327a95;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+	line-height: 16px;
+
+	margin-right: 30px;
+
+}
+
+
+
+.protected {
+
+	float: left;
+
+	color: #327a95;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+	line-height: 16px;
+
+	margin-left: 26px;
+
+}
+
+
+
+.menu-footer {
+
+	position: relative;
+
+	bottom: 7px;
+
+	width: 540px;
+
+	height: auto;
+
+	margin: 0 auto;
+
+	z-index: 10;
+
+}
+
+
+
+.menu-footer li {
+
+	display: inline-block;
+
+}
+
+
+
+.menu-footer li a {
+
+	text-shadow: 0 1px 1px white;
+
+	color: #3b86a2;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+	text-decoration: none !important;
+
+	outline: none !important;
+
+	padding: 15px 5px;
+
+	display: block;
+
+}
+
+
+
+.menu-footer li a:hover {
+
+	color: #212579;
+
+	transition: 0.5s;
+
+}
+
+
+
+.menu-footer li a:not(:hover) {
+
+	transition: 0.5s;
+
+}
+
+
+
+.footer-line {
+
+	position: absolute;
+	
+	margin-top: -80px;
+
+	left: 0px;
+
+	width: 100%;
+
+	height: 80px;
+
+	opacity: 0.25;
+
+	background-color: #9ca1a3;
+
+	background-image: linear-gradient(to right, #56879a 0%, #879fa8 80%, #56879a 100%);
+
+	border: 1px solid #327a95;
+
+	box-shadow: 0 8px 5px rgba(29, 22, 14, 0.1);
+
+}
+
+
+
+.footer-line2 {
+
+	position: absolute;
+
+	height: 61px;
+
+	width: 100%;
+
+	bottom: 0px;
+
+	opacity: 0.25;
+
+	background-color: #9ca1a3;
+
+	background-image: linear-gradient(to right, #56879a 0%, #879fa8 80%, #56879a 100%);
+
+	border: 1px solid #327a95;
+
+	box-shadow: 0 8px 5px rgba(29, 22, 14, 0.1);
+
+	border-radius: 0px 0px 15px 15px;
+
+}
+
+
+
+
+
+.title {
+
+	text-decoration: none !important;
+
+	display: block;
+
+	width: 470px;
+
+	outline: none !important;
+
+}
+
+
+
+.title:hover h3,
+
+.title:hover h4 {
+
+	color: #23527c;
+
+	transition: 0.8s;
+
+}
+
+
+
+.title:not(:hover) h3,
+
+.title:not(:hover) h4 {
+
+	transition: 0.8s;
+
+}
+
+
+
+.new-block {
+
+	position: absolute;
+
+	left: -45px;
+
+	width: 315px;
+
+	height: 235px;
+
+	background-color: white;
+
+	border-radius: 15px;
+
+	box-shadow: 0 1px 38.4px 1.6px rgba(9, 36, 59, 0.45);
+
+	display: none;
+
+	margin-top: 20px;
+
+}
+
+
+
+.new-block:before {
+
+	border: solid;
+
+	border-width: 16px;
+
+	content: '';
+
+	border-color: transparent transparent #fff transparent;
+
+	position: absolute;
+
+	top: -13%;
+
+	left: 45%;
+
+}
+
+
+
+.new-block p {
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+	line-height: 22px;
+
+	padding: 30px 23px;
+
+	text-align: left;
+
+}
+
+
+
+.online-support:hover + .new-block,
+
+.new-block:hover {
+
+	opacity: 1;
+
+	left: -45px;
+
+	height: 235px;
+
+	transition: 1s;
+
+	display: block;
+
+	z-index: 10;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-button {
+
+	border: none;
+
+	background-color: transparent;
+
+	background-image: url(./img/button-bg.png);
+
+	width: 45px;
+
+	height: 29px;
+
+	margin: 15px 20px 0px 33px;
+
+}
+
+
+
+.portrait-small {
+
+	display: none !important;
+
+}
+
+
+
+.cursiv {
+
+	font-style: italic;
+
+}
+
+
+
+.text-center {
+
+	text-align: center;
+
+}
+
+
+
+
+.article-img-mini {
+
+	width: 160px;
+
+	height: 105px;
+
+}
+
+
+
+.big-photo-news {
+
+	width: 531px;
+
+	height: 350px;
+
+}
+
+
+
+.portait-index {
+
+	width: 100%;
+
+}
+
+
+
+.mental-appartment-photo2,
+
+.mental-appartment2-min,
+
+.form-small,
+
+.portrait-consul,
+
+.form-cons-small {
+
+	display: none;
+
+}
+
+
+
+.map-iandex {
+
+	width: 618px;
+
+}
+
+
+
+
+
+
+/*------------- 12.09.2016 ----------------*/
+
+
+
+
+.link-to-video {
+	display: block;
+	width: 165px;
+	height: 65px;
+	position: absolute;
+	top: 395px;
+	left: 0px;
+	z-index: 1;
+	margin-left: 30px;
+	color: white;
+	font-family: "MyriadPro-Regular";
+	font-size: 18px;
+	font-weight: 400;
+	outline: none !important;
+	text-decoration: none;
+}
+
+.link-to-video:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.link-to-video:hover img {
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+
+.link-to-video:not(:hover) img {
+	transition: 0.5s;
+}
+
+.link-to-video img {
+	position: relative;
+	top: 13px;
+	padding-right: 11px;
+}
+
+.reviews-tittle {
+	padding-top: 30px !important;
+}
+
+
+
+
+.play-video1,
+.play-video2,
+.play-video3 {
+	outline: none !important;
+	text-decoration: none !important;
+}
+
+/*.play-video1 {
+	margin-left: 30px;
+}*/
+
+.play-video2 {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.play-video1 > img,
+.play-video2 > img,
+.play-video3 > img{
+     max-width: 100%;
+     height: auto;
+}
+ 
+.play-video1 .youtube iframe,
+.play-video2 .youtube iframe,
+.play-video3 .youtube iframe {
+  padding: 5px;
+  border: solid 1px #ccc;
+  box-shadow: 0 0 5px #ccc;
+  display: block;
+  position: relative;
+}
+ 
+.play-video1:after,
+.play-video2:after,
+.play-video3:after {
+     width: 64px;
+  height: 64px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -32px;
+  margin-top: -32px;
+  background: url(./img/player_play.png) no-repeat;
+  content: '';
+  opacity: 0.8;
+}
+
+.m2 {
+	position: relative;
+	z-index: 100;
+}
+
+
+
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*------------------------------ contacts ----------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+
+
+
+
+@keyframes city {
+    from { background-position: 0px -327px, 0 0;}
+    to { background-position: 0 100%, 0 0; }
+   }
+@-webkit-keyframes city {
+    from { background-position: 0px 100%, 0 0;}
+    to { background-position: 0 100%, 0 0; }
+   }
+
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	background-image: url(./img/bg-body.jpg);
+	background-repeat: repeat-y;
+	background-size: 100%;
+}
+
+.body-about {
+	animation: city 100s linear infinite;
+    -webkit-animation: city 100s linear infinite;
+}
+
+.pad-non {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+
+/* ------------------------------------------ */
+/* ------------   Start header   ------------ */
+/* ------------------------------------------ */
+
+
+.header-about {
+	border-radius: 15px 15px 0px 0px;
+	position: relative;
+	box-shadow: none;
+}
+
+.active-link-about {
+		background-image: -webkit-linear-gradient( 0deg, rgba(221,235,248,0.55) 0%, rgb(255,255,255) 100%);
+	background-image: linear-gradient( 0deg, rgba(221,235,248,0.55) 0%, rgb(255,255,255) 100%);
+}
+
+
+
+/* ------------------------------------------ */
+/* -------------   End header   ------------- */
+/* ------------------------------------------ */
+
+
+
+/* ------------------------------------------ */
+/* ----   Start personal consultations   ---- */
+/* ------------------------------------------ */
+
+
+
+.contacts .about-content {
+	width: 100%;
+	background-color: #fff;
+	/*border-radius: 0px 0px 15px 15px;
+	box-shadow: 0px 0px 20px 0px rgba(2, 2, 2, 0.5);*/
+}
+
+.contacts .index-about-links {
+	margin-left: 28px;
+	padding-top: 11px;
+}
+
+.contacts .index-about-links a {
+	text-shadow: 0 1px 1px white;
+	font-family: "MyriadPro-Regular";
+	font-size: 14px;
+	font-style: italic;
+	color: #0b455a;
+	text-decoration: none !important;
+	outline: none !important;
+}
+
+.contacts .index-about-links a:hover,
+.contacts .index-about-links a:focus,
+.contacts .index-about-links a:active {
+	color: #17194a;
+	transition: 1s;
+}
+
+.contacts .index-about-links a:not(:hover) {
+	transition: 1s;
+}
+
+.contacts .index-about-links .about-content-active {
+	color: #17194a;
+}
+
+.contacts .about-me h3 {
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 31px;
+	font-weight: bold;
+	margin-left: 30px;
+	padding-top: 25px;
+	padding-bottom: 16px;
+}
+
+.contacts .personal-consultations-form h5 {
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 39px;
+	padding-left: 30px;
+	padding-top: 33px;
+	padding-bottom: 10px;
+}
+
+.contacts .personal-consultations-form h5 {
+	padding-left: 0px;
+}
+
+.contacts .personal-consultations-form {
+	width: 465px;
+	height: 295px;
+	margin-left: 30px;
+	margin-top: 33px;
+}
+
+.contacts .personal-consultations-form #name,
+.contacts .personal-consultations-form #surname,
+.contacts .personal-consultations-form #email,
+.contacts .personal-consultations-form .name,
+.contacts .personal-consultations-form .surname,
+.contacts .personal-consultations-form .email {
+	width: 225px;
+	height: 35px;
+	border: 1px solid #ccdee4;
+	border-radius: 3px;
+	box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+	padding: 5px;
+	color: #0b455a;
+}
+
+.contacts .personal-consultations-form #name,
+.contacts .personal-consultations-form .name,
+.contacts .personal-consultations-form #surname,
+.contacts .personal-consultations-form .surname {
+	display: inline-block;
+}
+
+.contacts .surname-f {
+	display: block;
+	position: absolute;
+	width: 110px;
+	height: 15px;
+	color: #0b455a;
+	font-family: "MyriadPro-Regular";
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.contacts .personal-consultations-form .name-f {
+    top: 31px;
+}
+
+.contacts .personal-consultations-form .surname-f {
+	top: 74px;
+	right: 127px;
+}
+
+.contacts .personal-consultations-form .e-mail-f {
+	top: 31px;
+	right: 126px;
+}
+
+.contacts .personal-consultations-form .text-message {
+    top: 88px;
+}
+
+.contacts .personal-consultations-form input {
+	margin-top: 46px;
+}
+
+.contacts .personal-consultations-form #email,
+.contacts .personal-consultations-form .email {
+	margin-top: 22px;
+}
+
+.contacts .personal-consultations-form textarea {
+	margin-top: 22px;
+}
+
+.contacts .footer-line-about {
+	top: 1111px;
+}
+
+.contacts .protected {
+	margin-left: 24px;
+}
+
+.contacts .done {
+	margin-right: 32px;
+}
+
+.contacts .small-news1-about  a:hover h5,
+.contacts .small-news2-about  a:hover h5,
+.contacts .small-news3-about  a:hover h5 {
+	transition: 1s;
+}
+
+.contacts .text-message {
+	padding-right: 0px !important;
+}
+
+.contacts .about-me .personal-consultations-form {
+	float: none;
+}
+
+.contacts .in-the-map {
+	color: #327a95;
+}
+
+.contacts .cont-header {
+    padding-top: 12px !important;
+}
+
+.contacts .сontact-information {
+	padding-bottom: 8px;
+	line-height: 23px;
+}
+
+.contacts .sk {
+	margin-top: 4px;
+}
+
+.contacts .in-the-map {
+	margin-top: 21px;
+}
+
+.contacts .map-iandex {
+	margin-left: 30px;
+}
+
+.contacts .feedback-form {
+	width: 160px !important;
+	font-family: "MyriadPro-It" !important;
+	top: 0px !important;
+	left: 0px;
+}
+
+
+
+
+
+.contacts .form p {
+
+	display: block;
+
+	position: absolute;
+
+	width: 110px;
+
+	height: 15px;
+
+	color: #0b455a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+}
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*---------------------------- articles-in ---------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+
+
+
+@keyframes city {
+    from { background-position: 0px -327px, 0 0;}
+    to { background-position: 0 100%, 0 0; }
+   }
+@-webkit-keyframes city {
+    from { background-position: 0px 100%, 0 0;}
+    to { background-position: 0 100%, 0 0; }
+   }
+
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	background-image: url(./img/bg-body.jpg);
+	background-repeat: repeat-y;
+	background-size: 100%;
+}
+
+.body-about {
+	animation: city 120s linear infinite;
+    -webkit-animation: city 120s linear infinite;
+}
+
+.pad-non {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+
+/* ------------------------------------------ */
+/* ------------   Start header   ------------ */
+/* ------------------------------------------ */
+
+
+.header-about {
+	border-radius: 15px 15px 0px 0px;
+	position: relative;
+	box-shadow: none;
+}
+
+.active-link-about {
+	background-image: -webkit-linear-gradient( 0deg, rgba(221,235,248,0.55) 0%, rgb(255,255,255) 100%);
+	background-image: linear-gradient( 0deg, rgba(221,235,248,0.55) 0%, rgb(255,255,255) 100%);
+}
+
+
+
+/* ------------------------------------------ */
+/* -------------   End header   ------------- */
+/* ------------------------------------------ */
+
+
+
+/* ------------------------------------------ */
+/* -----------   Start side-bar   ----------- */
+/* ------------------------------------------ */
+
+
+
+.articles-in .side-bar {
+	width: 230px;
+	height: auto;
+	background-color: #fff;
+	float: right;
+	margin-right: 30px;
+}
+
+.articles-in .side-bar img {
+	width: 230px;
+	height: auto;
+	border-radius: 50%;
+	position: relative;
+	left: -3px;
+	margin-top: 36px;
+	margin-bottom: 16px;
+}
+
+.articles-in .side-bar p {
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	padding-left: 2px;
+	padding-right: 17px;
+}
+
+.articles-in .form {
+	float: none;
+	width: 228px;
+	height: auto;
+	margin-right: 0px;
+	margin-top: 11px;
+	margin-bottom: 20px;
+}
+
+.articles-in #name,
+.articles-in .name,
+.articles-in #email,
+.articles-in .email,
+.articles-in #comment,
+.articles-in .comment {
+	width: 100%;
+}
+
+.articles-in .name-f {
+	top: 0px;
+}
+
+.articles-in .e-mail-f {
+    top: 58px;
+    right: 118px;
+}
+
+.articles-in .small-news1 h5,
+.articles-in .small-news2 h5,
+.articles-in .small-news3 h5 {
+    top: 0px;
+    padding-left: 20px;
+    font-size: 14.5px;
+    line-height: 18px;
+}
+
+.articles-in .small-news1 p,
+.articles-in .small-news2 p,
+.articles-in .small-news3 p {
+    padding-left: 20px;
+    margin-bottom: -5px;
+    line-height: 19px;
+}
+
+.articles-in .text-message {
+	top: 115px;
+}
+
+.articles-in .new-articles-on-the-site {
+	width: 100%;
+	height: auto;
+	border: 1px solid #ccdee4;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(29, 22, 14, 0.1);
+	margin-top: 2px;
+}
+
+.articles-in .new-articles-on-the-site h3 {
+	color: #0b455a;
+	font-family: "MyriadPro-Regular";
+	font-weight: 700;
+	text-align: left;
+	font-size: 19px;
+	padding-top: 23px;
+	padding-left: 20px;
+}
+
+.articles-in .small-news1,
+.articles-in .small-news2,
+.articles-in .small-news3 {
+	width: 100%;
+	margin-top: 17px;
+}
+
+.articles-in .article-on-psychology {
+	width: 69%;
+}
+
+.articles-in .small-news2,
+.articles-in .small-news3 {
+	margin-top: 10px;
+	margin-top: -14px;
+}
+
+.articles-in .small-news3 {
+	margin-bottom: 8px;
+}
+
+.articles-in .article-on-psychology h5 {
+	top: -3px;
+	padding-left: 20px;
+	font-size: 18.5px;
+	line-height: 20px;
+}
+
+.articles-in .article-on-psychology p {
+	padding-left: 20px;
+	margin-bottom: -5px;
+	line-height: 17px;
+}
+
+.articles-in .small-news1 .date,
+.articles-in .small-news2 .date,
+.articles-in .small-news3 .date {
+	padding-left: 20px;
+}
+
+
+
+/* ------------------------------------------ */
+/* ------------   End side-bar   ------------ */
+/* ------------------------------------------ */
+
+
+
+/* ------------------------------------------ */
+/* ------------   Start about   ------------- */
+/* ------------------------------------------ */
+
+
+
+.articles-in .about-content {
+	width: 100%;
+	background-color: #fff;
+	/*border-radius: 0px 0px 15px 15px;
+	box-shadow: 0px 0px 20px 0px rgba(2, 2, 2, 0.5);*/
+}
+
+.articles-in .index-about-links {
+	margin-left: 28px;
+	padding-top: 11px;
+}
+
+.articles-in .index-about-links a {
+	text-shadow: 0 1px 1px white;
+	font-family: "MyriadPro-Regular";
+	font-size: 14px;
+	font-style: italic;
+	color: #0b455a;
+	text-decoration: none !important;
+	outline: none !important;
+}
+
+.articles-in .index-about-links a:hover,
+.articles-in .index-about-links a:focus,
+.articles-in .index-about-links a:active {
+	color: #17194a;
+	transition: 1s;
+}
+
+.articles-in .index-about-links a:not(:hover) {
+	transition: 1s;
+}
+
+.articles-in .index-about-links .about-content-active {
+	color: #17194a;
+}
+
+.articles-in .article-photo {
+	max-width: 618px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto 20px auto;
+	display: block;
+}
+
+.articles-in .about-me h3 {
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 31px;
+	font-weight: bold;
+	margin-left: 30px;
+	padding-top: 13px;
+	padding-bottom: 24px;
+}
+
+.articles-in .about-me p,
+.articles-in .happy {
+	text-indent: 25px;
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	line-height: 24px;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 0px 318px 0px 31px;
+}
+
+.articles-in .whi {
+	padding: 0px 326px 0px 30px !important;
+	margin-top: -8px;
+}
+
+.articles-in .reason {
+	padding: 0px 326px 0px 31px !important;
+	margin-top: -8px;
+}
+
+.articles-in .get {
+	padding: 0px 326px 0px 31px !important;
+	margin-top: -8px;
+}
+
+.articles-in .article-in-date {
+	color: #3a4b4d !important;
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	padding: 0px 326px 0px 5px !important;
+	/*margin-top: -43px;*/
+}
+
+.articles-in .subtitle {
+	font-size: 18.7px !important;
+	font-weight: bold !important;
+	margin-top: -8px;
+	padding-left: 6px !important;
+}
+
+.articles-in .happy {
+	padding-left: 6px !important;
+	margin-top: -7px;
+}
+
+.articles-in .another {
+	padding-left: 32px !important;
+	margin-top: -9px;
+}
+
+.articles-in .small-news1 p {
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 19px;
+}
+
+.articles-in .article-on-psychology p {
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	margin-left: 24px;
+	padding-right: 56px;
+	padding-top: 8px;
+}
+
+.articles-in .emotional h3,
+.articles-in .depression h3 {
+	font-family: "MyriadPro-Regular";
+	font-weight: bold;
+	text-shadow: 0.7px 0.7px 0 white;
+	color: #0b455a;
+	font-size: 18px;
+	line-height: 22px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	margin-left: 0px;
+}
+
+.articles-in .contact-with-me,
+.articles-in .read-my-article {
+	display: inline-block;
+	margin-top: -10px;
+	margin-bottom: 54px;
+}
+
+.articles-in .contact-with-me {
+	width: 156px;
+}
+
+.articles-in .read-my-article {
+	width: 185px;
+	margin-left: 14px;
+}
+
+.articles-in .emotional-about,
+.articles-in .depression-about {
+	margin-top: -6px;
+	margin-left: 30px;
+	margin-bottom: 32px;
+}
+
+.articles-in .depression-about {
+	margin-left: 14px;
+}
+
+.articles-in .footer-line-about {
+	top: 3511px  !important;
+}
+
+.articles-in .small-news1-about  a:hover h5,
+.articles-in .small-news2-about  a:hover h5,
+.articles-in .small-news3-about  a:hover h5 {
+	transition: 1s;
+}
+
+.articles-in .text-message {
+	padding-right: 0px !important;
+}
+
+.articles-in .article-on-psychology {
+	margin-left: 30px;
+}
+
+.articles-in .article-on-psychology h5 {
+	padding-left: 174px;
+}
+
+.articles-in .article-on-psychology p {
+	padding-left: 150px;
+}
+
+.articles-in .article-on-psychology .date {
+	padding-left: 150px;
+}
+
+.articles-in .pagination {
+	width: 630px;
+	margin-top: 25px;
+	margin-left: 30px;
+}
+
+.articles-in .pagination ul li {
+	display: inline-block;
+}
+
+.articles-in .pagination ul li a {
+	display: block;
+	width: 46px;
+	height: 50px;
+	text-align: center;
+	line-height: 48px;
+	outline: none !important;
+	text-decoration: none !important;
+	color: #0b455a;
+	margin-right: 12.6px;
+	background-color: rgba(0, 174, 239, 0);
+	background-image: linear-gradient(to right, rgba(130,205,233,0.3) 0%, rgba(205,241,255,0.3) 80%, rgba(130,205,233,0.3) 100%);
+	border: 1px solid #ccdee4;
+	border-radius: 5px;
+}
+
+.articles-in .pagination ul li a:hover {
+	color: #0b455a;
+	background-color: rgba(0, 174, 239, 0.1);
+	box-shadow: 0 4px 5px rgba(29, 22, 14, 0.1);
+	transition: 1s;
+}
+
+.articles-in .pagination ul li a:not(:hover) {
+	transition: 1s;
+}
+
+.articles-in .prev-pag,
+.articles-in .next-pag {
+	width: 105px !important;
+	height: 50px !important;
+}
+
+.articles-in .prev-article {
+	margin-right: 205px;
+}
+
+.articles-in .prev-article,
+.articles-in .next-article {
+	width: 194px;
+	height: 50px;
+}
+
+.articles-in .gore {
+    top: 3275px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.articles-in #name,
+.articles-in .name,
+.articles-in #email,
+.articles-in .email,
+.articles-in #name_form,
+.articles-in .name_form,
+.articles-in #email_form,
+.articles-in .email_form {
+
+	width: 225px;
+
+	height: 35px;
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 3px;
+
+	box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+
+	padding: 5px;
+
+	color: #0b455a;
+
+}
+
+
+
+.articles-in #comment,
+
+.articles-in #comment_form {
+
+	/*width: 454px;*/
+
+	height: 75px;
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 3px;
+
+	box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+
+	resize: none;
+
+	padding: 5px;
+
+	color: #0b455a;
+
+}
+
+
+
+.articles-in #submit {
+
+	width: 130px;
+
+	height: 50px;
+
+	background-color: rgba(0, 174, 239, 0);
+
+	background-image: linear-gradient(to right, rgba(130,205,233,0.3) 0%, rgba(205,241,255,0.3) 80%, rgba(130,205,233,0.3) 100%);
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 5px;
+
+	box-shadow: 0 8px 5px rgba(29, 22, 14, 0.1);
+
+	margin-top: 10px;
+
+	color: #0b455a;
+
+	padding-bottom: 2px;
+
+}
+
+
+
+.articles-in #submit:hover {
+
+	background-color: rgba(0, 174, 239, 0.1);
+
+	box-shadow: 0 4px 5px rgba(29, 22, 14, 0.1);
+
+	transition: 1s;
+
+}
+
+
+
+.articles-in #submit:not(:hover) {
+
+	transition: 1s;
+
+}
+
+
+
+.articles-in .form p {
+
+	display: block;
+
+	position: absolute;
+
+	width: 110px;
+
+	height: 15px;
+
+	color: #0b455a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+}
+
+
+
+.articles-in .name-f {
+
+	top: 0px;
+
+}
+
+
+
+.articles-in .e-mail-f {
+
+	top: 56px;
+
+	right: 116px;
+
+}
+
+
+
+
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*------------------------------- about ------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+
+
+
+
+@keyframes city {
+
+    from { background-position: 0px -327px, 0 0;}
+
+    to { background-position: 0 100%, 0 0; }
+
+   }
+
+@-webkit-keyframes city {
+
+    from { background-position: 0px 100%, 0 0;}
+
+    to { background-position: 0 100%, 0 0; }
+
+   }
+
+
+
+body {
+
+	font-family: "RobotoRegular", sans-serif;
+
+	font-size: 16px;
+
+	background-image: url(./img/bg-body.jpg);
+
+	background-repeat: repeat-y;
+
+	background-size: 100%;
+
+}
+
+
+
+.body-about {
+
+	animation: city 80s linear infinite;
+
+    -webkit-animation: city 80s linear infinite;
+
+}
+
+
+
+.pad-non {
+
+	padding-left: 0px;
+
+	padding-right: 0px;
+
+}
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* ------------   Start header   ------------ */
+
+/* ------------------------------------------ */
+
+
+
+
+
+.header-about {
+
+	border-radius: 15px 15px 0px 0px;
+
+	position: relative;
+
+	box-shadow: none;
+
+}
+
+
+
+.active-link-about {
+
+    background-image: -moz-linear-gradient( 90deg, rgba(142,166,188,0.5) 0%, rgba(255,255,255,0.5) 100%);
+
+    background-image: -webkit-linear-gradient( 90deg, rgba(142,166,188,0.5) 0%, rgba(255,255,255,0.5) 100%);
+
+    background-image: -ms-linear-gradient( 90deg, rgba(142,166,188,0.5) 0%, rgba(255,255,255,0.5) 100%);
+
+    box-shadow: 0px 3px 5px 0px rgba(29, 22, 14, 0.1);
+
+}
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* -------------   End header   ------------- */
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* -----------   Start side-bar   ----------- */
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+.about .side-bar {
+
+	width: 230px;
+
+	height: auto;
+
+	background-color: #fff;
+
+	float: right;
+
+	margin-right: 30px;
+
+}
+
+
+
+.about .side-bar img {
+
+	width: 230px;
+
+	height: auto;
+
+	border-radius: 50%;
+
+	position: relative;
+
+	left: -3px;
+
+	margin-top: 36px;
+
+	margin-bottom: 16px;
+
+}
+
+
+
+.about .side-bar p {
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+	line-height: 22px;
+
+	padding-left: 2px;
+
+	padding-right: 17px;
+
+}
+
+
+
+.about .form {
+
+	float: none;
+
+	width: 228px;
+
+	height: 290px;
+
+	margin-right: 0px;
+
+	margin-top: 11px;
+
+}
+
+
+
+.about #name,
+.about .name,
+.about #email,
+.about .email,
+.about #comment,
+.about .comment {
+
+	width: 100%;
+
+}
+
+
+
+.about .name-f {
+
+	top: 0px;
+
+}
+
+
+
+.about .e-mail-f {
+
+	top: 56px;
+
+}
+
+
+
+.about .text-message {
+
+	top: 115px;
+
+}
+
+
+
+.about .new-articles-on-the-site {
+
+	width: 100%;
+
+	height: auto;
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 5px;
+
+	box-shadow: 0 2px 5px rgba(29, 22, 14, 0.1);
+
+	margin-top: 2px;
+
+}
+
+
+
+.about .new-articles-on-the-site h3 {
+
+	color: #0b455a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-weight: 700;
+
+	text-align: left;
+
+	font-size: 19px;
+
+	padding-top: 23px;
+
+	padding-left: 20px;
+
+}
+
+
+
+.about .small-news1,
+
+.about .small-news2,
+
+.about .small-news3 {
+
+	width: 100%;
+
+	margin-top: 16px;
+
+}
+
+
+.new-articles-on-the-site .small-news1-about:nth-child(4) {
+	margin-bottom: 20px;
+}
+
+
+
+.about .small-news2,
+
+.about .small-news3 {
+
+	margin-top: 10px;
+
+	margin-top: -14px;
+
+}
+
+
+
+.about .small-news3 {
+
+	margin-bottom: 8px;
+
+}
+
+
+
+.about .small-news1 h5,
+
+.about .small-news2 h5,
+
+.about .small-news3 h5 {
+
+	top: 0px;
+
+	padding-left: 20px;
+
+	font-size: 14.5px;
+
+	line-height: 20px;
+
+}
+
+
+
+.about .small-news1 p,
+
+.about .small-news2 p,
+
+.about .small-news3 p {
+
+	padding-left: 20px;
+
+	margin-bottom: -5px;
+
+	line-height: 17px;
+
+}
+
+
+
+.about .small-news1 .date,
+
+.about .small-news2 .date,
+
+.about .small-news3 .date {
+
+	padding-left: 20px;
+
+}
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* ------------   End side-bar   ------------ */
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* ------------   Start about   ------------- */
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+.about .about-content {
+
+	width: 100%;
+
+	background-color: #fff;
+
+	border-radius: 0px 0px 0px 0px;
+
+	/*box-shadow: 0px 0px 20px 0px rgba(2, 2, 2, 0.5);*/
+
+}
+
+
+
+.about .index-about-links {
+
+	margin-left: 28px;
+
+	padding-top: 11px;
+
+}
+
+
+
+.about .index-about-links a {
+
+	text-shadow: 0 1px 1px white;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-style: italic;
+
+	color: #0b455a;
+
+	text-decoration: none !important;
+
+	outline: none !important;
+
+}
+
+
+
+.about .index-about-links a:hover,
+
+.about .index-about-links a:focus,
+
+.about .index-about-links a:active {
+
+	color: #17194a;
+
+	transition: 1s;
+
+}
+
+
+
+.about .index-about-links a:not(:hover) {
+
+	transition: 1s;
+
+}
+
+
+
+.about .index-about-links .about-content-active {
+
+	color: #17194a;
+
+}
+
+
+
+.about .about-me h3 {
+
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 30px;
+
+	font-weight: bold;
+
+	margin-left: 30px;
+
+	padding-top: 16px;
+
+	padding-bottom: 16px;
+
+}
+
+
+
+.about .about-me p {
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+	line-height: 22px;
+
+	margin-left: 30px;
+
+	padding-right: 320px;
+	
+	padding-bottom: 20px;
+
+}
+
+
+
+.about .emotional h3,
+
+.about .depression h3 {
+
+	font-family: "MyriadPro-Regular";
+
+	font-weight: bold;
+
+	text-shadow: 0.7px 0.7px 0 white;
+
+	color: #0b455a;
+
+	font-size: 18px;
+
+	line-height: 22px;
+
+	padding-top: 15px;
+
+	padding-left: 15px;
+
+	padding-bottom: 5px;
+
+	margin-left: 0px;
+
+}
+
+
+
+.about .contact-with-me,
+
+.about .read-my-article {
+
+	display: inline-block;
+
+	margin-top: 22px;
+
+	margin-bottom: 58px;
+
+}
+
+
+
+.about .contact-with-me {
+
+	width: 186px;
+
+}
+
+
+
+.about .read-my-article {
+
+	width: 198px;
+
+	margin-left: 14px;
+
+}
+
+
+
+.about .emotional-about,
+
+.about .depression-about {
+
+	margin-top: 52px;
+
+	margin-left: 30px;
+
+}
+
+
+
+.about .depression-about {
+
+	margin-left: 14px;
+
+}
+
+
+
+.about .small-news1-about  a:hover h5,
+
+.about .small-news2-about  a:hover h5,
+
+.about .small-news3-about  a:hover h5 {
+
+	transition: 1s;
+
+}
+
+
+
+.about .text-message {
+
+	padding-right: 0px !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.form-sidebar-right {
+
+	float: right;
+
+	width: 455px;
+
+	height: 210px;
+
+	position: relative;
+
+	margin-right: 30px;
+
+	top: -3px;
+
+}
+
+
+
+.about #name,
+.about .name,
+.about #email,
+.about .email,
+.about #name_form,
+.about .name_form,
+.about #email_form,
+.about .email_form {
+
+	width: 225px;
+
+	height: 35px;
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 3px;
+
+	box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+
+	padding: 5px;
+
+	color: #0b455a;
+
+}
+
+
+
+.about #comment,
+
+.about #comment_form {
+
+	/*width: 454px;*/
+
+	height: 75px;
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 3px;
+
+	box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+
+	resize: none;
+
+	padding: 5px;
+
+	color: #0b455a;
+
+}
+
+
+
+.about #submit {
+
+	width: 130px;
+
+	height: 50px;
+
+	background-color: rgba(0, 174, 239, 0);
+
+	background-image: linear-gradient(to right, rgba(130,205,233,0.3) 0%, rgba(205,241,255,0.3) 80%, rgba(130,205,233,0.3) 100%);
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 5px;
+
+	box-shadow: 0 8px 5px rgba(29, 22, 14, 0.1);
+
+	margin-top: 10px;
+
+	color: #0b455a;
+
+	padding-bottom: 2px;
+
+}
+
+
+
+.about #submit:hover {
+
+	background-color: rgba(0, 174, 239, 0.1);
+
+	box-shadow: 0 4px 5px rgba(29, 22, 14, 0.1);
+
+	transition: 1s;
+
+}
+
+
+
+.about #submit:not(:hover) {
+
+	transition: 1s;
+
+}
+
+
+
+.about .form p {
+
+	display: block;
+
+	position: absolute;
+
+	width: 110px;
+
+	height: 15px;
+
+	color: #0b455a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+}
+
+
+
+.about .name-f {
+
+	top: 0px;
+
+}
+
+
+
+.about .e-mail-f {
+
+	top: 56px;
+
+	right: 116px;
+
+}
+
+
+
+
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*----------------------------- articles -----------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+
+
+
+
+
+
+@keyframes city {
+    from { background-position: 0px -327px, 0 0;}
+    to { background-position: 0 100%, 0 0; }
+   }
+@-webkit-keyframes city {
+    from { background-position: 0px 100%, 0 0;}
+    to { background-position: 0 100%, 0 0; }
+   }
+
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	background-image: url(./img/bg-body.jpg);
+	background-repeat: repeat-y;
+	background-size: 100%;
+}
+
+.body-about {
+	animation: city 80s linear infinite;
+    -webkit-animation: city 80s linear infinite;
+}
+
+.pad-non {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+
+/* ------------------------------------------ */
+/* ------------   Start header   ------------ */
+/* ------------------------------------------ */
+
+
+.header-about {
+	border-radius: 15px 15px 0px 0px;
+	position: relative;
+	box-shadow: none;
+}
+
+.active-link-about {
+		background-image: -webkit-linear-gradient( 0deg, rgba(221,235,248,0.55) 0%, rgb(255,255,255) 100%);
+	background-image: linear-gradient( 0deg, rgba(221,235,248,0.55) 0%, rgb(255,255,255) 100%);
+}
+
+
+
+/* ------------------------------------------ */
+/* -------------   End header   ------------- */
+/* ------------------------------------------ */
+
+
+
+/* ------------------------------------------ */
+/* -----------   Start side-bar   ----------- */
+/* ------------------------------------------ */
+
+
+
+.articles .side-bar {
+	width: 230px;
+	height: auto;
+	background-color: #fff;
+	float: right;
+	margin-right: 30px;
+}
+
+.articles .side-bar img {
+	width: 230px;
+	height: auto;
+	border-radius: 50%;
+	position: relative;
+	left: -3px;
+	margin-top: 36px;
+	margin-bottom: 16px;
+}
+
+.articles .side-bar p {
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+.articles .form {
+	float: none;
+	width: 228px;
+	height: auto;
+	margin-right: 0px;
+	margin-top: 11px;
+	margin-bottom: 20px;
+}
+
+.articles #name,
+.articles .name,
+.articles #email,
+.articles .email,
+.articles #comment,
+.articles .comment {
+	width: 100%;
+}
+
+.articles .name-f {
+	top: 0px;
+}
+
+.articles .e-mail-f {
+    top: 58px;
+    right: 118px;
+}
+
+.articles .small-news1 h5, .small-news2 h5, .small-news3 h5 {
+    top: 0px;
+    padding-left: 20px;
+    font-size: 14.5px;
+    line-height: 18px;
+}
+
+.articles .small-news1 p, .small-news2 p, .small-news3 p {
+    padding-left: 20px;
+    margin-bottom: -5px;
+    line-height: 19px;
+}
+
+.articles .text-message {
+	top: 115px;
+}
+
+.articles .new-articles-on-the-site {
+	width: 100%;
+	height: auto;
+	border: 1px solid #ccdee4;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(29, 22, 14, 0.1);
+	margin-top: 2px;
+}
+
+.articles .new-articles-on-the-site h3 {
+	color: #0b455a;
+	font-family: "MyriadPro-Regular";
+	font-weight: 700;
+	text-align: left;
+	font-size: 19px;
+	padding-top: 23px;
+	padding-left: 20px;
+}
+
+.articles .small-news1,
+.articles .small-news2,
+.articles .small-news3 {
+	width: 100%;
+	margin-top: 17px;
+}
+
+.articles .article-on-psychology {
+	width: 69%;
+}
+
+.articles .small-news2,
+.articles .small-news3 {
+	margin-top: 10px;
+	/*margin-top: -14px;*/
+}
+
+.articles .small-news3 {
+	margin-bottom: 8px;
+}
+
+.articles .article-on-psychology h5 {
+	top: -3px;
+	padding-left: 20px;
+	font-size: 18.5px;
+	line-height: 20px;
+}
+
+.articles .article-on-psychology p {
+	padding-left: 20px;
+	margin-bottom: -5px;
+	line-height: 17px;
+}
+
+.articles .small-news1 .date,
+.articles .small-news2 .date,
+.articles .small-news3 .date {
+	padding-left: 20px;
+}
+
+
+
+/* ------------------------------------------ */
+/* ------------   End side-bar   ------------ */
+/* ------------------------------------------ */
+
+
+
+/* ------------------------------------------ */
+/* ------------   Start about   ------------- */
+/* ------------------------------------------ */
+
+
+
+.articles .about-content {
+	width: 100%;
+	background-color: #fff;
+	/*border-radius: 0px 0px 15px 15px;
+	box-shadow: 0px 0px 20px 0px rgba(2, 2, 2, 0.5);*/
+}
+
+.articles .index-about-links {
+	margin-left: 28px;
+	padding-top: 11px;
+}
+
+.articles .index-about-links a {
+	text-shadow: 0 1px 1px white;
+	font-family: "MyriadPro-Regular";
+	font-size: 14px;
+	font-style: italic;
+	color: #0b455a;
+	text-decoration: none !important;
+	outline: none !important;
+}
+
+.articles .index-about-links a:hover,
+.articles .index-about-links a:focus,
+.articles .index-about-links a:active {
+	color: #17194a;
+	transition: 1s;
+}
+
+.articles .index-about-links a:not(:hover) {
+	transition: 1s;
+}
+
+.articles .index-about-links .about-content-active {
+	color: #17194a;
+}
+
+.articles .about-me h3 {
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 31px;
+	font-weight: bold;
+	margin-left: 30px;
+	padding-top: 13px;
+	padding-bottom: 14px;
+}
+
+.articles .small-news1 p {
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 19px;
+}
+
+.articles .article-on-psychology p {
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	margin-left: 24px;
+	padding-right: 56px;
+	padding-top: 8px;
+}
+
+.articles .emotional h3,
+.articles .depression h3 {
+	font-family: "MyriadPro-Regular";
+	font-weight: bold;
+	text-shadow: 0.7px 0.7px 0 white;
+	color: #0b455a;
+	font-size: 18px;
+	line-height: 22px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	margin-left: 0px;
+}
+
+.articles .contact-with-me,
+.articles .read-my-article {
+	display: inline-block;
+	margin-top: 22px;
+	margin-bottom: 58px;
+}
+
+.articles .contact-with-me {
+	width: 156px;
+}
+
+.articles .read-my-article {
+	width: 185px;
+	margin-left: 14px;
+}
+
+.articles .emotional-about,
+.articles .depression-about {
+	margin-top: 31px;
+	margin-left: 30px;
+}
+
+.articles .depression-about {
+	margin-left: 14px;
+}
+
+.articles .footer-line-about {
+	top: 1215px;
+}
+
+.articles .small-news1-about  a:hover h5,
+.articles .small-news2-about  a:hover h5,
+.articles .small-news3-about  a:hover h5 {
+	transition: 1s;
+}
+
+.articles .text-message {
+	padding-right: 0px !important;
+}
+
+.articles .article-on-psychology {
+	margin-left: 30px;
+	min-height: 105px;
+	height: auto;
+}
+
+.articles .article-on-psychology h5 {
+	padding-left: 174px;
+}
+
+.articles .article-on-psychology p {
+	padding-left: 150px;
+}
+
+.articles .article-on-psychology .date {
+	padding-left: 150px;
+}
+
+.articles .pagination {
+	width: 608px;
+	margin-top: 25px;
+	margin-left: 30px;
+}
+
+.articles .pagination ul li {
+	display: inline-block;
+}
+
+.articles .pagination ul li a {
+	display: block;
+	width: 46px;
+	height: 50px;
+	text-align: center;
+	line-height: 48px;
+	outline: none !important;
+	text-decoration: none !important;
+	color: #0b455a;
+	margin-right: 12.6px;
+	background-color: rgba(0, 174, 239, 0);
+	background-image: linear-gradient(to right, rgba(130,205,233,0.3) 0%, rgba(205,241,255,0.3) 80%, rgba(130,205,233,0.3) 100%);
+	border: 1px solid #ccdee4;
+	border-radius: 5px;
+}
+
+.articles .pagination ul li:last-child a {
+	margin-right: 0px;
+}
+
+.articles .pagination ul li a:hover {
+	color: #0b455a;
+	background-color: rgba(0, 174, 239, 0.1);
+	box-shadow: 0 4px 5px rgba(29, 22, 14, 0.1);
+	transition: 1s;
+}
+
+.articles .pagination ul li a:not(:hover) {
+	transition: 1s;
+}
+
+.articles .prev-pag,
+.articles .next-pag {
+	width: 105px !important;
+	height: 50px !important;
+}
+
+.articles footer {
+	clear: both;
+	margin-top: 50px;
+}
+
+
+
+
+.form-sidebar-right {
+
+	float: right;
+
+	width: 455px;
+
+	height: 210px;
+
+	position: relative;
+
+	margin-right: 30px;
+
+	top: -3px;
+
+}
+
+
+
+.articles #name,
+.articles .name,
+.articles #email,
+.articles .email,
+.articles #name_form,
+.articles .name_form,
+.articles #email_form,
+.articles .email_form {
+
+	width: 225px;
+
+	height: 35px;
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 3px;
+
+	box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+
+	padding: 5px;
+
+	color: #0b455a;
+
+}
+
+
+
+.articles #comment,
+
+.articles #comment_form {
+
+	/*width: 454px;*/
+
+	height: 75px;
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 3px;
+
+	box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+
+	resize: none;
+
+	padding: 5px;
+
+	color: #0b455a;
+
+}
+
+
+
+.articles #submit {
+
+	width: 130px;
+
+	height: 50px;
+
+	background-color: rgba(0, 174, 239, 0);
+
+	background-image: linear-gradient(to right, rgba(130,205,233,0.3) 0%, rgba(205,241,255,0.3) 80%, rgba(130,205,233,0.3) 100%);
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 5px;
+
+	box-shadow: 0 8px 5px rgba(29, 22, 14, 0.1);
+
+	margin-top: 10px;
+
+	color: #0b455a;
+
+	padding-bottom: 2px;
+
+}
+
+
+
+.articles #submit:hover {
+
+	background-color: rgba(0, 174, 239, 0.1);
+
+	box-shadow: 0 4px 5px rgba(29, 22, 14, 0.1);
+
+	transition: 1s;
+
+}
+
+
+
+.articles #submit:not(:hover) {
+
+	transition: 1s;
+
+}
+
+
+
+.articles .form p {
+
+	display: block;
+
+	position: absolute;
+
+	width: 110px;
+
+	height: 15px;
+
+	color: #0b455a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+}
+
+
+
+.articles .name-f {
+
+	top: 0px;
+
+}
+
+
+
+.articles .e-mail-f {
+
+	top: 56px;
+
+	right: 116px;
+
+}
+
+
+
+.articles .small-news1 h5,
+.articles .small-news2 h5,
+.articles .small-news3 h5,
+.articles .small-news1 p,
+.articles .small-news2 p,
+.articles .small-news3 p {
+	padding-left: 20px;
+	padding-right: 0;
+}
+
+
+
+
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*----------- psychological-appartment-in-cards-postcards ------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+
+
+
+
+.psychological-appartment-in-cards-postcards .meet {
+
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 31px;
+
+	font-weight: bold;
+
+	padding-left: 89px;
+
+	padding-top: 25px;
+
+	padding-bottom: 27px;
+
+	background-image: url(./img/carts.png);
+
+	background-repeat: no-repeat;
+
+	background-position: 29px 20px;
+
+}
+
+
+
+.psychological-appartment-in-cards-postcards .footer-line-about {
+
+    top: 6018px;
+
+}
+
+
+
+.psychological-appartment-in-cards-postcards .second-them {
+
+    background-image: url(./img/user-group.png);
+
+}
+
+
+
+
+.psychological-appartment-in-cards-postcards .cards-post-cards .new-img-cards-post-cards {
+	max-width: 618px;
+	width: 100%;
+	height: auto;
+	margin: 20px 0 20px 30px;
+	display: block;
+}
+
+.psychological-appartment-in-cards-postcards .cards-post-cards .new-img-cards-post-cards:nth-child(2) {
+	margin-top: 0px;
+}
+
+.psychological-appartment-in-cards-postcards .cards-post-cards .text-bold {
+	font-weight: bold;
+}
+
+.psychological-appartment-in-cards-postcards .about-me-appart-in p span {
+	font-weight: bold;
+}
+
+
+
+
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*-------------- psychological-appartment-in-cabinet -----------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+
+
+
+.psychological-appartment-in-cabinet .meet {
+    text-shadow: 0.7px 0.7px 0 #def0f7;
+    color: #17194a;
+    font-family: "MyriadPro-Regular";
+    font-size: 31px;
+    font-weight: bold;
+    padding-left: 89px;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    background-image: url(./img/cabinet.png);
+    background-repeat: no-repeat;
+    background-position: 29px 25px;
+}
+
+.psychological-appartment-in-cabinet .emotional {
+    margin: 55px 0px 0px 30px;
+}
+
+.psychological-appartment-in-cabinet .contact-with-me,
+.psychological-appartment-in-cabinet .read-my-article {
+    margin-top: 27px !important;
+}
+
+.psychological-appartment-in-cabinet .footer-line-about {
+    top: 1202px;
+}
+
+.psychological-appartment-in-cabinet .body-about {
+    animation: city 70s linear infinite;
+    -webkit-animation: city 70s linear infinite;
+}
+
+.psychological-appartment-in-cabinet .fourth-them {
+    background-image: url(./img/user-group.png);
+    background-position: 0px 20px;
+}
+
+
+
+
+
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*------------ .psychological-appartment-in-artsophiya ---------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+
+
+
+
+.psychological-appartment-in-artsophiya .meet {
+
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 31px;
+
+	font-weight: bold;
+
+	padding-left: 89px;
+
+	padding-top: 25px;
+
+	padding-bottom: 27px;
+
+	background-image: url(./img/artsophiya.png);
+
+	background-repeat: no-repeat;
+
+	background-position: 29px 20px;
+
+}
+
+
+
+.psychological-appartment-in-artsophiya .footer-line-about {
+
+    top: 2710px;
+
+}
+
+
+
+.psychological-appartment-in-artsophiya .body-about {
+
+	animation: city 180s linear infinite;
+
+    -webkit-animation: city 180s linear infinite;
+
+}
+
+
+
+.psychological-appartment-in-artsophiya .first-them {
+
+    background-image: url(./img/user-group.png);
+
+}
+
+
+.psychological-appartment-in-artsophiya .overcome-fears span {
+	font-weight: bold;
+}
+
+
+
+
+
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*------------------------------- art --------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+
+
+
+
+.art .meet {
+
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 31px;
+
+	font-weight: bold;
+
+	padding-left: 89px;
+
+	padding-top: 25px;
+
+	padding-bottom: 27px;
+
+	background-image: url(./img/art.png);
+
+	background-repeat: no-repeat;
+
+	background-position: 29px 20px;
+
+}
+
+
+
+
+.art .fifth-them {
+
+	background-image: url(./img/user-group.png);
+
+}
+
+
+
+.art .top-img,
+.art .art-new .overcome-fears img {
+	max-width: 618px;
+	width: 100%;
+	height: auto;
+	padding: 20px 0 0px 0px;
+	display: block;
+}
+
+.art .top-img {
+	padding: 20px 0 20px 30px;
+}
+
+.art .art-new ul span,
+.art .art-new p span {
+	font-weight: bold;
+}
+
+.art .overcome-fears span {
+    font-weight: bold;
+}
+
+
+
+
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------- psychological-appartment ---------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+
+
+
+@keyframes city {
+
+    from { background-position: 0px -327px, 0 0;}
+
+    to { background-position: 0 100%, 0 0; }
+
+   }
+
+@-webkit-keyframes city {
+
+    from { background-position: 0px 100%, 0 0;}
+
+    to { background-position: 0 100%, 0 0; }
+
+   }
+
+
+
+body {
+
+	font-family: "RobotoRegular", sans-serif;
+
+	font-size: 16px;
+
+	background-image: url(./img/bg-body.jpg);
+
+	background-repeat: repeat-y;
+
+	background-size: 100%;
+
+}
+
+
+
+.body-about {
+
+	animation: city 220s linear infinite;
+
+    -webkit-animation: city 220s linear infinite;
+
+}
+
+
+
+.pad-non {
+
+	padding-left: 0px;
+
+	padding-right: 0px;
+
+}
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* ------------   Start header   ------------ */
+
+/* ------------------------------------------ */
+
+
+
+
+
+.header-about {
+
+	border-radius: 15px 15px 0px 0px;
+
+	position: relative;
+
+	box-shadow: none;
+
+}
+
+
+
+.active-link-about {
+
+		background-image: -webkit-linear-gradient( 0deg, rgba(221,235,248,0.55) 0%, rgb(255,255,255) 100%);
+
+	background-image: linear-gradient( 0deg, rgba(221,235,248,0.55) 0%, rgb(255,255,255) 100%);
+
+}
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* -------------   End header   ------------- */
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* -----------   Start side-bar   ----------- */
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+.psychological-appartment .side-bar {
+
+	width: 230px;
+
+	height: auto;
+
+	background-color: #fff;
+
+	float: right;
+
+	margin-right: 30px;
+
+}
+
+
+
+.psychological-appartment .side-bar img {
+
+	width: 230px;
+
+	height: auto;
+
+	border-radius: 50%;
+
+	position: relative;
+
+	left: -3px;
+
+	margin-top: 36px;
+
+	margin-bottom: 16px;
+
+}
+
+
+
+.psychological-appartment .carousel {
+
+	width: 618px;
+
+}
+
+
+
+.psychological-appartment .text-slide {
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 16px;
+
+	font-weight: 400;
+
+}
+
+
+
+.psychological-appartment .carousel-indicators {
+
+	left: -12px !important;
+
+	bottom: 23px !important;
+
+}
+
+
+
+.psychological-appartment .appartment-span {
+
+	display: block;
+
+	font-family: "MyriadPro-It";
+
+	color: #17194a;
+
+	font-size: 14px;
+
+	padding: 0px 0px 15px 30px;
+
+}
+
+
+
+.psychological-appartment .carousel {
+
+	height: 152px;
+
+}
+
+
+
+.psychological-appartment .therapeutic-group-meetings,
+
+.psychological-appartment .cinema-сlub {
+
+	width: 665px;
+
+	margin-left: 0px;
+
+}
+
+
+
+.psychological-appartment .therapeutic-group-meetings p,
+
+.psychological-appartment .cinema-сlub p {
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+	line-height: 17px;
+
+	padding-left: 30px;
+
+	padding-bottom: 34px;
+
+}
+
+
+
+.psychological-appartment .side-bar p {
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+	line-height: 22px;
+
+	padding-left: 2px;
+
+	padding-right: 17px;
+
+}
+
+
+
+.psychological-appartment .form {
+
+	float: none;
+
+	width: 228px;
+
+	height: 290px;
+
+	margin-right: 0px;
+
+	margin-top: 11px;
+
+}
+
+
+
+.psychological-appartment #name,
+.psychological-appartment .name,
+.psychological-appartment #email,
+.psychological-appartment .email,
+.psychological-appartment #comment,
+.psychological-appartment .comment {
+
+	width: 100%;
+
+}
+
+
+
+.psychological-appartment .name-f {
+
+	top: 0px;
+
+}
+
+
+
+.psychological-appartment .e-mail-f {
+
+	top: 56px;
+
+}
+
+
+
+.psychological-appartment .text-message {
+
+	top: 115px;
+
+}
+
+
+
+.psychological-appartment .new-articles-on-the-site {
+
+	width: 100%;
+
+	height: auto;
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 5px;
+
+	box-shadow: 0 2px 5px rgba(29, 22, 14, 0.1);
+
+	margin-top: 2px;
+
+}
+
+
+
+.psychological-appartment .new-articles-on-the-site h3 {
+
+	color: #0b455a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-weight: 700;
+
+	text-align: left;
+
+	font-size: 19px;
+
+	padding-top: 23px;
+
+	padding-left: 20px;
+
+}
+
+
+
+.psychological-appartment .small-news1,
+
+.psychological-appartment .small-news2,
+
+.psychological-appartment .small-news3 {
+
+	width: 100%;
+
+	margin-top: 16px;
+
+}
+
+
+
+.psychological-appartment .small-news2,
+
+.psychological-appartment .small-news3 {
+
+	margin-top: 10px;
+
+	margin-top: -14px;
+
+}
+
+
+
+.psychological-appartment .small-news3 {
+
+	margin-bottom: 8px;
+
+}
+
+
+
+.psychological-appartment .small-news1 h5,
+
+.psychological-appartment .small-news2 h5,
+
+.psychological-appartment .small-news3 h5 {
+
+	top: 0px;
+
+	padding-left: 20px;
+
+	font-size: 14.5px;
+
+	line-height: 20px;
+
+}
+
+
+
+.psychological-appartment .small-news1 p,
+
+.psychological-appartment .small-news2 p,
+
+.psychological-appartment .small-news3 p {
+
+	padding-left: 20px;
+
+	margin-bottom: -5px;
+
+	line-height: 17px;
+
+}
+
+
+
+.psychological-appartment .small-news1 .date,
+
+.psychological-appartment .small-news2 .date,
+
+.psychological-appartment .small-news3 .date {
+
+	padding-left: 20px;
+
+}
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* ------------   End side-bar   ------------ */
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* ----   Start personal consultations   ---- */
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+.psychological-appartment .about-content {
+
+	width: 100%;
+
+	background-color: #fff;
+
+	/*border-radius: 0px 0px 15px 15px;
+
+	box-shadow: 0px 0px 20px 0px rgba(2, 2, 2, 0.5);
+
+	margin-bottom: 20px;*/
+
+}
+
+
+
+.psychological-appartment .index-about-links {
+
+	margin-left: 28px;
+
+	padding-top: 11px;
+
+}
+
+
+
+.psychological-appartment .index-about-links a {
+
+	text-shadow: 0 1px 1px white;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-style: italic;
+
+	color: #0b455a;
+
+	text-decoration: none !important;
+
+	outline: none !important;
+
+}
+
+
+
+.psychological-appartment .index-about-links a:hover,
+
+.psychological-appartment .index-about-links a:focus,
+
+.psychological-appartment .index-about-links a:active {
+
+	color: #17194a;
+
+	transition: 1s;
+
+}
+
+
+
+.psychological-appartment .index-about-links a:not(:hover) {
+
+	transition: 1s;
+
+}
+
+
+
+.psychological-appartment .index-about-links .about-content-active {
+
+	color: #17194a;
+
+}
+
+
+
+.psychological-appartment .about-me h3 {
+
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 31px;
+
+	font-weight: bold;
+
+	margin-left: 29px;
+
+	padding-top: 13px;
+
+	padding-bottom: 23px;
+
+}
+
+
+
+.psychological-appartment .carousel-caption {
+
+	padding-top: 13px !important;
+
+}
+
+
+
+.psychological-appartment .text-slide {
+
+	line-height: 24px !important;
+
+}
+
+
+
+.psychological-appartment .portrait {
+
+	width: 617px;
+
+	height: 323px;
+
+	margin-left: 30px;
+
+}
+
+
+
+.psychological-appartment .personal-consultations-page {
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 16px;
+
+	font-weight: 400;
+
+	line-height: 24px;
+
+	margin-left: 29px;
+
+	padding-right: 342px;
+
+	padding-top: 15px;
+
+}
+
+
+
+.psychological-appartment .overcome-fears {
+
+	list-style: none;
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 16px;
+
+	font-weight: 400;
+
+	line-height: 24px;
+
+	margin-left: 30px;
+
+	padding-right: 355px;
+
+}
+
+
+
+.psychological-appartment .about-me h4,
+
+.psychological-appartment .personal-consultations-form h5 {
+
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 18.5px;
+
+	font-weight: 700;
+
+	line-height: 39px;
+
+	padding-left: 30px;
+
+	padding-top: 78px;
+
+	padding-bottom: 10px;
+
+}
+
+
+
+.psychological-appartment .personal-consultations-form h5 {
+
+	padding-left: 0px;
+
+}
+
+
+
+.psychological-appartment .emotional-stress-img {
+
+	width: 454px;
+
+	height: 200px;
+
+	margin-left: 30px;
+
+	margin-bottom: 20px;
+
+}
+
+
+
+.psychological-appartment .emotional-stress {
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+	line-height: 18px;
+
+	padding-left: 29px;
+
+	padding-right: 500px;
+
+	margin-top: -4px;
+
+}
+
+
+
+.psychological-appartment .pers-cons-small-ul {
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+	line-height: 18px;
+
+	padding: 18px 0px 10px 29px;
+
+}
+
+
+
+.psychological-appartment .more-pers-cons {
+
+	width: 129px;
+
+	height: 50px;
+
+	margin-top: 12px;
+
+}
+
+
+
+.psychological-appartment .m-p-c {
+
+	margin-top: 13px;
+
+}
+
+
+
+.psychological-appartment .g-p {
+
+	margin-top: 2px;
+
+}
+
+
+
+.psychological-appartment .personal-consultations-form {
+
+	width: 465px;
+
+	height: 300px;
+
+	margin-left: 30px;
+
+}
+
+
+
+.psychological-appartment .personal-consultations-form #name,
+.psychological-appartment .personal-consultations-form .name,
+
+.psychological-appartment .personal-consultations-form #surname,
+.psychological-appartment .personal-consultations-form .surname,
+
+.psychological-appartment .personal-consultations-form #email,
+.psychological-appartment .personal-consultations-form .email {
+
+	width: 225px;
+
+	height: 35px;
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 3px;
+
+	box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+
+	padding: 5px;
+
+	color: #0b455a;
+
+}
+
+
+
+.psychological-appartment .personal-consultations-form #name,
+.psychological-appartment .personal-consultations-form .name,
+
+.psychological-appartment .personal-consultations-form #surname,
+.psychological-appartment .personal-consultations-form .surname {
+
+	display: inline-block;
+
+}
+
+
+
+.psychological-appartment .surname-f {
+
+	display: block;
+
+	position: absolute;
+
+	width: 110px;
+
+	height: 15px;
+
+	color: #0b455a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+}
+
+
+
+.psychological-appartment .personal-consultations-form .name-f {
+
+    top: 74px;
+
+}
+
+
+
+.psychological-appartment .personal-consultations-form .surname-f {
+
+	top: 74px;
+
+	right: 127px;
+
+}
+
+
+
+.psychological-appartment .personal-consultations-form .e-mail-f {
+
+    top: 131px;
+
+    left: 0px;
+
+}
+
+
+
+.psychological-appartment .personal-consultations-form .text-message {
+
+    top: 188px;
+
+}
+
+
+
+.psychological-appartment .personal-consultations-form input {
+
+	margin-top: 7px;
+
+}
+
+
+
+.psychological-appartment .personal-consultations-form #email,
+.psychological-appartment .personal-consultations-form .email {
+
+	margin-top: 22px;
+
+}
+
+
+
+.psychological-appartment .day {
+
+	top: 131px;
+
+	right: 127px;
+
+}
+
+
+
+.psychological-appartment .mounths {
+
+	top: 131px;
+
+	right: 68px;
+
+}
+
+
+
+.psychological-appartment .dropdown-days,
+
+.psychological-appartment .dropdown-mounth {
+
+	width: 54px;
+
+	height: 35px;
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 3px;
+
+	box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+
+	padding: 5px;
+
+	color: #0b455a;
+
+	display: inline-block;
+
+	position: relative;
+
+	z-index: 10;
+
+	top: -4px;
+
+}
+
+
+
+.psychological-appartment .dropdown-day li,
+
+.psychological-appartment .dropdown-moun li {
+
+	display: none;
+
+	float: left;
+
+	text-align: center;
+
+	margin-left: 3px;
+
+	margin-bottom: 3px;
+
+}
+
+
+
+.psychological-appartment .dropdown-days ul li a,
+
+.psychological-appartment .dropdown-mounth ul li a{
+
+	text-decoration: none;
+
+	color: #212121;
+
+}
+
+
+
+.psychological-appartment .days,
+
+.psychological-appartment .mounth {
+
+	position: relative;
+
+	top: 5px;
+
+	left: 27px;
+
+	color: #2f5869;
+
+	border: none;
+
+	background-color: transparent;
+
+	outline: none;
+
+}
+
+
+
+.psychological-appartment .dropdown-day,
+
+.psychological-appartment .dropdown-moun {
+
+	position: absolute;
+
+	margin-top: 20px;
+
+	width: 250px;
+
+	height: 200px;
+
+	left: -2px;
+
+}
+
+
+
+.psychological-appartment .dropdown-day li a,
+
+.psychological-appartment .dropdown-moun li a {
+
+	display: inline-block;
+
+	width: 29.3px;
+
+	height: 23px;
+
+	background-color: #fff;
+
+	padding-left: 2px;
+
+	margin-right: 0px !important;
+
+	border-radius: 5px;
+
+	box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.5);
+
+	padding-top: 3px;
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 3px;
+
+	box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+
+	color: #1c6e8c !important;
+
+}
+
+
+
+.psychological-appartment .dropdown-day li a:hover,
+
+.psychological-appartment .dropdown-moun li a:hover {
+
+	background-color: #e9f7fc;
+
+	color: #17194a !important;
+
+	transition: 0.1s;
+
+}
+
+
+
+.psychological-appartment .dropdown-day li a:not(:hover),
+
+.psychological-appartment .dropdown-moun li a:not(:hover) {
+
+	transition: 0.1s;
+
+}
+
+
+
+.psychological-appartment .weekday {
+
+	width: 30px !important;
+
+	height: 23px;
+
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 15px;
+
+	text-align: center;
+
+	margin-bottom: 0px !important;
+
+}
+
+
+
+.psychological-appartment .dropdown-moun {
+
+	width: 170px;
+
+}
+
+
+
+.psychological-appartment .mounth {
+
+	left: 138px;
+
+}
+
+
+
+.psychological-appartment .dropdown-moun {
+
+	left: -4px;
+
+}
+
+
+
+.psychological-appartment .personal-consultations-form #comment {
+
+	width: 454px;
+
+}
+
+
+
+.psychological-appartment .dropdown-moun li {
+
+	float: none;
+
+}
+
+
+
+.psychological-appartment .dropdown-moun li a {
+
+	width: 100%;
+
+}
+
+
+
+.psychological-appartment .dropdown-mounth {
+
+	width: 167px;
+
+}
+
+
+
+.psychological-appartment .depression {
+
+	top: 52px;
+
+	left: 15px;
+
+}
+
+
+
+.psychological-appartment .depression h3 {
+
+	padding-top: 16px;
+
+	padding-bottom: 4px;
+
+}
+
+
+
+.psychological-appartment .depr-pers-cons h3 {
+
+	font-size: 18px !important;
+
+	margin-left: 0px;
+
+}
+
+
+
+.psychological-appartment .personal-consultations-form textarea {
+
+	margin-top: 18px;
+
+}
+
+
+
+.psychological-appartment .contact-with-me,
+
+.psychological-appartment .read-my-article {
+
+	display: inline-block;
+
+	margin-top: 9px;
+
+	margin-bottom: 38px;
+
+}
+
+
+
+.psychological-appartment .contact-with-me {
+
+	margin-left: 13px;
+
+	width: 186px;
+
+}
+
+
+
+.psychological-appartment .read-my-article {
+
+	width: 155px;
+
+	margin-left: 30px;
+
+}
+
+
+
+.psychological-appartment .footer-line-about {
+
+    top: 3113px;
+
+}
+
+
+
+.psychological-appartment .protected {
+
+	margin-left: 24px;
+
+}
+
+
+
+.psychological-appartment .done {
+
+	margin-right: 32px;
+
+}
+
+
+
+.psychological-appartment .small-news1-about  a:hover h5,
+
+.psychological-appartment .small-news2-about  a:hover h5,
+
+.psychological-appartment .small-news3-about  a:hover h5 {
+
+	transition: 1s;
+
+}
+
+
+
+.psychological-appartment .text-message {
+
+	padding-right: 0px !important;
+
+}
+
+
+
+.psychological-appartment .therapeutic-group-meetings h4 {
+
+	background-position: 29px 39px;
+
+}
+
+
+
+.psychological-appartment .cinema-сlub h4 {
+
+	background-position: 16px 40px;
+
+}
+
+
+
+.psychological-appartment .artsophiya h4 {
+
+	background-image: url(./img/artsophiya.png);
+
+	background-repeat: no-repeat;
+
+	background-position: 30px 13px;
+
+	padding-top: 49px;
+
+}
+
+
+
+.psychological-appartment .carts h4 {
+
+	background-image: url(./img/carts.png);
+
+	background-repeat: no-repeat;
+
+	background-position: 30px 13px;
+
+	padding-top: 52px;
+
+}
+
+
+
+.psychological-appartment .cabinet h4 {
+
+	background-image: url(./img/cabinet.png);
+
+	background-repeat: no-repeat;
+
+	background-position: 31px 0px;
+
+	padding-top: 51px;
+
+}
+
+
+
+.psychological-appartment .art h4 {
+
+	background-image: url(./img/art.png);
+
+	background-repeat: no-repeat;
+
+	background-position: 30px 5px;
+
+	padding-top: 49px;
+
+}
+
+
+
+.psychological-appartment .sand h4 {
+
+	#background-image: url(./img/sand.png);
+
+	background-repeat: no-repeat;
+
+	background-position: 30px 1px;
+
+	padding-top: 40px;
+
+}
+
+
+
+.psychological-appartment .therapeutic-group-meetings {
+
+	margin-bottom: 3px;
+
+}
+
+
+
+.psychological-appartment .emotional-about h3 {
+
+	font-family: "MyriadPro-Regular";
+
+	font-weight: bold;
+
+	text-shadow: 0.7px 0.7px 0 white;
+
+	color: #0b455a;
+
+	font-size: 18px;
+
+	line-height: 22px;
+
+	padding-top: 15px;
+
+	padding-left: 15px;
+
+	padding-bottom: 5px;
+
+	margin-left: 0px;
+
+}
+
+
+
+.psychological-appartment .emotional {
+
+    margin: 22px 0px 0px 29px;
+
+}
+
+
+
+.psychological-appartment .title {
+
+	text-decoration: none !important;
+
+	display: block;
+
+	width: 500px;
+
+	outline: none !important;
+
+}
+
+
+
+.psychological-appartment .title:hover h4 {
+
+	color: #23527c;
+
+	transition: 0.8s;
+
+}
+
+
+
+.psychological-appartment .title:not(:hover) h4 {
+
+	transition: 0.8s;
+
+}
+
+
+.psychological-appartment .mental-appartment2 {
+	margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-sidebar-right {
+
+	float: right;
+
+	width: 455px;
+
+	height: 210px;
+
+	position: relative;
+
+	margin-right: 30px;
+
+	top: -3px;
+
+}
+
+
+
+.psychological-appartment  #name,
+.psychological-appartment  .name,
+.psychological-appartment  #email,
+.psychological-appartment  .email,
+.psychological-appartment  #name_form,
+.psychological-appartment  .name_form,
+.psychological-appartment  #email_form,
+.psychological-appartment  .email_form {
+
+	width: 225px;
+
+	height: 35px;
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 3px;
+
+	box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+
+	padding: 5px;
+
+	color: #0b455a;
+
+}
+
+
+
+.psychological-appartment  #comment,
+
+.psychological-appartment  #comment_form {
+
+	/*width: 454px;*/
+
+	height: 75px;
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 3px;
+
+	box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+
+	resize: none;
+
+	padding: 5px;
+
+	color: #0b455a;
+
+}
+
+
+
+.psychological-appartment  #submit {
+
+	width: 130px;
+
+	height: 50px;
+
+	background-color: rgba(0, 174, 239, 0);
+
+	background-image: linear-gradient(to right, rgba(130,205,233,0.3) 0%, rgba(205,241,255,0.3) 80%, rgba(130,205,233,0.3) 100%);
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 5px;
+
+	box-shadow: 0 8px 5px rgba(29, 22, 14, 0.1);
+
+	margin-top: 10px;
+
+	color: #0b455a;
+
+	padding-bottom: 2px;
+
+}
+
+
+
+.psychological-appartment  #submit:hover {
+
+	background-color: rgba(0, 174, 239, 0.1);
+
+	box-shadow: 0 4px 5px rgba(29, 22, 14, 0.1);
+
+	transition: 1s;
+
+}
+
+
+
+.psychological-appartment  #submit:not(:hover) {
+
+	transition: 1s;
+
+}
+
+
+
+.psychological-appartment  .form p {
+
+	display: block;
+
+	position: absolute;
+
+	width: 110px;
+
+	height: 15px;
+
+	color: #0b455a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+}
+
+
+
+.psychological-appartment  .name-f {
+
+	top: 0px;
+
+}
+
+
+
+.psychological-appartment  .e-mail-f {
+
+	top: 56px;
+
+	right: 116px;
+
+}
+
+
+
+
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------- personal-consultations -----------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+
+
+
+
+
+@keyframes city {
+
+    from { background-position: 0px -327px, 0 0;}
+
+    to { background-position: 0 100%, 0 0; }
+
+   }
+
+@-webkit-keyframes city {
+
+    from { background-position: 0px 100%, 0 0;}
+
+    to { background-position: 0 100%, 0 0; }
+
+   }
+
+
+
+body {
+
+	font-family: "RobotoRegular", sans-serif;
+
+	font-size: 16px;
+
+	background-image: url(./img/bg-body.jpg);
+
+	background-repeat: repeat-y;
+
+	background-size: 100%;
+
+}
+
+
+
+.body-about {
+
+	animation: city 220s linear infinite;
+
+    -webkit-animation: city 220s linear infinite;
+
+}
+
+
+
+.pad-non {
+
+	padding-left: 0px;
+
+	padding-right: 0px;
+
+}
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* ------------   Start header   ------------ */
+
+/* ------------------------------------------ */
+
+
+
+
+
+.header-about {
+
+	border-radius: 15px 15px 0px 0px;
+
+	position: relative;
+
+	box-shadow: none;
+
+}
+
+
+
+.active-link-about {
+
+		background-image: -webkit-linear-gradient( 0deg, rgba(221,235,248,0.55) 0%, rgb(255,255,255) 100%);
+
+	background-image: linear-gradient( 0deg, rgba(221,235,248,0.55) 0%, rgb(255,255,255) 100%);
+
+}
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* -------------   End header   ------------- */
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* -----------   Start side-bar   ----------- */
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+.personal-consultations .side-bar {
+
+	width: 230px;
+
+	height: auto;
+
+	background-color: #fff;
+
+	float: right;
+
+	margin-right: 30px;
+
+}
+
+
+
+.personal-consultations .side-bar img {
+
+	width: 230px;
+
+	height: auto;
+
+	border-radius: 50%;
+
+	position: relative;
+
+	left: -3px;
+
+	margin-top: 36px;
+
+	margin-bottom: 16px;
+
+}
+
+
+
+.personal-consultations .side-bar p {
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+	line-height: 22px;
+
+	padding-left: 2px;
+
+	padding-right: 17px;
+
+}
+
+
+
+.personal-consultations .form {
+
+	float: none;
+
+	width: 228px;
+
+	height: 290px;
+
+	margin-right: 0px;
+
+	margin-top: 11px;
+
+}
+
+
+
+.personal-consultations #name,
+.personal-consultations .name,
+.personal-consultations #email,
+.personal-consultations .email,
+.personal-consultations #comment,
+.personal-consultations .comment,
+.personal-consultations #comment_form,
+.personal-consultations .comment_form {
+
+	width: 98%;
+
+}
+
+
+
+.personal-consultations .name-f {
+
+	top: 0px;
+
+}
+
+
+
+.personal-consultations .e-mail-f {
+
+	top: 56px;
+
+}
+
+
+
+.personal-consultations .text-message {
+
+	top: 115px;
+
+}
+
+
+
+.personal-consultations .new-articles-on-the-site {
+
+	width: 100%;
+
+	height: auto;
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 5px;
+
+	box-shadow: 0 2px 5px rgba(29, 22, 14, 0.1);
+
+	margin-top: 2px;
+
+}
+
+
+
+.personal-consultations .new-articles-on-the-site h3 {
+
+	color: #0b455a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-weight: 700;
+
+	text-align: left;
+
+	font-size: 19px;
+
+	padding-top: 23px;
+
+	padding-left: 20px;
+
+}
+
+
+
+.personal-consultations .small-news1,
+
+.personal-consultations .small-news2,
+
+.personal-consultations .small-news3 {
+
+	width: 100%;
+
+	margin-top: 16px;
+
+}
+
+
+
+.personal-consultations .small-news2,
+
+.personal-consultations .small-news3 {
+
+	margin-top: 10px;
+
+	margin-top: -14px;
+
+}
+
+
+
+.personal-consultations .small-news3 {
+
+	margin-bottom: 8px;
+
+}
+
+
+
+.personal-consultations .small-news1 h5,
+
+.personal-consultations .small-news2 h5,
+
+.personal-consultations .small-news3 h5 {
+
+	top: 0px;
+
+	padding-left: 20px;
+
+	font-size: 14.5px;
+
+	line-height: 20px;
+
+}
+
+
+
+.personal-consultations .small-news1 p,
+
+.personal-consultations .small-news2 p,
+
+.personal-consultations .small-news3 p {
+
+	padding-left: 20px;
+
+	margin-bottom: -5px;
+
+	line-height: 17px;
+
+}
+
+
+
+.personal-consultations .small-news1 .date,
+
+.personal-consultations .small-news2 .date,
+
+.personal-consultations .small-news3 .date {
+
+	padding-left: 20px;
+
+}
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* ------------   End side-bar   ------------ */
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+/* ----   Start personal consultations   ---- */
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+.personal-consultations .about-content {
+
+	width: 100%;
+
+	background-color: #fff;
+
+	/*border-radius: 0px 0px 15px 15px;
+
+	box-shadow: 0px 0px 20px 0px rgba(2, 2, 2, 0.5);
+
+	margin-bottom: 20px;*/
+
+}
+
+
+
+.personal-consultations .index-about-links {
+
+	margin-left: 28px;
+
+	padding-top: 11px;
+
+}
+
+
+
+.personal-consultations .index-about-links a {
+
+	text-shadow: 0 1px 1px white;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-style: italic;
+
+	color: #0b455a;
+
+	text-decoration: none !important;
+
+	outline: none !important;
+
+}
+
+
+
+.personal-consultations .index-about-links a:hover,
+
+.personal-consultations .index-about-links a:focus,
+
+.personal-consultations .index-about-links a:active {
+
+	color: #17194a;
+
+	transition: 1s;
+
+}
+
+
+
+.personal-consultations .index-about-links a:not(:hover) {
+
+	transition: 1s;
+
+}
+
+
+
+.personal-consultations .index-about-links .about-content-active {
+
+	color: #17194a;
+
+}
+
+
+
+.personal-consultations .about-me h3 {
+
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 31px;
+
+	font-weight: bold;
+
+	margin-left: 30px;
+
+	padding-top: 25px;
+
+	padding-bottom: 16px;
+
+}
+
+
+
+.personal-consultations .portrait {
+
+	width: 618px;
+
+	height: 340px;
+
+	margin-left: 30px;
+
+}
+
+
+
+.personal-consultations .personal-consultations-page {
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 16px;
+
+	font-weight: 400;
+
+	line-height: 24px;
+
+	margin-left: 29px;
+
+	padding-right: 342px;
+
+	padding-top: 15px;
+
+}
+
+
+
+.personal-consultations .overcome-fears {
+
+	list-style: none;
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 16px;
+
+	font-weight: 400;
+
+	line-height: 24px;
+
+	margin-left: 30px;
+
+	padding-right: 355px;
+
+}
+
+
+
+.personal-consultations .about-me h4,
+
+.personal-consultations .personal-consultations-form h5 {
+
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 18px;
+
+	font-weight: 700;
+
+	line-height: 39px;
+
+	padding-left: 30px;
+
+	padding-top: 33px;
+
+	padding-bottom: 10px;
+
+}
+
+
+
+.personal-consultations .personal-consultations-form h5 {
+
+	padding-left: 0px;
+
+}
+
+
+
+.personal-consultations .emotional-stress-img {
+
+	width: 454px;
+
+	height: 200px;
+
+	margin-left: 30px;
+
+	margin-bottom: 20px;
+
+}
+
+
+
+.personal-consultations .emotional-stress {
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+	line-height: 18px;
+
+	padding-left: 29px;
+
+	padding-right: 500px;
+
+	margin-top: -4px;
+
+}
+
+
+
+.personal-consultations .pers-cons-small-ul {
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+	line-height: 18px;
+
+	padding: 18px 0px 10px 29px;
+
+}
+
+
+
+.personal-consultations .more-pers-cons {
+
+	width: 129px;
+
+	height: 50px;
+
+	margin-top: 12px;
+
+}
+
+
+
+.personal-consultations .m-p-c {
+
+	margin-top: 13px;
+
+}
+
+
+
+.personal-consultations .g-p {
+
+	margin-top: 2px;
+
+}
+
+
+
+.personal-consultations .personal-consultations-form {
+
+	width: 465px;
+
+	height: 300px;
+
+	margin-left: 30px;
+
+}
+
+
+
+.personal-consultations .personal-consultations-form #name,
+.personal-consultations .personal-consultations-form .name,
+
+.personal-consultations .personal-consultations-form #surname,
+.personal-consultations .personal-consultations-form .surname,
+
+.personal-consultations .personal-consultations-form #email,
+.personal-consultations .personal-consultations-form .email,
+.personal-consultations .personal-consultations-form #datepicker,
+.personal-consultations .personal-consultations-form .datepicker {
+
+	width: 225px;
+
+	height: 35px;
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 3px;
+
+	box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+
+	padding: 5px;
+
+	color: #0b455a;
+
+}
+
+
+
+.personal-consultations .personal-consultations-form #name,
+.personal-consultations .personal-consultations-form .name,
+
+.personal-consultations .personal-consultations-form #surname,
+.personal-consultations .personal-consultations-form .surname {
+
+	display: inline-block;
+
+}
+
+
+
+.personal-consultations .surname-f {
+
+	display: block;
+
+	position: absolute;
+
+	width: 110px;
+
+	height: 15px;
+
+	color: #0b455a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+}
+
+
+
+.personal-consultations .personal-consultations-form .name-f {
+
+    top: 74px;
+
+}
+
+
+
+.personal-consultations .personal-consultations-form .surname-f {
+
+	top: 74px;
+
+	right: 125px;
+
+}
+
+
+
+.personal-consultations .personal-consultations-form .e-mail-f {
+
+    top: 131px;
+
+    left: 0px;
+
+}
+
+
+
+.personal-consultations .personal-consultations-form .text-message {
+
+    top: 184px;
+
+}
+
+
+
+.personal-consultations .personal-consultations-form input {
+
+	margin-top: 7px;
+
+}
+
+
+
+.personal-consultations .personal-consultations-form #email,
+.personal-consultations .personal-consultations-form .email {
+
+	margin-top: 22px;
+
+}
+
+
+
+.personal-consultations .day {
+
+	top: 131px;
+
+	right: 124px;
+
+}
+
+
+
+.personal-consultations .mounths {
+
+	top: 131px;
+
+	right: 67px;
+
+}
+
+
+
+.personal-consultations .dropdown-days,
+
+.personal-consultations .dropdown-mounth {
+
+	width: 54px;
+
+	height: 35px;
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 3px;
+
+	box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+
+	padding: 5px;
+
+	color: #0b455a;
+
+	display: inline-block;
+
+	position: relative;
+
+	z-index: 10;
+
+	top: -4px;
+
+}
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+    .personal-consultations .dropdown-days,
+    .personal-consultations .dropdown-mounth {
+
+    	position: relative;
+
+    	top: -1px;
+
+    }
+
+}
+
+
+
+.personal-consultations .dropdown-day li,
+
+.personal-consultations .dropdown-moun li {
+
+	display: none;
+
+	float: left;
+
+	text-align: center;
+
+	margin-left: 3px;
+
+	margin-bottom: 3px;
+
+}
+
+
+
+.personal-consultations .dropdown-days ul li a,
+
+.personal-consultations .dropdown-mounth ul li a{
+
+	text-decoration: none;
+
+	color: #212121;
+
+}
+
+
+
+.personal-consultations .days,
+
+.personal-consultations .mounth {
+
+	position: relative;
+
+	top: 5px;
+
+	left: 27px;
+
+	color: #2f5869;
+
+	border: none;
+
+	background-color: transparent;
+
+	outline: none;
+
+}
+
+
+
+.personal-consultations .dropdown-day,
+
+.personal-consultations .dropdown-moun {
+
+	position: absolute;
+
+	margin-top: 20px;
+
+	width: 250px;
+
+	height: 200px;
+
+	left: -2px;
+
+}
+
+
+
+.personal-consultations .dropdown-day li a,
+
+.personal-consultations .dropdown-moun li a {
+
+	display: inline-block;
+
+	width: 29.3px;
+
+	height: 23px;
+
+	background-color: #fff;
+
+	padding-left: 2px;
+
+	margin-right: 0px !important;
+
+	border-radius: 5px;
+
+	box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.5);
+
+	padding-top: 3px;
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 3px;
+
+	box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+
+	color: #1c6e8c !important;
+
+}
+
+
+
+.personal-consultations .dropdown-day li a:hover,
+
+.personal-consultations .dropdown-moun li a:hover {
+
+	background-color: #e9f7fc;
+
+	color: #17194a !important;
+
+	transition: 0.1s;
+
+}
+
+
+
+.personal-consultations .dropdown-day li a:not(:hover),
+
+.personal-consultations .dropdown-moun li a:not(:hover) {
+
+	transition: 0.1s;
+
+}
+
+
+
+.personal-consultations .weekday {
+
+	width: 30px !important;
+
+	height: 23px;
+
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+
+	color: #17194a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 15px;
+
+	text-align: center;
+
+	margin-bottom: 0px !important;
+
+}
+
+
+
+.personal-consultations .dropdown-moun {
+
+	width: 170px;
+
+}
+
+
+
+.personal-consultations .mounth {
+
+	left: 138px;
+
+}
+
+
+
+.personal-consultations .dropdown-moun {
+
+	left: -4px;
+
+}
+
+
+
+.personal-consultations .personal-consultations-form #comment {
+
+	width: 454px;
+
+}
+
+
+
+.personal-consultations .dropdown-moun li {
+
+	float: none;
+
+}
+
+
+
+.personal-consultations .dropdown-moun li a {
+
+	width: 100%;
+
+}
+
+
+
+.personal-consultations .dropdown-mounth {
+
+	width: 167px;
+
+}
+
+
+
+.personal-consultations .depression {
+
+	top: 52px;
+
+	left: 15px;
+
+}
+
+
+
+.personal-consultations .depression h3 {
+
+	padding-top: 16px;
+
+	padding-bottom: 4px;
+
+	margin-left: 0px !important;
+
+}
+
+
+
+.personal-consultations .depr-pers-cons h3 {
+
+	font-size: 18px !important;
+
+	margin-left: 0px;
+
+}
+
+
+
+.personal-consultations .personal-consultations-form textarea {
+
+	margin-top: 18px;
+
+}
+
+
+
+.personal-consultations .contact-with-me,
+
+.personal-consultations .read-my-article {
+
+	display: inline-block;
+
+	margin-top: 77px;
+
+	margin-bottom: 49px;
+
+}
+
+
+
+.personal-consultations .contact-with-me {
+
+	margin-left: 13px;
+
+	width: 155px;
+
+}
+
+
+
+.personal-consultations .read-my-article {
+
+	width: 186px;
+
+	margin-left: 30px;
+
+}
+
+
+
+.personal-consultations .footer-line-about {
+
+	top: 3273px;
+
+}
+
+
+
+.personal-consultations .protected {
+
+	margin-left: 24px;
+
+}
+
+
+
+.personal-consultations .done {
+
+	margin-right: 32px;
+
+}
+
+
+
+.personal-consultations .small-news1-about  a:hover h5,
+
+.personal-consultations .small-news2-about  a:hover h5,
+
+.personal-consultations .small-news3-about  a:hover h5 {
+
+	transition: 1s;
+
+}
+
+
+
+.personal-consultations .text-message {
+
+	padding-right: 0px !important;
+
+}
+
+
+
+.personal-consultations .title {
+
+	text-decoration: none !important;
+
+	display: block;
+
+	width: 325px;
+
+	outline: none !important;
+
+}
+
+
+
+.personal-consultations .title:hover h4 {
+
+	color: #23527c;
+
+	transition: 0.8s;
+
+}
+
+
+
+.personal-consultations .title:not(:hover) h4 {
+
+	transition: 0.8s;
+
+}
+
+
+
+.personal-consultations .title:hover img {
+
+	opacity: 0.8;
+
+	transition: 0.8s;
+
+}
+
+
+
+.personal-consultations .title:not(:hover) img {
+
+	transition: 0.8s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-sidebar-right {
+
+	float: right;
+
+	width: 455px;
+
+	height: 210px;
+
+	position: relative;
+
+	margin-right: 30px;
+
+	top: -3px;
+
+}
+
+
+
+.personal-consultations #name,
+.personal-consultations .name,
+.personal-consultations #email,
+.personal-consultations .email,
+.personal-consultations #name_form,
+.personal-consultations .name_form,
+.personal-consultations #email_form,
+.personal-consultations .email_form {
+
+	width: 225px;
+
+	height: 35px;
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 3px;
+
+	box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+
+	padding: 5px;
+
+	color: #0b455a;
+
+}
+
+
+
+.personal-consultations #comment,
+
+.personal-consultations #comment_form {
+
+	/*width: 454px;*/
+
+	height: 75px;
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 3px;
+
+	box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+
+	resize: none;
+
+	padding: 5px;
+
+	color: #0b455a;
+
+}
+
+
+
+.form-sidebar-right #submit {
+
+	width: 130px;
+
+	height: 50px;
+
+	background-color: rgba(0, 174, 239, 0);
+
+	background-image: linear-gradient(to right, rgba(130,205,233,0.3) 0%, rgba(205,241,255,0.3) 80%, rgba(130,205,233,0.3) 100%);
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 5px;
+
+	box-shadow: 0 8px 5px rgba(29, 22, 14, 0.1);
+
+	margin-top: 10px;
+
+	color: #0b455a;
+
+	padding-bottom: 2px;
+
+}
+
+
+
+.form-sidebar-right #submit:hover {
+
+	background-color: rgba(0, 174, 239, 0.1);
+
+	box-shadow: 0 4px 5px rgba(29, 22, 14, 0.1);
+
+	transition: 1s;
+
+}
+
+
+
+.form-sidebar-right #submit:not(:hover) {
+
+	transition: 1s;
+
+}
+
+
+
+.personal-consultations .form p {
+
+	display: block;
+
+	position: absolute;
+
+	width: 110px;
+
+	height: 15px;
+
+	color: #0b455a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+}
+
+
+
+.personal-consultations .name-f {
+
+	top: 0px;
+
+}
+
+
+
+.personal-consultations .e-mail-f {
+
+	top: 56px;
+
+	right: 116px;
+
+}
+
+
+
+
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*---------------- psychological-appartment-in -----------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+
+
+
+@keyframes city {
+    from { background-position: 0px -327px, 0 0;}
+    to { background-position: 0 100%, 0 0; }
+   }
+@-webkit-keyframes city {
+    from { background-position: 0px 100%, 0 0;}
+    to { background-position: 0 100%, 0 0; }
+   }
+
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	background-image: url(./img/bg-body.jpg);
+	background-repeat: repeat-y;
+	background-size: 100%;
+}
+
+.body-about {
+	animation: city 120s linear infinite;
+    -webkit-animation: city 120s linear infinite;
+}
+
+.pad-non {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+
+/* ------------------------------------------ */
+/* ------------   Start header   ------------ */
+/* ------------------------------------------ */
+
+
+.header-about {
+	border-radius: 15px 15px 0px 0px;
+	position: relative;
+	box-shadow: none;
+}
+
+.active-link-about {
+		background-image: -webkit-linear-gradient( 0deg, rgba(221,235,248,0.55) 0%, rgb(255,255,255) 100%);
+	background-image: linear-gradient( 0deg, rgba(221,235,248,0.55) 0%, rgb(255,255,255) 100%);
+}
+
+
+
+/* ------------------------------------------ */
+/* -------------   End header   ------------- */
+/* ------------------------------------------ */
+
+
+
+/* ------------------------------------------ */
+/* -----------   Start side-bar   ----------- */
+/* ------------------------------------------ */
+
+
+
+.psychological-appartment-in .side-bar {
+	width: 230px;
+	height: auto;
+	background-color: #fff;
+	float: right;
+	margin-right: 30px;
+}
+
+.psychological-appartment-in .side-bar img {
+	width: 230px;
+	height: auto;
+	border-radius: 50%;
+	position: relative;
+	left: -3px;
+	margin-top: 36px;
+	margin-bottom: 16px;
+}
+
+.psychological-appartment-in .carousel {
+	width: 618px;
+}
+
+.psychological-appartment-in .text-slide {
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.psychological-appartment-in .carousel-indicators {
+	left: -12px !important;
+	bottom: 23px !important;
+}
+
+.psychological-appartment-in .appartment-span {
+	display: block;
+	font-family: "MyriadPro-It";
+	color: #17194a;
+	font-size: 14px;
+	padding: 0px 0px 15px 30px;
+}
+
+.psychological-appartment-in .carousel {
+	height: 152px;
+}
+
+.psychological-appartment-in .therapeutic-group-meetings,
+.psychological-appartment-in .cinema-сlub {
+	width: 665px;
+	margin-left: 0px;
+}
+
+.psychological-appartment-in .therapeutic-group-meetings p,
+.psychological-appartment-in .cinema-сlub p {
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17px;
+	padding-left: 30px;
+	padding-bottom: 13px;
+}
+
+.psychological-appartment-in .side-bar p {
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	padding-left: 2px;
+	padding-right: 17px;
+}
+
+.psychological-appartment-in .form {
+	float: none;
+	width: 228px;
+	height: auto;
+	margin-right: 0px;
+	margin-top: 11px;
+	margin-bottom: 20px;
+}
+
+.psychological-appartment-in #name,
+.psychological-appartment-in .name,
+.psychological-appartment-in #email,
+.psychological-appartment-in .email,
+.psychological-appartment-in #comment,
+.psychological-appartment-in .comment {
+	width: 100%;
+}
+
+.psychological-appartment-in .name-f {
+	top: 0px;
+}
+
+.psychological-appartment-in .e-mail-f {
+	top: 56px;
+}
+
+.psychological-appartment-in .text-message {
+	top: 115px;
+}
+
+.psychological-appartment-in .new-articles-on-the-site {
+	width: 100%;
+	height: auto;
+	border: 1px solid #ccdee4;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(29, 22, 14, 0.1);
+	margin-top: 2px;
+}
+
+.psychological-appartment-in .new-articles-on-the-site h3 {
+	color: #0b455a;
+	font-family: "MyriadPro-Regular";
+	font-weight: 700;
+	text-align: left;
+	font-size: 19px;
+	padding-top: 23px;
+	padding-left: 20px;
+}
+
+.psychological-appartment-in .small-news1,
+.psychological-appartment-in .small-news2,
+.psychological-appartment-in .small-news3 {
+	width: 100%;
+	margin-top: 16px;
+}
+
+.psychological-appartment-in .small-news2,
+.psychological-appartment-in .small-news3 {
+	margin-top: 10px;
+	margin-top: -14px;
+}
+
+.psychological-appartment-in .small-news3 {
+	margin-bottom: 8px;
+}
+
+.psychological-appartment-in .small-news1 h5,
+.psychological-appartment-in .small-news2 h5,
+.psychological-appartment-in .small-news3 h5 {
+	top: 0px;
+	padding-left: 20px;
+	font-size: 14.5px;
+	line-height: 20px;
+}
+
+.psychological-appartment-in .small-news1 p,
+.psychological-appartment-in .small-news2 p,
+.psychological-appartment-in .small-news3 p {
+	padding-left: 20px;
+	margin-bottom: -5px;
+	line-height: 17px;
+}
+
+.psychological-appartment-in .small-news1 .date,
+.psychological-appartment-in .small-news2 .date,
+.psychological-appartment-in .small-news3 .date {
+	padding-left: 20px;
+}
+
+
+
+/* ------------------------------------------ */
+/* ------------   End side-bar   ------------ */
+/* ------------------------------------------ */
+
+
+
+/* ------------------------------------------ */
+/* ----   Start personal consultations   ---- */
+/* ------------------------------------------ */
+
+
+
+.psychological-appartment-in .about-content {
+	width: 100%;
+	background-color: #fff;
+	border-radius: 0px 0px 0px 0px;
+	/*box-shadow: 0px 0px 20px 0px rgba(2, 2, 2, 0.5);
+	margin-bottom: 20px;*/
+}
+
+.psychological-appartment-in .index-about-links {
+	margin-left: 28px;
+	padding-top: 11px;
+}
+
+.psychological-appartment-in .index-about-links a {
+	text-shadow: 0 1px 1px white;
+	font-family: "MyriadPro-Regular";
+	font-size: 14px;
+	font-style: italic;
+	color: #0b455a;
+	text-decoration: none !important;
+	outline: none !important;
+}
+
+.psychological-appartment-in .index-about-links a:hover,
+.psychological-appartment-in .index-about-links a:focus,
+.psychological-appartment-in .index-about-links a:active {
+	color: #17194a;
+	transition: 1s;
+}
+
+.psychological-appartment-in .index-about-links a:not(:hover) {
+	transition: 1s;
+}
+
+.psychological-appartment-in .index-about-links .about-content-active {
+	color: #17194a;
+}
+
+.psychological-appartment-in .meet {
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 31px;
+	font-weight: bold;
+	/*padding-left: 89px;*/
+	padding-top: 25px;
+	padding-bottom: 27px;
+	/*background-image: url(./img/user-group.png);
+	background-repeat: no-repeat;
+	background-position: 29px 20px;*/
+}
+
+.psychological-appartment-in .meet img {
+	padding-right: 10px;
+}
+
+.psychological-appartment-in .about-me p {
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	padding-left: 30px;
+	padding-right: 330px;
+	padding-bottom: 20px;
+
+}
+
+.psychological-appartment-in .nine-meetings {
+	font-family: "MyriadPro-It" !important;
+	color: #17194a !important;
+	font-size: 14px !important;
+	padding-top: 21px;
+	padding-left: 26px !important
+}
+
+.psychological-appartment-in .go-program {
+	margin: 13px 0px 43px 28px ;
+}
+
+.psychological-appartment-in .topics-appartment {
+	width: 618px;
+	height: 390px;
+	border: 1px solid #ccdee4;
+	background-color: #fdfdfd;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(29, 22, 14, 0.1);
+	position: relative;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.psychological-appartment-in .topics-appartment h3 {
+	color: #0b455a;
+	font-family: "MyriadPro-Regular";
+	font-size: 19px;
+	font-weight: bold;
+	line-height: 24px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.psychological-appartment-in .topics-appartment h6 {
+	display: inline-block;
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+	color: #0b455a;
+	font-family: "MyriadPro-Regular";
+	font-size: 18.8px;
+	font-weight: bold;
+	/*padding-top: 50px;*/
+	position: absolute;
+	line-height: 21px;
+}
+
+.psychological-appartment-in .topics-appartment h6 img {
+	display: block;
+}
+
+.psychological-appartment-in .first-them,
+.psychological-appartment-in a:nth-child(1) h6 {
+	top: 69px;
+	left: 30px;
+	height: 100px;
+	width: 165px;
+	/*background-image: url(./img/artsophiya.png);
+	background-repeat: no-repeat;
+	background-position: 2px 1px;*/
+	padding-left: 3px;
+}
+.psychological-appartment-in .second-them,
+.psychological-appartment-in a:nth-child(2) h6 {
+	top: 69px;
+	left: 210px;
+	height: 125px;
+	width: 195px;
+	/*background-image: url(./img/carts.png);
+	background-repeat: no-repeat;
+	background-position: 2px 3px;*/
+}
+.psychological-appartment-in .third-them,
+.psychological-appartment-in a:nth-child(3) h6 {
+	top: 69px;
+	left: 400px;
+	height: 90px;
+	width: 110px;
+	/*background-image: url(./img/cineva-club.png);
+	background-repeat: no-repeat;
+	background-position: 2px 2px;*/
+	padding-left: 17px;
+}
+.psychological-appartment-in .fourth-them,
+.psychological-appartment-in a:nth-child(4) h6 {
+	top: 193px;
+	left: 35px;
+	height: 140px;
+	width: 155px;
+	/*background-image: url(./img/cabinet.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	padding-top: 64px !important;*/
+}
+.psychological-appartment-in .fifth-them,
+.psychological-appartment-in a:nth-child(5) h6 {
+	top: 205px;
+	left: 211px;
+	height: 100px;
+	width: 180px;
+	/*background-image: url(./img/art.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;*/
+}
+.psychological-appartment-in .sixth-them,
+.psychological-appartment-in a:nth-child(6) h6 {
+	top: 206px;
+	left: 416px;
+	height: 100px;
+	width: 100px;
+	/*background-image: url(./img/sand.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;*/
+}
+
+.psychological-appartment-in .emotional {
+    margin: 45px 0px 0px 30px;
+}
+
+.psychological-appartment-in .contact-with-me, .read-my-article {
+	margin-top: 9px !important;
+}
+
+.psychological-appartment-in .contact-with-me {
+    margin-left: 30px !important;
+    width: 157px !important;
+}
+
+.psychological-appartment-in .read-my-article {
+    width: 186px !important;
+    margin-left: 12px !important;
+}
+
+.psychological-appartment-in .e-mail-f {
+    top: 54px !important;
+    right: 118px !important;
+}
+
+.psychological-appartment-in .carousel-caption {
+	padding-top: 13px !important;
+}
+
+.psychological-appartment-in .text-slide {
+	line-height: 24px !important;
+}
+
+.psychological-appartment-in .portrait {
+	width: 617px;
+	height: 323px;
+	margin-left: 30px;
+}
+
+.psychological-appartment-in .personal-consultations-page {
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-left: 29px;
+	padding-right: 342px;
+	padding-top: 15px;
+}
+
+.psychological-appartment-in .overcome-fears {
+	list-style: disc;
+	list-style-position: inside;
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-left: 30px;
+	padding-right: 355px;
+}
+
+.psychological-appartment-in .overcome-fears li {
+	padding-bottom: 20px;
+}
+
+.psychological-appartment-in .about-me h4,
+.psychological-appartment-in .personal-consultations-form h5 {
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 39px;
+	padding-left: 30px;
+	padding-top: 33px;
+	padding-bottom: 10px;
+}
+
+.psychological-appartment-in .personal-consultations-form h5 {
+	padding-left: 0px;
+}
+
+.psychological-appartment-in .emotional-stress-img {
+	width: 454px;
+	height: 200px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+.psychological-appartment-in .emotional-stress {
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	padding-left: 29px;
+	padding-right: 500px;
+	margin-top: -4px;
+}
+
+.psychological-appartment-in .pers-cons-small-ul {
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	padding: 18px 0px 10px 29px;
+}
+
+.psychological-appartment-in .more-pers-cons {
+	width: 129px;
+	height: 50px;
+	margin-top: 12px;
+}
+
+.psychological-appartment-in .m-p-c {
+	margin-top: 13px;
+}
+
+.psychological-appartment-in .g-p {
+	margin-top: 2px;
+}
+
+.psychological-appartment-in .personal-consultations-form {
+	width: 465px;
+	height: 300px;
+	margin-left: 30px;
+}
+
+.psychological-appartment-in .personal-consultations-form #name,
+.psychological-appartment-in .personal-consultations-form .name,
+.psychological-appartment-in .personal-consultations-form #surname,
+.psychological-appartment-in .personal-consultations-form .surname,
+.psychological-appartment-in .personal-consultations-form #email,
+.psychological-appartment-in .personal-consultations-form .email {
+	width: 225px;
+	height: 35px;
+	border: 1px solid #ccdee4;
+	border-radius: 3px;
+	box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+	padding: 5px;
+	color: #0b455a;
+}
+
+.psychological-appartment-in .personal-consultations-form #name,
+.psychological-appartment-in .personal-consultations-form .name,
+.psychological-appartment-in .personal-consultations-form #surname,
+.psychological-appartment-in .personal-consultations-form .surname {
+	display: inline-block;
+}
+
+.psychological-appartment-in .surname-f {
+	display: block;
+	position: absolute;
+	width: 110px;
+	height: 15px;
+	color: #0b455a;
+	font-family: "MyriadPro-Regular";
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.psychological-appartment-in .personal-consultations-form .name-f {
+    top: 74px;
+}
+
+.psychological-appartment-in .personal-consultations-form .surname-f {
+	top: 74px;
+	right: 127px;
+}
+
+.psychological-appartment-in .personal-consultations-form .e-mail-f {
+    top: 131px;
+    left: 0px;
+}
+
+.psychological-appartment-in .personal-consultations-form .text-message {
+    top: 188px;
+}
+
+.psychological-appartment-in .personal-consultations-form input {
+	margin-top: 7px;
+}
+
+.psychological-appartment-in .personal-consultations-form #email,
+.psychological-appartment-in .personal-consultations-form .email {
+	margin-top: 22px;
+}
+
+.psychological-appartment-in .day {
+	top: 131px;
+	right: 127px;
+}
+
+.psychological-appartment-in .mounths {
+	top: 131px;
+	right: 68px;
+}
+
+.psychological-appartment-in .dropdown-days,
+.psychological-appartment-in .dropdown-mounth {
+	width: 54px;
+	height: 35px;
+	border: 1px solid #ccdee4;
+	border-radius: 3px;
+	box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+	padding: 5px;
+	color: #0b455a;
+	display: inline-block;
+	position: relative;
+	z-index: 10;
+	top: -4px;
+}
+
+.psychological-appartment-in .dropdown-day li,
+.psychological-appartment-in .dropdown-moun li {
+	display: none;
+	float: left;
+	text-align: center;
+	margin-left: 3px;
+	margin-bottom: 3px;
+}
+
+.psychological-appartment-in .dropdown-days ul li a,
+.psychological-appartment-in .dropdown-mounth ul li a{
+	text-decoration: none;
+	color: #212121;
+}
+
+.psychological-appartment-in .days,
+.psychological-appartment-in .mounth {
+	position: relative;
+	top: 5px;
+	left: 27px;
+	color: #2f5869;
+	border: none;
+	background-color: transparent;
+	outline: none;
+}
+
+.psychological-appartment-in .dropdown-day,
+.psychological-appartment-in .dropdown-moun {
+	position: absolute;
+	margin-top: 20px;
+	width: 250px;
+	height: 200px;
+	left: -2px;
+}
+
+.psychological-appartment-in .dropdown-day li a,
+.psychological-appartment-in .dropdown-moun li a {
+	display: inline-block;
+	width: 29.3px;
+	height: 23px;
+	background-color: #fff;
+	padding-left: 2px;
+	margin-right: 0px !important;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.5);
+	padding-top: 3px;
+	border: 1px solid #ccdee4;
+	border-radius: 3px;
+	box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+	color: #1c6e8c !important;
+}
+
+.psychological-appartment-in .dropdown-day li a:hover,
+.psychological-appartment-in .dropdown-moun li a:hover {
+	background-color: #e9f7fc;
+	color: #17194a !important;
+	transition: 0.1s;
+}
+
+.psychological-appartment-in .dropdown-day li a:not(:hover),
+.psychological-appartment-in .dropdown-moun li a:not(:hover) {
+	transition: 0.1s;
+}
+
+.psychological-appartment-in .weekday {
+	width: 30px !important;
+	height: 23px;
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 0px !important;
+}
+
+.psychological-appartment-in .dropdown-moun {
+	width: 170px;
+}
+
+.psychological-appartment-in .mounth {
+	left: 138px;
+}
+
+.psychological-appartment-in .dropdown-moun {
+	left: -4px;
+}
+
+.psychological-appartment-in .personal-consultations-form #comment {
+	width: 454px;
+}
+
+.psychological-appartment-in .dropdown-moun li {
+	float: none;
+}
+
+.psychological-appartment-in .dropdown-moun li a {
+	width: 100%;
+}
+
+.psychological-appartment-in .dropdown-mounth {
+	width: 167px;
+}
+
+.psychological-appartment-in .depression {
+	top: 52px;
+	left: 15px;
+}
+
+.psychological-appartment-in .depression h3 {
+	padding-top: 16px;
+	padding-bottom: 4px;
+}
+
+.psychological-appartment-in .depr-pers-cons h3 {
+	font-size: 18px !important;
+	margin-left: 0px;
+}
+
+.psychological-appartment-in .personal-consultations-form textarea {
+	margin-top: 18px;
+}
+
+.psychological-appartment-in .contact-with-me,
+.psychological-appartment-in .read-my-article {
+	display: inline-block;
+	margin-top: 77px;
+	margin-bottom: 49px;
+}
+
+.psychological-appartment-in .contact-with-me {
+	margin-left: 13px;
+	width: 186px;
+}
+
+.psychological-appartment-in .read-my-article {
+	width: 155px;
+	margin-left: 30px;
+}
+
+.psychological-appartment-in .footer-line-about {
+    top: 1870px;
+}
+
+.psychological-appartment-in .protected {
+	margin-left: 24px;
+}
+
+.psychological-appartment-in .done {
+	margin-right: 32px;
+}
+
+.psychological-appartment-in .small-news1-about  a:hover h5,
+.psychological-appartment-in .small-news2-about  a:hover h5,
+.psychological-appartment-in .small-news3-about  a:hover h5 {
+	transition: 1s;
+}
+
+.psychological-appartment-in .text-message {
+	padding-right: 0px !important;
+}
+
+.psychological-appartment-in .artsophiya h4 {
+	background-image: url(./img/artsophiya.png);
+	background-repeat: no-repeat;
+	background-position: 30px 13px;
+}
+
+.psychological-appartment-in .carts h4 {
+	background-image: url(./img/carts.png);
+	background-repeat: no-repeat;
+	background-position: 30px 13px;
+}
+
+.psychological-appartment-in .cabinet h4 {
+	background-image: url(./img/cabinet.png);
+	background-repeat: no-repeat;
+	background-position: 30px 13px;
+}
+
+.psychological-appartment-in .art h4 {
+	background-image: url(./img/art.png);
+	background-repeat: no-repeat;
+	background-position: 30px 13px;
+}
+
+.psychological-appartment-in .sand h4 {
+	background-image: url(./img/sand.png);
+	background-repeat: no-repeat;
+	background-position: 30px 13px;
+}
+
+.psychological-appartment-in .topics-appartment a:hover h6 {
+	color: #5255a4;
+	transition: 0.8s;
+}
+
+.psychological-appartment-in .topics-appartment h6:not(:hover) {
+	transition: 0.8s;
+}
+
+footer {
+	clear: both;
+	/*margin-top: 50px;*/
+}
+
+
+
+
+
+
+
+
+
+
+.psychological-appartment-in  #name,
+.psychological-appartment-in  .name,
+.psychological-appartment-in  #email,
+.psychological-appartment-in  .email,
+.psychological-appartment-in  #name_form,
+.psychological-appartment-in  .name_form,
+.psychological-appartment-in  #email_form,
+.psychological-appartment-in  .email_form {
+
+	width: 225px;
+
+	height: 35px;
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 3px;
+
+	box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+
+	padding: 5px;
+
+	color: #0b455a;
+
+}
+
+
+
+.psychological-appartment-in  #comment,
+
+.psychological-appartment-in  #comment_form {
+
+	/*width: 454px;*/
+
+	height: 75px;
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 3px;
+
+	box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+
+	resize: none;
+
+	padding: 5px;
+
+	color: #0b455a;
+
+}
+
+
+
+.psychological-appartment-in  #submit {
+
+	width: 130px;
+
+	height: 50px;
+
+	background-color: rgba(0, 174, 239, 0);
+
+	background-image: linear-gradient(to right, rgba(130,205,233,0.3) 0%, rgba(205,241,255,0.3) 80%, rgba(130,205,233,0.3) 100%);
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 5px;
+
+	box-shadow: 0 8px 5px rgba(29, 22, 14, 0.1);
+
+	margin-top: 10px;
+
+	color: #0b455a;
+
+	padding-bottom: 2px;
+
+}
+
+
+
+.psychological-appartment-in  #submit:hover {
+
+	background-color: rgba(0, 174, 239, 0.1);
+
+	box-shadow: 0 4px 5px rgba(29, 22, 14, 0.1);
+
+	transition: 1s;
+
+}
+
+
+
+.psychological-appartment-in  #submit:not(:hover) {
+
+	transition: 1s;
+
+}
+
+
+
+.psychological-appartment-in  .form p {
+
+	display: block;
+
+	position: absolute;
+
+	width: 110px;
+
+	height: 15px;
+
+	color: #0b455a;
+
+	font-family: "MyriadPro-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+}
+
+
+
+.psychological-appartment-in  .name-f {
+
+	top: 0px;
+
+}
+
+
+
+.psychological-appartment-in  .e-mail-f {
+
+	top: 56px;
+
+	right: 116px;
+
+}
+
+
+
+
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*------------ psychological-appartment-in-sandy-digest --------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+
+
+
+
+.psychological-appartment-in-sandy-digest .meet {
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 31px;
+	font-weight: bold;
+	padding-left: 105px;
+	padding-top: 25px;
+	padding-bottom: 27px;
+	background-image: url(./img/sand.png);
+	background-repeat: no-repeat;
+	background-position: 29px 20px;
+}
+
+.psychological-appartment-in-sandy-digest .footer-line-about {
+    top: 2071px;
+}
+
+.psychological-appartment-in-sandy-digest .second-them,
+.psychological-appartment-in-sandy-digest .fifth-them {
+	left: 230px;
+}
+
+.psychological-appartment-in-sandy-digest .third-them {
+	left: 442px;
+}
+
+.psychological-appartment-in-sandy-digest .sixth-them {
+	left: 449px;
+	width: 148px;
+	background-image: url(./img/user-group.png);
+}
+
+
+
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*------------ psychological-appartment-in-ciname-club --------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+
+
+
+.psychological-appartment-in-ciname-club .meet {
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 31px;
+	font-weight: bold;
+	padding-left: 89px;
+	padding-top: 25px;
+	padding-bottom: 27px;
+	background-image: url(./img/cineva-club.png);
+	background-repeat: no-repeat;
+	background-position: 29px 20px;
+}
+
+.psychological-appartment-in-ciname-club .footer-line-about {
+    top: 1615px;
+}
+
+.psychological-appartment-in-ciname-club .third-them {
+    background-image: url(./img/user-group.png);
+    padding-left: 0px;
+    left: 455px;
+    width: 152px;
+}
+
+.psychological-appartment-in-ciname-club .second-them {
+	left: 235px;
+}
+
+.psychological-appartment-in-ciname-club .fifth-them {
+    left: 235px;
+}
+
+.psychological-appartment-in-ciname-club .sixth-them {
+	left: 456px;
+}
+
+
+
+
+
+
+
+
+/*----- 01.03.2017 -----*/
+
+.small-news1,
+.small-news2,
+.small-news3 {
+	height: auto;
+}
+
+.small-news1 p,
+.small-news2 p,
+.small-news3 p {
+	margin-bottom: 0px !important;
+	padding-top: 0;
+}
+
+.article-on-psychology h5,
+.article-on-psychology p {
+	padding-left: 175px !important;
+	margin-left: 0 !important;
+}
+
+.new-article-main .small-news1,
+.new-article-main .small-news2,
+.new-article-main .small-news3 {
+	height: 105px !important;
+}
+
+
+/*----- 13.03.2017 -----*/
+
+.new-article-main .small-news1 {
+	margin-bottom: 18px;
+}
+
+.portait-block .emotional a,
+.portait-block .depression a,
+.portait-block .critical a,
+.emotional-about a,
+.depression-about a {
+	height: 150px;
+}
+
+.portait-block .emotional p,
+.portait-block .depression p,
+.portait-block .critical p,
+.emotional-about p,
+.depression-about p {
+	display: none;
+}
+
+.about .go-program {
+	margin-left: 30px;
+}
+
+.personal-consultations .go-program {
+	margin-left: 30px;
+}
+
+.psychological-appartment .go-program,
+.articles .go-program {
+	margin-left: 30px;
+}
+
+.psychological-appartment .sand img {
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+.psychological-appartment .sand h4 {
+	padding-top: 0;
+}
+
+.articles .emotional-about,
+.articles .depression-about {
+	vertical-align: top;
+}
+
+.about-me-appart-in .top-img,
+.about-me-appart-in .overcome-fears img,
+.about-me-appart-in .new-img-cards-post-cards {
+	max-width: 618px;
+	width: 100%;
+}
+
+.about-content {
+	min-height: 1200px;
+	height: auto;
+}
+
+.contacts .about-content {
+	min-height: 1050px;
+}
+
+.articles .about-content {
+	min-height: 1130px;
+}
+
+.articles-in .next-article {
+	margin-right: 225px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.articles-in .emotional-about {
+	vertical-align: top;
+}
+
+
+
+
+
+
+.psychological-appartment-in .topics-appartment {
+	height: auto;
+	padding-bottom: 30px;
+}
+
+.psychological-appartment-in .topics-appartment a {
+	display: inline-block;
+	width: 180px;
+	vertical-align: top;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.psychological-appartment-in .topics-appartment a h6 {
+	position: relative;
+	height: auto;
+	width: auto;
+	top: 0;
+	left: 0;
+	padding: 0;
+}
+
+.articles-in .contact-with-me-article {
+	margin-left: 30px;
+}
+
+
+
+
+
+/*--------------------------*/
+/*-------- page 404 --------*/
+/*--------------------------*/
+
+
+
+.page-404 {
+	min-height: 450px;
+	height: auto;
+	text-align: center;
+}
+
+.error-404 {
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 30px;
+	padding-top: 140px;
+	padding-bottom: 20px;
+}
+
+.page-not-found {
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	padding-bottom: 25px;
+}
+
+.page-404 a {
+	padding: 15px 25px;
+	text-align: center;
+	line-height: 48px;
+	outline: none !important;
+	text-decoration: none !important;
+	color: #0b455a;
+	margin-left: 30px;
+	background-color: rgba(0, 174, 239, 0);
+	background-image: linear-gradient(to right, rgba(130,205,233,0.3) 0%, rgba(205,241,255,0.3) 80%, rgba(130,205,233,0.3) 100%);
+	border: 1px solid #ccdee4;
+	border-radius: 5px;
+	box-shadow: 0 8px 5px rgba(29, 22, 14, 0.1);
+	box-shadow: 0px 8px 5px 0px rgba(29, 22, 14, 0.1);
+}
+
+.page-404 a:hover {
+	color: #0b455a;
+	background-color: rgba(0, 174, 239, 0.1);
+	box-shadow: 0 4px 5px rgba(29, 22, 14, 0.1);
+	transition: 1s;
+}
+
+
+
+.page-404 a:not(:hover) {
+	transition: 1s;
+}
+.articletext {
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-left: 29px;
+	padding-right: 342px;
+	padding-top: 15px;
+}
+h2 {
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 30px;
+	padding-top: 25px;
+	padding-bottom: 16px;
+}
+h3 {
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 30px;
+	padding-top: 25px;
+	padding-bottom: 16px;
+}
+h4 {
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 30px;
+	padding-top: 25px;
+	padding-bottom: 16px;
+}
+.articleli {
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-left: 65px;
+	padding-right: 342px;
+	padding-top: 15px;
+}

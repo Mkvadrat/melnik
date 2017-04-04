@@ -1,0 +1,33 @@
+/* font-family: "Palatino-Linotype-Regular"; */
+@font-face {
+	font-family: "Palatino-Linotype-Regular";
+	src: url("../fonts/Palatino-Linotype-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "MyriadPro-Regular"; */
+@font-face {
+    font-family: "MyriadPro-Regular";
+    src: url("../fonts/MyriadPro-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "MyriadPro-It"; */
+@font-face {
+    font-family: "MyriadPro-It";
+    src: url("../fonts/MyriadPro-It.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+h1 {
+    text-shadow: 0.7px 0.7px 0 #def0f7;
+    color: #17194a;
+    font-family: "MyriadPro-Regular";
+    font-size: 31px;
+    font-weight: bold;
+    margin-left: 30px;
+    padding-top: 13px;
+    padding-bottom: 24px;
+}

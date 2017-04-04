@@ -1,0 +1,2851 @@
+/*==========  Desktop First Method  ==========*/
+
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width : 1200px) {
+
+
+
+}
+
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width : 992px) {
+
+	.articles-in .next-article-in {
+		margin-right: 0;
+	}
+
+	.articles-in .prev-article-in,
+	.articles-in .prev-article {
+		margin-left: 30px;
+		margin-right: 0;
+	}
+
+	.articles-in .article-photo {
+		margin-left: auto !important;
+		margin-right: auto;
+		display: block;
+	}
+
+	.articles-in p {
+		padding-right: 20px !important;
+		padding-left: 20px !important;
+	}
+
+	.topics-appartment-appart-in {
+		margin-left: auto !important;
+		margin-right: auto;
+		display: block;
+	}
+
+	.psychological-appartment-in img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.psychological-appartment-in .meet img {
+		display: inline;
+	}
+
+	.psychological-appartment-in .topics-appartment img {
+		margin-left: 0;
+	}
+
+	.psychological-appartment-in p,
+	.psychological-appartment-in .overcome-fears {
+		padding-right: 20px !important;
+	}
+
+	.contacts .map-iandex,
+	.contacts .form-in-contacts {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.articles .pagination {
+		width: 69%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.articles .pagination ul {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.articles .pagination ul li {
+		margin-bottom: 20px;
+	}
+
+	.psychological-appartment .cinema-сlub h4 {
+		line-height: 20px;
+	}
+
+	.psychological-appartment .emotional-about,
+	.articles .emotional,
+	.articles .depression,
+	.psychological-appartment-in .emotional-about,
+	.articles-in .emotional-about,
+	.articles-in .depression-about {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.psychological-appartment .go-program,
+	.articles .go-program,
+	.psychological-appartment-in  .go-program {
+		margin-left: auto !important;
+		margin-right: auto !important;
+		display: block;
+	}
+
+	.articles .go-program,
+	.psychological-appartment-in  .go-program {
+		margin-bottom: 20px;
+	}
+
+	.about p {
+		padding-right: 0 !important;
+		margin-right: 10px;
+	}
+
+	.personal-consultations .depression {
+		left: 0;
+	}
+
+	.personal-consultations .pers-cons-small-ul {
+		padding-left: 10px;
+	}
+
+	.psychological-appartment .cinema-сlub {
+		width: 100%;
+	}
+
+	.psychological-appartment .cinema-сlub p {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.psychological-appartment .title {
+		width: 100%;
+	}
+
+	.psychological-appartment .title h4 {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.psychological-appartment .sand img {
+		margin-left: 0;
+	}
+
+	.psychological-appartment .carousel {
+		margin: 0 auto;
+		height: auto;
+	}
+
+	.psychological-appartment .carousel-indicators {
+		left: 50% !important;
+		margin-left: -50px;
+		bottom: 0 !important;
+	}
+
+	.cinema-сlub .go-program,
+	.therapeutic-group-meetings .go-program {
+	    margin-top: 0px;
+	}
+
+	.personal-consultations .about-me h4 {
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-top: 10px;
+	}
+
+	.about .emotional-about,
+	.about .depression-about {
+		margin: 20px auto;
+	}
+
+	.about .go-program,
+	.about .contact-with-me,
+	.personal-consultations .go-program,
+	.personal-consultations .read-my-article {
+		display: block;
+		margin: 20px auto;
+	}
+
+	.personal-consultations .go-program {
+		margin-top: 60px;
+	}
+
+	.personal-consultations .more-pers-cons {
+		margin-top: 15px;
+	}
+
+	.mental-appartment p {
+		padding: 0;
+		padding-bottom: 20px;
+		text-align: center;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.mental-appartment h3 {
+		padding-left: 0;
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	.portait-block {
+		margin-top: -10px;
+	}
+
+	.footer-line2 {
+		display: none;
+	}
+
+	body {
+
+		background-size: 400%;
+
+	}
+
+
+
+	.container {
+
+		margin: 0 15px;
+
+	}
+
+
+
+	.talk {
+
+		top: 150px;
+
+	}
+
+
+
+	.consultation {
+
+		top: 80px;
+
+	}
+
+
+
+	.more {
+
+		top: 236px;
+
+	}
+
+
+
+	.more-header {
+
+		top: 216px;
+
+	}
+
+	.portait-block {
+		padding-bottom: 10px;
+	}
+
+
+
+	.new-article,
+
+	.about-content {
+
+		padding-bottom: 40px;
+
+	}
+
+
+
+	.article-on-psychology-empty {
+
+		display: none;
+
+	}
+
+
+
+
+
+	/*--------------- header start -----------*/
+
+
+
+	.menu-line {
+
+		height: auto;
+
+	}
+
+
+
+	.menu {
+
+		position: relative;
+
+		top: 0;
+
+		right: 0;
+
+		padding-bottom: 15px;
+
+	}
+
+
+
+	.contacts-line {
+
+		top: 63px;
+
+	}
+
+
+
+	.social {
+
+		top: 30px;
+
+	}
+
+
+
+	.menu ul {
+
+		display: none;
+
+		margin: 20px auto 0px;
+
+	}
+
+
+
+
+
+	/*--------------- header end -------------*/
+
+
+
+	.emotional,
+
+	.depression,
+
+	.critical {
+
+		display: block;
+
+		margin: 10px auto 0;
+
+	}
+
+	.emotional-about {
+		margin-top: 30px;
+	}
+
+
+
+	header {
+
+		padding-bottom: 10px;
+
+	}
+
+
+
+	.emotional,
+
+	.depression {
+
+		top: 0px;
+
+	}
+
+
+
+	.mental-appartment-photo,
+
+	.line-to-button-more2 {
+
+		display: none;
+
+	}
+
+
+
+	.mental-appartment-photo2 {
+
+		display: block;
+
+		max-width: 484px;
+
+		width: 100%;
+
+		margin: 0 auto;
+
+	}
+
+
+
+	.mental-appartment2,
+	.psychological-appartment .mental-appartment2 {
+
+		display: block;
+
+		max-width: 617px;
+
+		width: 100%;
+
+		margin: 0 auto;
+
+	}
+
+
+
+	.title {
+
+		width: 100%;
+
+		padding-left: 0px;
+
+		text-align: center;
+
+	}
+
+
+
+	.title h3 {
+
+		padding-left: 10px;
+
+		padding-right: 10px;
+
+	}
+
+
+
+	.carousel {
+
+		width: 100%;
+
+		height: auto;
+
+		min-height: 120px;
+
+		margin-left: 0px;
+
+	}
+
+
+
+	.carousel-inner .item p {
+
+		text-align: center;
+
+		padding-left: 10px !important;
+
+	}
+
+
+
+	.carousel-indicators {
+
+		width: 100px !important;
+
+		left: 50% !important;
+
+		margin-left: -50px !important;
+
+	}
+
+
+
+	.carousel-indicators .active,
+
+	.carousel-indicators li {
+
+	    width: 15px !important;
+
+	    height: 15px !important;
+
+	    background-size: 9px 9px;
+
+	}
+
+
+
+	.mental-appartment span {
+
+		padding-left: 10px;
+
+		padding-right: 10px;
+
+		text-align: center;
+
+	}
+
+
+
+	.go-program {
+
+		margin: 10px auto 0px;
+
+	}
+
+
+
+	.therapeutic-group-meetings,
+
+	.cinema-сlub {
+
+		width: 100%;
+
+		margin-left: 0px;
+
+	}
+
+
+
+	.therapeutic-group-meetings h4,
+
+	.cinema-сlub h4 {
+
+		background-position: 50% 13px !important;
+
+		padding-left: 10px;
+
+		padding-right: 10px;
+		text-align: center;
+
+	}
+
+
+
+	.therapeutic-group-meetings p,
+
+	.cinema-сlub p {
+
+		padding-left: 10px;
+
+		padding-right: 10px;
+
+		text-align: center;
+
+	}
+
+
+
+	.therapeutic-group-meetings {
+
+		margin-bottom: 10px;
+
+	}
+
+
+
+	.cinema-сlub h4 {
+
+	    background-position: 50% 0px;
+
+	}
+
+
+
+	.cinema-сlub-appart h4 {
+
+		background-position: 49% 0px;
+
+	}
+
+
+
+	.big-news {
+
+		display: none;
+
+	}
+
+
+
+	.small-news-block {
+
+		width: 100%;
+
+	}
+
+
+
+	.small-news1,
+
+	.small-news2,
+
+	.small-news3 {
+
+	    margin: 0 auto;
+
+	}
+
+	.articles .article-on-psychology {
+		margin: 20px auto 0 !important;
+	}
+
+
+
+	.new-article h3 {
+
+		padding: 20px 10px;
+
+		text-align: center;
+
+	}
+
+
+
+	.form {
+
+		display: none;
+
+	}
+
+
+
+	.form-small {
+
+		display: block;
+
+		float: none;
+
+	}
+
+
+
+	.cont-header {
+
+		padding-top: 375px !important;
+
+	}
+
+
+
+	.сontact-information {
+
+		padding: 0 10px;
+
+		text-align: center;
+
+	}
+
+
+
+	.form-small {
+
+	    margin: 30px auto 50px;
+
+	}
+
+
+
+	.menu-footer li {
+
+		display: none;
+
+	}
+
+
+
+	.protected {
+
+		float: none;
+
+		padding-bottom: 11px;
+
+	}
+
+
+
+	.side-bar {
+
+		display: none;
+
+	}
+
+
+
+	.about-me p {
+
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	.about-me .personal-consultations-page {
+		padding-right: 20px;
+	}
+
+
+
+	.contact-with-me-about,
+
+	.read-my-article {
+
+	    display: block;
+
+	}
+
+
+
+	.contact-with-me-about {
+
+		margin-top: 45px;
+
+		margin-bottom: 25px;
+
+	}
+
+
+
+	.contact-with-me-cons {
+
+		margin-top: 0px;
+
+	}
+
+
+
+	.read-my-article,
+
+	.contact-with-me-cons {
+
+		margin-bottom: 65px;
+
+	}
+
+
+
+	.portrait {
+
+		display: block;
+
+		max-width: 100%;
+
+		width: 100%;
+
+		height: auto;
+
+		margin: 0 auto !important;
+
+	}
+
+
+
+	.portrait-big-cons {
+
+		display: block;
+
+		max-width: 618px;
+
+		width: 100% !important;
+
+		height: auto !important;
+
+		margin: 0 auto !important;
+
+	}
+
+
+
+	.overcome-fears {
+
+		padding-right: 20px;
+
+	}
+
+
+
+	.about-me h4 {
+
+		padding-left: 10px;
+		padding-right: 10px;
+		text-align: center;
+
+	}
+
+
+
+	.emotional-stress-img {
+		display: block;
+		margin: 0px auto !important;
+
+		max-width: 454px;
+
+		height: auto !important;
+
+		width: 100% !important;
+
+	}
+
+
+
+	.depression {
+
+		left: 0px;
+
+	}
+
+
+
+	.read-my-article-cons {
+
+		margin-bottom: 20px;
+
+		margin-top: 25px;
+
+	}
+
+
+
+	.form-cons-small,
+
+	.personal-consultations-form {
+
+		display: block !important;
+
+	}
+
+
+
+	.commentform-consul {
+
+		display: none !important;
+
+	}
+
+
+
+	.form-cons-small {
+
+		width: 456px;
+
+		height: 210px;
+
+	}
+
+
+
+	.form-cons-small .name-f {
+
+		top: 7px;
+
+	}
+
+
+
+	.form-cons-small .e-mail-f {
+
+		top: 7px;
+
+		left: 229px;
+
+	}
+
+
+
+	.form-cons-small .text-message {
+
+		top: 60px;
+
+	}
+
+
+
+	.personal-consultations-form-small {
+
+		width: 457px;
+
+		margin-left: auto;
+
+		margin-right: auto;
+
+	}
+
+
+
+	.contact-with-me-cons {
+
+		display: block;
+
+	}
+
+
+
+	.carousel-appart .text-slide {
+
+		height: 100px;
+
+	}
+
+
+
+	.therapeutic-group-meetings h4,
+
+	.cinema-сlub-appart h4,
+
+	.artsophiya h4,
+
+	.carts h4,
+
+	.cabinet h4,
+
+	.art h4,
+
+	.sand h4 {
+
+		padding-left: 10px;
+
+	}
+
+
+
+	.therapeutic-group-meetings p,
+
+	.cinema-сlub-appart p,
+
+	.artsophiya p,
+
+	.carts p,
+
+	.cabinet p,
+
+	.art p,
+
+	.sand p {
+
+		padding-left: 10px;
+
+	}
+
+
+
+	.therapeutic-group-meetings .go-program,
+
+	.cinema-сlub-appart .go-program,
+
+	.artsophiya .go-program,
+
+	.carts p,
+
+	.cabinet .go-program,
+
+	.art .go-program,
+
+	.sand .go-program {
+
+		margin-left: auto;
+
+		margin-right: auto;
+
+	}
+
+
+
+	.contact-with-me-appart {
+
+		display: block;
+
+		margin-bottom: 65px;
+
+	}
+
+
+
+	.read-my-article-appart {
+
+		margin-bottom: 25px;
+
+	}
+
+
+
+	.article-on-psychology {
+
+		margin-bottom: 15px;
+
+	}
+
+
+
+	.pagination {
+
+		margin-left: auto;
+
+		margin-right: auto;
+
+		display: block;
+
+	}
+
+
+
+	.contact-with-me-article {
+
+		display: block;
+
+		margin-top: 20px;
+
+	}
+
+
+
+	.cont-header-contacts {
+
+		padding-top: 20px !important;
+
+	}
+
+
+
+	.сontact-information-contacts {
+
+		padding-bottom: 30px;
+
+	}
+
+
+
+	.map-iandex {
+
+		max-width: 618px;
+
+		width: 94%;
+
+		margin: 0 auto;
+
+	}
+
+
+
+	.form-in-contacts {
+
+		margin-left: auto;
+
+		margin-right: auto;
+
+	}
+
+
+
+	.form-in-contacts .name-f {
+
+		padding-right: 0px;
+
+	}
+
+
+
+	.contact-with-me-appart-in,
+
+	.read-my-article-appart-in {
+
+		margin-left: auto !important;
+
+		margin-right: auto !important;
+
+		display: block;
+
+	}
+
+
+
+	.prev-article-in,
+
+	.next-article-in {
+
+		display: block;
+
+	}
+
+
+
+	.contact-with-me-art {
+
+		display: block;
+
+	}
+
+
+
+	.text-center {
+
+		padding-left: 0px !important;
+
+	}
+
+
+	.cards-post-cards img:nth-child(2),
+	.cards-post-cards img:nth-child(5),
+	.cards-post-cards img:nth-child(8),
+	.cards-post-cards img:nth-child(11),
+	.cards-post-cards img:nth-child(14),
+	.cards-post-cards img:nth-child(17) {
+		max-width: 618px;
+		width: 100%;
+		height: auto;
+		margin: 20px auto 20px auto;
+		display: block;
+	}
+
+	.cards-post-cards img:nth-child(2) {
+		margin-top: 0px;
+	}
+
+	.art-new img:nth-child(2),
+	.art-new .overcome-fears img {
+		max-width: 618px;
+		width: 100%;
+		height: auto;
+		margin: 20px auto 20px auto;
+		display: block;
+	}
+
+	.art-new img:nth-child(2) {
+		margin-top: 0px;
+	}
+
+	.top-img {
+	    padding: 20px 0 20px 0px;
+	}
+
+	.cards-post-cards .new-img-cards-post-cards {
+		margin: 20px auto 20px auto;
+	}
+
+	.link-to-video {
+		top: 0px;
+		left: 74%;
+		text-shadow: 0px 0px 2px rgba(150, 150, 150, 1);
+	}
+
+
+
+}
+
+
+
+@media only screen and (max-width : 869px) {
+
+	.carousel-appart .text-slide {
+
+		height: 130px;
+
+	}
+
+}
+
+
+
+@media only screen and (max-width : 840px) {
+
+
+
+	/*--------------- header start -----------*/
+
+
+
+
+
+	.contacts-line {
+
+		width: 195px;
+
+		text-align: left;
+
+	}
+
+
+
+	.contacts-line .online-support,
+
+	.contacts-line span,
+
+	.contacts-line span {
+
+		display: block;
+
+		margin-right: 0px;
+
+	}
+
+
+
+	.social {
+
+		top: 5px;
+
+	}
+
+
+
+	.contacts-line .online-support,
+
+	.contacts-line span {
+
+		margin-bottom: 5px;
+
+	}
+
+
+
+	.contacts-line {
+
+		top: 45px;
+
+	}
+
+	.link-to-video {
+		left: 70%;
+	}
+
+
+
+
+
+	/*--------------- header end -------------*/
+
+}
+
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width : 768px) {
+
+
+
+	/*--------------- header start -----------*/
+
+
+
+
+
+	.menu ul li {
+
+		display: block;
+
+		text-align: center;
+
+	}
+
+
+
+	.menu ul {
+
+		width: 100%;
+
+		z-index: 10;
+
+		position: relative;
+
+	}
+
+
+
+	.index-about-links {
+
+		display: none;
+
+	}
+
+
+
+	.meet-appart-in {
+
+		padding-right: 10px;
+
+	}
+
+
+
+}
+
+
+
+@media only screen and (max-width : 732px) {
+
+	/*.topics-appartment-appart-in {
+	    width: 430px !important;
+	    height: 520px !important;
+	}
+
+	.psychological-appartment-in a:nth-child(3) h6 {
+	    top: 388px;
+	    left: 22px;
+    }
+
+    .psychological-appartment-in a:nth-child(6) h6 {
+	    top: 389px;
+	    left: 232px;
+    }*/
+
+	.carousel {
+
+		min-height: 140px;
+
+	}
+
+
+
+	.topics-appartment-appart-in {
+
+    	width: 480px !important;
+
+    	/*height: 475px;*/
+
+	}
+
+
+
+	/*.topics-appartment-appart-in .third-them {
+
+		top: 335px;
+
+		left: 35px;
+
+	}
+
+
+
+		.topics-appartment-appart-in .sixth-them {
+
+	    top: 340px;
+
+	    left: 267px;
+
+	}*/
+
+	.link-to-video {
+		left: 66%;
+	}
+
+}
+
+
+
+@media only screen and (max-width : 680px) {
+
+	.psychological-appartment .carousel {
+	    width: 100%;
+	}
+
+	.articles .article-on-psychology,
+	.articles .pagination {
+	    width: 94%;
+	}
+
+
+
+
+
+	/*--------------- header start -------------*/
+
+
+
+	.consultation {
+
+		top: 23px;
+
+	}
+
+
+
+	.talk {
+
+		top: 95px;
+
+	}
+
+
+
+	.more-header {
+
+		top: 168px;
+
+	}
+
+
+
+	.line-to-button-more {
+
+		top: 334px;
+
+	}
+
+
+
+	/*--------------- header end -------------*/
+
+
+
+	.article-on-psychology {
+
+		width: 94%;
+
+	}
+
+
+
+	/*.pagination ul li:nth-child(2),
+
+	.pagination ul li:nth-child(3),
+
+	.pagination ul li:nth-child(4),
+
+	.pagination ul li:nth-child(5),
+
+	.pagination ul li:nth-child(6),
+
+	.pagination ul li:nth-child(7) {
+
+		display: none;
+
+	}*/
+
+
+
+	.pagination {
+
+		width: 268px;
+
+	}
+
+
+
+	/*.pagination ul li:first-child {
+
+		margin-right: 40px;
+
+	}*/
+
+}
+
+
+
+@media only screen and (max-width : 612px) {
+
+	.carousel-appart .text-slide {
+
+		height: 150px;
+
+	}
+
+	.link-to-video {
+		position: relative;
+		top: 0px;
+		left: 0px;
+		margin: 0 auto;
+		color: #0b455a;
+		text-shadow: none;
+	}
+
+	.link-to-video:hover {
+		color: #0b455a;
+	}
+
+}
+
+
+
+@media only screen and (max-width : 570px) {
+
+	.topics-appartment-appart-in {
+
+	    width: 260px !important;
+
+	    /*height: 870px !important;*/
+
+	}
+
+	/*.psychological-appartment-in a:nth-child(2) h6 {
+	    top: 520px;
+	    left: 36px;
+    }
+
+    .psychological-appartment-in a:nth-child(5) h6 {
+	    top: 640px;
+	    left: 36px;
+    }
+
+    .psychological-appartment-in a:nth-child(6) h6 {
+	    top: 760px;
+	    left: 38px;
+	}
+
+	.topics-appartment-appart-in .second-them {
+
+	    top: 440px;
+
+	    left: 39px;
+
+	}
+
+
+
+	.topics-appartment-appart-in .fifth-them {
+
+	    top: 584px;
+
+	    left: 39px;
+
+	}
+
+
+
+	.topics-appartment-appart-in .sixth-them {
+
+	    top: 705px;
+
+	    left: 39px;
+
+	}*/
+
+	.play-video1,
+	.play-video2,
+	.play-video3 {
+		display: block;
+		width: 140px;
+		height: auto;
+		margin: 0 auto;
+	}
+
+	.play-video2 {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+}
+
+
+
+@media only screen and (max-width : 541px) {
+
+	.personal-consultations .personal-consultations-form {
+		margin: 0;
+		padding-left: 20px;
+		padding-right: 20px;
+		height: 440px;
+	}
+
+	.personal-consultations .personal-consultations-form input,
+	.personal-consultations .personal-consultations-form textarea {
+		display: block !important;
+		width: 100% !important;
+		margin-top: 20px !important;
+	}
+
+	.personal-consultations .personal-consultations-form p {
+		left: 20px !important;
+		margin: 0 !important;
+	}
+
+	.personal-consultations .personal-consultations-form .name-f {
+	    top: 85px;
+	}
+
+	.personal-consultations .personal-consultations-form .surname-f {
+    	top: 140px;
+    }
+
+    .personal-consultations .personal-consultations-form .e-mail-f {
+    	top: 196px;
+    }
+
+    .personal-consultations .day {
+    	top: 248px;
+    }
+
+    .personal-consultations .personal-consultations-form .text-message {
+	    top: 306px;
+	}
+
+	.personal-consultations .depression {
+		left: 0;
+	}
+
+	.carousel {
+
+		min-height: 161px;
+
+	}
+
+
+
+	.сontact-information-contacts {
+
+		text-align: left;
+
+		padding-left: 33px;
+
+		padding-right: 10px;
+
+	}
+
+
+	.contacts .сontact-information-contacts {
+		text-align: center;
+	}
+
+
+
+	.about-me-contacts {
+
+		padding-right: 10px;
+
+	}
+
+
+
+	.form-in-contacts {
+
+		width: 94%;
+
+	}
+
+
+
+	.form-in-contacts input {
+
+		width: 100% !important;
+
+	}
+
+}
+
+
+
+@media only screen and (max-width : 540px) {
+
+	.contacts .personal-consultations-form .e-mail-f {
+    	top: 86px;
+    }
+
+    .contacts .personal-consultations-form .text-message {
+	    top: 160px;
+	}
+
+	.contacts .personal-consultations-form {
+		width: 90%;
+	}
+
+	.contacts .personal-consultations-form p {
+		margin: 0 !important;
+	}
+
+
+
+
+
+	/*--------------- header start -------------*/
+
+
+
+	.consultation,
+
+	.talk,
+
+	.more-header {
+
+		position: relative;
+
+		top: 0px;
+
+		left: 0px;
+
+	}
+
+
+
+	.consultation {
+
+		text-shadow: 0.7px 0.7px 0 #def0f7;
+
+		color: #17194a;
+
+		font-family: "MyriadPro-Regular";
+
+		font-size: 30px;
+
+		font-weight: bold;
+
+		padding-top: 34px;
+
+		padding-left: 30px;
+
+		letter-spacing: 0.4px;
+
+		text-align: center;
+
+		padding-left: 0px;
+
+	}
+
+
+
+	.talk {
+
+		font-family: "MyriadPro-Regular";
+
+		text-shadow: 0.7px 0.7px 0 #def0f7;
+
+		color: #17194a;
+
+		font-size: 18px;
+
+		font-weight: 400;
+
+		text-align: center;
+
+		padding-top: 12px;
+
+	}
+
+
+
+	.more {
+
+		display: block;
+
+		width: 213px;
+
+		height: 53px;
+
+		margin: 17px auto 30px;
+
+		text-align: center;
+
+		line-height: 48px;
+
+		outline: none !important;
+
+		text-decoration: none !important;
+
+		color: #0b455a !important;
+
+		background-color: rgba(0, 174, 239, 0);
+
+		background-image: linear-gradient(to right, rgba(130,205,233,0.3) 0%, rgba(205,241,255,0.3) 80%, rgba(130,205,233,0.3) 100%);
+
+		border: 1px solid #ccdee4;
+
+		border-radius: 5px;
+
+		box-shadow: 0 8px 5px rgba(29, 22, 14, 0.1);
+
+		box-shadow: 0px 8px 5px 0px rgba(29, 22, 14, 0.1);
+
+	}
+
+
+
+	.more:hover,
+
+	.more:active,
+
+	.more:visited {
+
+		background-color: rgba(0, 174, 239, 0.1);
+
+		box-shadow: 0 4px 5px rgba(29, 22, 14, 0.1);
+
+		transition: 1s;
+
+		border-radius: 5px;
+
+		width: 213px;
+
+		color: #0b455a !important;
+
+	}
+
+
+
+	.more:not(:hover) {
+
+		transition: 1s;
+
+	}
+
+
+
+	.line-to-button-more {
+
+		display: none;
+
+	}
+
+
+
+	/*--------------- header end -------------*/
+
+
+
+	.form-small input,
+
+	#comment,
+
+	.personal-consultations-form-small {
+
+		width: 100% !important;
+
+		margin-top: 40px;
+
+	}
+
+
+
+	#submit {
+
+		width: 130px !important;
+
+	}
+
+
+
+	.form {
+
+		width: 94%;
+
+	}
+
+
+
+	.name-f {
+
+	    top: 15px;
+
+	    left: 2px;
+
+	}
+
+
+
+	.personal-consultations-form-small .form-cons-small .name-f {
+
+		left: 2px;
+
+		top: -9px;
+
+		margin-left: 0px;
+
+	}
+
+
+
+	.e-mail-f {
+
+	    top: 91px;
+
+	    left: 2px;
+
+	}
+
+
+
+	.personal-consultations-form-small .form-cons-small .e-mail-f {
+
+		left: 2px;
+
+		top: 66px;
+
+		margin-left: 0px;
+
+	}
+
+
+
+	.text-message {
+
+	    top: 167px;
+
+	    left: 2px;
+
+	}
+
+
+
+	.personal-consultations-form-small .form-cons-small .text-message {
+
+	    top: 140px;
+
+	    left: 2px;
+
+	    margin-left: 0px;
+
+	}
+
+
+
+	.form {
+
+		height: 350px;
+
+	}
+
+
+
+	.protected {
+
+		margin-left: 11px;
+
+	}
+
+
+
+	.done {
+
+		margin-right: 11px;
+
+	}
+
+
+
+	.personal-consultations-form-small .form-cons-small input {
+
+		width: 100% !important;
+
+		display: block;
+
+		margin-top: 40px !important;
+
+	}
+
+
+
+	.personal-consultations-form-small .form-cons-small #name {
+
+		margin-top: 10px !important;
+
+	}
+
+
+
+	.personal-consultations-form-small .form-cons-small textarea {
+
+		margin-top: 40px;
+
+	}
+
+
+
+	.personal-consultations-form-small .form-cons-small {
+
+		margin-left: auto;
+
+		margin-right: auto;
+
+	}
+
+
+
+	.personal-consultations-form h5 {
+
+		padding-left: 10px;
+
+	}
+
+
+
+	.personal-consultations-form-small {
+
+		height: 440px;
+
+	}
+
+
+
+	.about-me-contacts {
+
+		padding-right: 0px;
+
+	}
+
+
+
+	.form-in-contacts .text-message {
+
+		top: 162px;
+
+	}
+
+
+
+	.form-in-contacts .e-mail-f {
+
+    	top: 88px;
+
+	}
+
+}
+
+
+
+@media only screen and (max-width : 512px) {
+
+	.carousel-appart .text-slide {
+
+		height: 170px;
+
+	}
+
+}
+
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width : 480px) {
+
+	.articles-in .contact-with-me-article,
+	.articles-in .read-my-article {
+		margin-left: 10px;
+		margin-bottom: 20px;
+	}
+
+	.articles-in .prev-article-in,
+	.articles-in .prev-article,
+	.articles-in .next-article-in {
+		margin-left: 10px;
+		margin-right: 0;
+	}
+
+
+	.articles-in p {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+
+	.psychological-appartment-in p,
+	.psychological-appartment-in .overcome-fears {
+	    padding-right: 0px !important;
+	    padding-left: 0px !important;
+	}
+
+	.personal-consultations .pers-cons-small-ul {
+		padding-left: 0px;
+	}
+
+	.articles .article-on-psychology img {
+		width: 100px;
+		height: auto;
+	}
+
+	.articles .article-on-psychology h5,
+	.articles .article-on-psychology p {
+		padding-left: 110px !important;
+		margin-left: 0 !important;
+	}
+
+	.articles .article-on-psychology h5 {
+		font-size: 16px;
+	}
+
+
+
+	.about-me .personal-consultations-page {
+		padding-right: 10px;
+	}
+
+
+
+	/*--------------- header start -------------*/
+
+
+
+	.social,
+
+	.contacts-line {
+
+		display: none;
+
+	}
+
+
+
+	.menu-button {
+
+		position: absolute;
+
+		right: 0px;
+
+		top: -53px;
+
+		margin: 0 15px 0 0;
+
+	}
+
+
+
+	.logo {
+
+		margin-left: 10px;
+
+	}
+
+
+
+	/*--------------- header end -------------*/
+
+
+
+	.about-me h3,
+
+	.about-me p,
+
+	.overcome-fears,
+
+	.pers-cons-small-ul {
+
+		margin-left: 10px !important;
+
+		margin-right: 10px;
+
+	}
+
+
+
+	.about-me p,
+
+	.overcome-fears {
+
+		padding-right: 0px;
+
+	}
+
+
+
+	.emotional-stress,
+
+	.pers-cons-small-ul {
+
+		padding-left: 0px;
+
+	}
+
+
+
+	/*.go-program {
+
+	    margin: 10px 10px 20px;
+
+	}*/
+
+
+
+	.depr-pers-cons h3 {
+
+		margin-left: 0px;
+
+		margin-right: 0px;
+
+	}
+
+
+
+	.read-my-article-cons,
+
+	.contact-with-me-cons {
+
+		margin-left: auto;
+
+		margin-right: auto;
+
+	}
+
+
+
+	.read-my-article-cons {
+
+		margin-bottom: 20px;
+
+		margin-top: 25px;
+
+	}
+
+
+
+	.contact-with-me-cons {
+
+		margin-bottom: 65px;
+
+	}
+
+
+
+	.contact-with-me-about {
+
+		margin: 45px auto 25px !important;
+
+	}
+
+
+
+	.read-my-article-about {
+
+		margin: 25px auto 65px !important;
+
+	}
+
+
+
+	.therapeutic-group-meetings .go-program,
+
+	.cinema-сlub-appart .go-program,
+
+	.artsophiya .go-program,
+
+	.carts  .go-program,
+
+	.cabinet .go-program,
+
+	.art .go-program,
+
+	.sand .go-program {
+
+		margin: 10px auto 0px !important;
+
+	}
+
+
+
+	.read-my-article-appart {
+
+		margin-bottom: 25px;
+
+	}
+
+
+
+	.read-my-article-appart,
+
+	.contact-with-me-appart {
+
+		margin-left: auto;
+
+		margin-right: auto;
+
+	}
+
+
+
+	.contact-with-me-appart {
+
+		margin-bottom: 65px;
+
+	}
+
+
+
+	.article-on-psychology h5 {
+
+	    padding-left: 105px;
+
+	}
+
+
+
+	.article-on-psychology p {
+
+	    padding-left: 95px;
+
+	    margin-right: 0px;
+
+	}
+
+
+
+	.article-on-psychology .date {
+
+	    padding-left: 95px;
+
+	}
+
+
+
+	.article-on-psychology img {
+
+		width: 100px;
+
+		height: auto;
+
+	}
+
+
+
+	.contact-with-me-article {
+
+		margin-left: auto;
+
+		margin-right: auto;
+
+		margin-top: 20px;
+
+	}
+
+
+
+	.read-my-articles {
+
+		margin-left: auto;
+
+		margin-right: auto;
+
+		margin-bottom: 55px;
+
+	}
+
+
+
+	.сontact-information-contacts {
+
+		padding-left: 2px;
+
+	}
+
+
+
+	.topics-appartment-appart-in {
+
+		margin-left: 15px;
+
+	}
+
+
+
+	.read-my-article-appart-in {
+
+		margin-bottom: 65px;
+
+	}
+
+
+
+	.text-article {
+
+		padding-left: 0px !important;
+
+	}
+
+
+
+	.article-in-date-art {
+
+		text-indent: 0px !important;
+
+		padding-left: 0px !important;
+
+	}
+
+
+
+	.prev-article-in,
+
+	.next-article-in,
+
+	.contact-with-me-art,
+
+	.read-my-article-art {
+
+		display: block !important;
+
+		margin-left: auto;
+
+		margin-right: auto;
+
+	}
+
+
+
+	.read-my-article-art {
+
+		margin-bottom: 65px;
+
+	}
+
+
+
+	.text-center {
+
+		text-indent: 0px !important;
+
+		text-align: left;
+
+		padding-left: 26px !important;
+
+	}
+
+}
+
+
+
+@media only screen and (max-width : 473px) {
+
+	.carousel-appart .text-slide {
+
+		height: 210px;
+
+	}
+
+	.psychological-appartment-in .meet {
+		font-size: 22px;
+	}
+
+}
+
+
+
+@media only screen and (max-width : 454px) {
+
+	.carousel {
+
+		min-height: 180px;
+
+	}
+
+}
+
+
+
+@media only screen and (max-width : 417px) {
+
+	.carousel-appart .text-slide {
+
+		height: 240px;
+
+	}
+
+	.psychological-appartment .emotional {
+	    margin: 22px auto 0px auto;
+	}
+
+}
+
+
+
+@media only screen and (max-width : 399px) {
+
+	.carousel {
+
+		min-height: 210px;
+
+	}
+
+
+
+	.mental-appartment-photo2 {
+
+		display: none;
+
+	}
+
+
+
+	.mental-appartment2-min {
+
+		display: block;
+
+		width: 100%;
+
+	}
+
+
+	.about-me .mental-appartment2 {
+		display: none;
+	}
+
+
+
+	.cont-header {
+
+	    padding-top: 440px !important;
+
+	}
+
+
+
+	.small-news1,
+
+	.small-news2,
+
+	.small-news3 {
+
+		height: 190px;
+
+		width: 299px;
+
+	}
+
+
+
+	.small-news1 h5,
+
+	.small-news2 h5,
+
+	.small-news3 h5 {
+
+		font-size: 16px;
+
+	}
+
+
+
+	.сontact-information {
+
+		text-align: left;
+
+	}
+
+
+
+	.mental-appartment2 {
+
+		display: none;
+
+	}
+
+
+
+	.cont-header-contacts {
+
+		padding-top: 20px !important;
+
+	}
+
+
+
+	.meet-appart-in {
+
+		background-image: none;
+
+		padding-left: 0px;
+
+	}
+
+
+
+	.about-me-appart-in p {
+
+		padding-left: 0px;
+
+	}
+
+	.new-article-main .small-news1 {
+	    margin-bottom: 40px;
+	}
+
+}
+
+
+
+@media only screen and (max-width : 363px) {
+
+	.carousel-appart .text-slide {
+
+		height: 260px;
+
+	}
+
+}
+
+
+
+@media only screen and (max-width : 354px) {
+
+	.carousel {
+
+		min-height: 220px;
+
+	}
+
+
+
+	.article-img-mini {
+
+	    width: 100px;
+
+	    height: 65px;
+
+	}
+
+
+
+	.small-news1 h5,
+
+	.small-news2 h5,
+
+	.small-news3 h5,
+
+	.small-news1 p,
+
+	.small-news2 p,
+
+	.small-news3 p,
+
+	.small-news1 .date,
+
+	.small-news2 .date,
+
+	.small-news3 .date {
+
+		padding-left: 110px;
+
+	}
+
+
+
+	.small-news1,
+
+	.small-news2,
+
+	.small-news3 {
+
+	    height: 120px;
+
+	    width: 275px;
+
+	}
+
+
+
+	.cont-header {
+
+	    padding-top: 410px !important;
+
+	}
+
+
+
+	.article-on-psychology {
+
+		height: auto;
+
+	}
+
+
+
+	.article-on-psychology p {
+
+		padding-left: 101px;
+
+	}
+
+
+
+	.article-on-psychology .date {
+
+		padding-left: 100px;
+
+	}
+
+
+
+	.cont-header-contacts {
+
+		padding-top: 20px !important;
+
+	}
+
+
+
+}
+
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width : 350px) {
+
+
+
+	/*--------------- header start -------------*/
+
+
+
+
+
+	.portrait {
+
+		display: none;
+
+	}
+
+
+
+	.portrait-small {
+
+		display: block !important;
+
+	}
+
+
+
+	.emotional,
+
+	.depression,
+
+	.critical {
+
+		width: 270px;
+
+	}
+
+
+
+	.emotional a,
+
+	.depression a,
+
+	.critical a {
+
+		width: 268px;
+
+	}
+
+
+
+	.critical {
+
+		height: 190px;
+
+	}
+
+
+
+	.critical a {
+
+		height: 188px;
+
+	}
+
+
+
+	.portrait-consul {
+
+		display: block !important;
+
+		max-width: 618px;
+
+		width: 100%;
+
+		height: auto;
+
+		margin: 0 auto;
+
+	}
+
+
+
+	.meet-appart-in-art {
+
+		font-size: 28px;
+
+	}
+
+
+
+
+
+	/*--------------- header end -------------*/
+
+
+
+}
+
+
+
+@media only screen and (max-width : 347px) {
+
+	.carousel-appart .text-slide {
+
+		height: 290px;
+
+	}
+
+}
+
+
+
+@media only screen and (max-width : 320px) {
+
+
+
+}
+
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width : 320px) {
+
+
+
+}
+
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width : 480px) {
+
+
+
+}
+
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width : 768px) {
+
+	
+
+}
+
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width : 992px) {
+
+	.menu ul {
+
+		display: block !important;
+
+	}
+
+}
+
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width : 1200px) {
+
+
+
+}
