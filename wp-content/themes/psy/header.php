@@ -102,7 +102,7 @@ Version: 1.0
 
 						</div>
 						<div class="contacts-line">
-							<a class="online-support" href="contacts.html">Онлайн консультация</a>
+							<a class="online-support" href="#">Онлайн консультация</a>
 
 							<div class="new-block">
 								<?php getMetaText('online_consultation_main_page'); ?>

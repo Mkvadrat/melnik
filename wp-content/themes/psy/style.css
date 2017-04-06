@@ -1308,7 +1308,7 @@ header {
 }
 
 .cinema-сlub .go-program {
-	margin-top: 38px;
+
 }
 
 
@@ -3046,6 +3046,7 @@ body {
 	font-size: 19px;
 	padding-top: 23px;
 	padding-left: 20px;
+	margin-left: 0;
 }
 
 .articles-in .small-news1,
@@ -3342,9 +3343,9 @@ body {
 	height: 50px !important;
 }
 
-.articles-in .prev-article {
+/*.articles-in .prev-article {
 	margin-right: 205px;
-}
+}*/
 
 .articles-in .prev-article,
 .articles-in .next-article {
@@ -3782,6 +3783,8 @@ body {
 	padding-top: 23px;
 
 	padding-left: 20px;
+	
+	margin-left: 0;
 
 }
 
@@ -4442,6 +4445,7 @@ body {
 	font-size: 19px;
 	padding-top: 23px;
 	padding-left: 20px;
+	margin-left: 0;
 }
 
 .articles .small-news1,
@@ -5383,7 +5387,7 @@ body {
 
 	padding-left: 30px;
 
-	padding-bottom: 34px;
+	padding-bottom: 15px;
 
 }
 
@@ -5495,6 +5499,7 @@ body {
 	padding-top: 23px;
 
 	padding-left: 20px;
+	margin-left: 0;
 
 }
 
@@ -7004,6 +7009,7 @@ body {
 	padding-top: 23px;
 
 	padding-left: 20px;
+	margin-left: 0;
 
 }
 
@@ -8315,6 +8321,7 @@ body {
 	font-size: 19px;
 	padding-top: 23px;
 	padding-left: 20px;
+	margin-left: 0;
 }
 
 .psychological-appartment-in .small-news1,
@@ -9421,6 +9428,10 @@ footer {
 .page-404 a:not(:hover) {
 	transition: 1s;
 }
+
+/* Сео, ты задрал! Какого черта ты тулишь стили 
+которые двигают верстку и нихера за собой не исправляешь?!*/
+
 .articletext {
 	color: #17194a;
 	font-family: "MyriadPro-Regular";
@@ -9431,15 +9442,13 @@ footer {
 	padding-right: 342px;
 	padding-top: 15px;
 }
+
 h2 {
 	text-shadow: 0.7px 0.7px 0 #def0f7;
 	color: #17194a;
 	font-family: "MyriadPro-Regular";
 	font-size: 24px;
 	font-weight: bold;
-	margin-left: 30px;
-	padding-top: 25px;
-	padding-bottom: 16px;
 }
 h3 {
 	text-shadow: 0.7px 0.7px 0 #def0f7;
@@ -9447,9 +9456,6 @@ h3 {
 	font-family: "MyriadPro-Regular";
 	font-size: 20px;
 	font-weight: bold;
-	margin-left: 30px;
-	padding-top: 25px;
-	padding-bottom: 16px;
 }
 h4 {
 	text-shadow: 0.7px 0.7px 0 #def0f7;
@@ -9457,9 +9463,6 @@ h4 {
 	font-family: "MyriadPro-Regular";
 	font-size: 18px;
 	font-weight: bold;
-	margin-left: 30px;
-	padding-top: 25px;
-	padding-bottom: 16px;
 }
 .articleli {
 	color: #17194a;
@@ -9467,7 +9470,4 @@ h4 {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;
-	margin-left: 65px;
-	padding-right: 342px;
-	padding-top: 15px;
 }
