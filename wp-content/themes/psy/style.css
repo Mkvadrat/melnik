@@ -9471,3 +9471,73 @@ h4 {
 	font-weight: 400;
 	line-height: 24px;
 }
+
+/*----- spanish group -----*/
+
+.spanish-group .depression,
+.spanish-group .emotional,
+.spanish-group .emotional-new {
+	top: 0;
+	left: 0;
+}
+
+.spanish-group .emotional {
+	margin-left: 30px;
+}
+
+.spanish-group .pers-cons-small-ul {
+	overflow: hidden;
+	max-width: 410px;
+}
+
+.spanish-group .title {
+	max-width: 500px;
+	width: auto;
+}
+
+.spanish-group .pers-cons-small-ul li:first-child {
+	padding-bottom: 20px;
+}
+
+.spanish-group .depr-pers-cons {
+    top: 52px;
+    left: 15px;
+}
+
+.advertising {
+	display: block;
+	width: 227px;
+	height: auto;
+	background: url(../img/advertising-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+	margin-top: 20px;
+}
+
+.advertising:hover {
+	text-decoration: underline;
+}
+
+.advertising .advertising-title {
+	color: white;
+	font-family: "MyriadPro-Regular";
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 20px;
+	padding: 30px 20px 10px;
+}
+
+.advertising p {
+	color: white !important;
+	font-family: "Myriad Pro";
+	font-size: 14px;
+	font-weight: 400;
+	padding: 0px 20px 35px !important;
+}
+
+.advertising p b {
+	font-weight: 700;
+	text-transform: uppercase;
+}

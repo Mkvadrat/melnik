@@ -1401,7 +1401,7 @@ function psy_appartment_custom_fields_save($term_id){
 
 /**********************************************************************************************************************************************************
 ***********************************************************************************************************************************************************
-*****************************************************************REMOVE CATEGORY_TYPE SLUG*********************************************************************
+*****************************************************************REMOVE CATEGORY_TYPE SLUG*****************************************************************
 ***********************************************************************************************************************************************************
 ***********************************************************************************************************************************************************/
 //Удаление psy-appartment-list из url таксономии
@@ -1471,12 +1471,213 @@ add_filter('request', 'parse_request_url_category_psy_appartment_list', 1, 1 );
 
 /**********************************************************************************************************************************************************
 ***********************************************************************************************************************************************************
+***********************************************************РАЗДЕЛ "ИСПАНСКАЯ ГРУППА" В АДМИНКЕ*************************************************************
+***********************************************************************************************************************************************************
+***********************************************************************************************************************************************************/
+//Вывод в админке раздела Испанская группа
+function register_post_type_spanish_group() {
+	 $labels = array(
+	 'name' => 'Испанская группа',
+	 'singular_name' => 'Испанская группа',
+	 'add_new' => 'Добавить статью',
+	 'add_new_item' => 'Добавить новый статью',
+	 'edit_item' => 'Редактировать статью',
+	 'new_item' => 'Новый статья',
+	 'all_items' => 'Все статьи',
+	 'view_item' => 'Просмотр статьи на сайте',
+	 'search_items' => 'Искать статью',
+	 'not_found' => 'Статьи не найдены.',
+	 'not_found_in_trash' => 'В корзине нет статей.',
+	 'menu_name' => 'Испанская группа'
+	 );
+		 $args = array(
+		 'labels' => $labels,
+		 'public' => true,
+		 'exclude_from_search' => false,
+		 'show_ui' => true,
+		 'has_archive' => true,
+		 'menu_icon' => 'dashicons-welcome-learn-more',
+		 'menu_position' => 20,
+		 'supports' => array( 'title', 'editor', 'thumbnail'),
+		 );
+	 register_post_type('spanish-group', $args);
+}
+add_action( 'init', 'register_post_type_spanish_group' );
+
+
+function true_post_type_spanish_group( $spanish_group ) {
+	 global $post, $post_ID;
+
+	 $spanish_group['spanish-group'] = array(
+		 0 => '',
+		 1 => sprintf( 'Статьи обновлены. <a href="%s">Просмотр</a>', esc_url( get_permalink($post_ID) ) ),
+		 2 => 'Статья обновлёна.',
+		 3 => 'Статья удалёна.',
+		 4 => 'Статья обновлена.',
+		 5 => isset($_GET['revision']) ? sprintf( 'Статья восстановлена из редакции: %s', wp_post_revision_title( (int) $_GET['revision'], false ) ) : false,
+		 6 => sprintf( 'Статья опубликована на сайте. <a href="%s">Просмотр</a>', esc_url( get_permalink($post_ID) ) ),
+		 7 => 'Статья сохранена.',
+		 8 => sprintf( 'Отправлен на проверку. <a target="_blank" href="%s">Просмотр</a>', esc_url( add_query_arg( 'preview', 'true', get_permalink($post_ID) ) ) ),
+		 9 => sprintf( 'Запланирован на публикацию: <strong>%1$s</strong>. <a target="_blank" href="%2$s">Просмотр</a>', date_i18n( __( 'M j, Y @ G:i' ), strtotime( $post->post_date ) ), esc_url( get_permalink($post_ID) ) ),
+		 10 => sprintf( 'Черновик обновлён. <a target="_blank" href="%s">Просмотр</a>', esc_url( add_query_arg( 'preview', 'true', get_permalink($post_ID) ) ) ),
+	 );
+
+	 return $spanish_group;
+}
+add_filter( 'post_updated_messages', 'true_post_type_spanish_group' );
+
+//Категории для пользовательских записей "Испанская группа"
+function create_taxonomies_spanish_group_list()
+{
+    register_taxonomy('spanish-group-list',array('spanish-group'),array(
+        'hierarchical' => true,
+        'label' => 'Рубрики',
+        'singular_name' => 'Рубрика',
+        'show_ui' => true,
+        'query_var' => true,
+        'rewrite' => array('slug' => 'spanish-group-list' )
+    ));
+}
+add_action( 'init', 'create_taxonomies_spanish_group_list', 0 );
+
+/**********************************************************************************************************************************************************
+***********************************************************************************************************************************************************
+**********************************************ДОПОЛНИТЕЛЬНЫЕ ПОЛЯ ДЛЯ ТАКСОНОМИИ "ИСПАНСКАЯ ГРУППА"********************************************************
+***********************************************************************************************************************************************************
+***********************************************************************************************************************************************************/
+//Инициализация полей для таксономии "Испанская группа"
+function spanish_group_list_custom_fields(){
+    add_action('spanish-group-list_edit_form_fields', 'spanish_group_list_custom_fields_form');
+    add_action('edited_spanish-group-list', 'spanish_group_list_custom_fields_save');
+}
+add_action('admin_init', 'spanish_group_list_custom_fields', 1);
+
+//HTML код для вывода в админке таксономии
+function spanish_group_list_custom_fields_form($tag){
+    $t_id = $tag->term_id;
+    $cat_meta = get_option("category_$t_id");
+?>
+    <tr class="form-field">
+    <th scope="row" valign="top"><label for="extra1"><?php _e('Заголовок рубрики'); ?></label></th>
+    <td>
+        <input type="text" name="articles_meta[title_for_categories_spanish_group_list_page]" id="articles_meta[title_for_categories_spanish_group_list_page]" size="25" value="<?php echo $cat_meta['title_for_categories_spanish_group_list_page'] ? $cat_meta['title_for_categories_spanish_group_list_page'] : ''; ?>">
+    <br />
+        <span class="description"><?php _e('Заголовок для страницы рубрики "Статьи"'); ?></span>
+    </td>
+    </tr>
+   	<tr class="form-field">
+    <th scope="row" valign="top"><label for="extra2"><?php _e('Текст рубрики'); ?></label></th>
+    <td>
+		<?php wp_editor( stripcslashes($cat_meta['text_for_categories_spanish_group_list_page']), 'wpeditor', array('textarea_name' => 'articles_meta[text_for_categories_spanish_group_list_page]', 'textarea_rows' => 10, 'editor_css' => '<style>.wp-core-ui{width:95%;} </style>',) ); ?>
+    <br />
+        <span class="description"><?php _e('Текст для страницы рубрики "Статьи"'); ?></span>
+    </td>
+    </tr>
+	<tr class="form-field">
+    <th scope="row" valign="top"><label for="extra3"><?php _e('Текст в футере рубрики'); ?></label></th>
+    <td>
+		<?php wp_editor( stripcslashes($cat_meta['text_for_categories_spanish_group_list_footer_page']), 'wpeditor_footer', array('textarea_name' => 'articles_meta[text_for_categories_spanish_group_list_footer_page]', 'textarea_rows' => 10, 'editor_css' => '<style>.wp-core-ui{width:95%;} </style>',) ); ?>
+    <br />
+        <span class="description"><?php _e('Текст для страницы в футере рубрики "Статьи"'); ?></span>
+    </td>
+    </tr>
+<?php
+}
+
+//Функция сохранения данных для дополнительных полей таксономии
+function spanish_group_list_custom_fields_save($term_id){
+    if (isset($_POST['articles_meta'])) {
+        $t_id = $term_id;
+        $cat_meta = get_option("category_$t_id");
+        $cat_keys = array_keys($_POST['articles_meta']);
+        foreach ($cat_keys as $key) {
+            if (isset($_POST['articles_meta'][$key])) {
+                $cat_meta[$key] = $_POST['articles_meta'][$key];
+            }
+        }
+        //save the option array
+        update_option("category_$t_id", $cat_meta);
+    }
+}
+
+/**********************************************************************************************************************************************************
+***********************************************************************************************************************************************************
+*****************************************************************REMOVE CATEGORY_TYPE SLUG*****************************************************************
+***********************************************************************************************************************************************************
+***********************************************************************************************************************************************************/
+//Удаление spanish-group-list из url таксономии
+function true_remove_slug_from_category_spanish_group_list( $url, $term, $taxonomy ){
+
+	$taxonomia_name = 'spanish-group-list';
+	$taxonomia_slug = 'spanish-group-list';
+
+	if ( strpos($url, $taxonomia_slug) === FALSE || $taxonomy != $taxonomia_name ) return $url;
+
+	$url = str_replace('/' . $taxonomia_slug, '', $url);
+
+	return $url;
+}
+add_filter( 'term_link', 'true_remove_slug_from_category_spanish_group_list', 10, 3 );
+
+//Перенаправление url в случае удаления spanish-group-list
+function parse_request_url_category_spanish_group_list( $query ){
+
+	$taxonomia_name = 'spanish-group-list';
+
+	if( $query['attachment'] ) :
+		$condition = true;
+		$main_url = $query['attachment'];
+	else:
+		$condition = false;
+		$main_url = $query['name'];
+	endif;
+
+	$termin = get_term_by('slug', $main_url, $taxonomia_name);
+
+	if ( isset( $main_url ) && $termin && !is_wp_error( $termin )):
+
+		if( $condition ) {
+			unset( $query['attachment'] );
+			$parent = $termin->parent;
+			while( $parent ) {
+				$parent_term = get_term( $parent, $taxonomia_name);
+				$main_url = $parent_term->slug . '/' . $main_url;
+				$parent = $parent_term->parent;
+			}
+		} else {
+			unset($query['name']);
+		}
+
+		switch( $taxonomia_name ):
+			case 'category':{
+				$query['category_name'] = $main_url;
+				break;
+			}
+			case 'post_tag':{
+				$query['tag'] = $main_url;
+				break;
+			}
+			default:{
+				$query[$taxonomia_name] = $main_url;
+				break;
+			}
+		endswitch;
+
+	endif;
+
+	return $query;
+
+}
+add_filter('request', 'parse_request_url_category_spanish_group_list', 1, 1 );
+
+/**********************************************************************************************************************************************************
+***********************************************************************************************************************************************************
 *****************************************************************REMOVE POST_TYPE SLUG*********************************************************************
 ***********************************************************************************************************************************************************
 ***********************************************************************************************************************************************************/
 //Удаление psy-appartment из url таксономии
 function remove_slug_from_post( $post_link, $post, $leavename ) {
-	if ( 'psy-appartment' != $post->post_type || 'publish' != $post->post_status ) {
+	if ( 'psy-appartment' != $post->post_type && 'spanish-group' != $post->post_type || 'publish' != $post->post_status ) {
 		return $post_link;
 	}
 		$post_link = str_replace( '/' . $post->post_type . '/', '/', $post_link );
@@ -1493,7 +1694,7 @@ function parse_request_url_post( $query ) {
 	}
 
 	if ( ! empty( $query->query['name'] ) ) {
-		$query->set( 'post_type', array( 'post', 'psy-appartment', 'page' ) );
+		$query->set( 'post_type', array( 'post', 'psy-appartment', 'spanish-group', 'page' ) );
 	}
 }
 add_action( 'pre_get_posts', 'parse_request_url_post' );
