@@ -12,13 +12,14 @@ get_header();
 ?>
 <!-- Start header -->
 
-<div class="container pad-non">
+<div class="container pad-non spanish-side-bar">
 <div class="row">
 <div class="col-md-12 pad-non">
+<div class="about">
 <!-- Start side-bar -->
 
 <div class="side-bar">
-<img src="img/portrait.png" alt="">
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/portrait.png" alt="">
 <p>Если у вас есть вопросы, вы можете задать их мне при помощи формы обратной связи</p>
 <div class="form">
 <p class="name-f">Имя</p><p class="e-mail-f">E-mail</p>
@@ -90,12 +91,12 @@ alert(response.message);
 
 <h1>Испанская группа (с 21.10.17 по 27.10.17)</h1>
 
-<img class="portrait portrait-big-cons" src="img/spanish-group.jpg" alt="portrait">
-<img class="portrait-consul" src="img/portrait-small-consult.jpg" alt="">
+<img class="portrait portrait-big-cons" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/spanish-group.jpg" alt="portrait">
+<img class="portrait-consul" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/portrait-small-consult.jpg" alt="">
 
 <div class="emotional emotional-new">
 <a href="benalmadena.html">
-<img src="img/benalmadena.png" alt="">
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/benalmadena.png" alt="">
 <p>Бенальмадена<br>(Benalmadena)</p>
 <ul>
 <li>Расположенная в провинции Андалусия, на побережье Коста дель Соль. Здесь вы будете услышаны и поняты </li>
@@ -104,7 +105,7 @@ alert(response.message);
 </div>
 <div class="depression depression-new">
 <a href="events-program.html">
-<img src="img/enroll.png" alt="">
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/enroll.png" alt="">
 <p>Программа<br> мероприятий</p>
 <ul>
 <li>8 суток при сопровождении психотерапевта, индивидуальные психотерапевтические сессии</li>
@@ -115,7 +116,7 @@ alert(response.message);
 
 <a class="title" href="benalmadena.html"><h4>Школа мышления</h4>
 
-<img class="emotional-stress-img" src="img/spanish-1.jpg" alt=""></a>
+<img class="emotional-stress-img" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/spanish-1.jpg" alt=""></a>
 
 <ul class="pers-cons-small-ul">
 <li>Объявляет набор в группу  на  программу по психоанализу, участвовать в семинарах могут все, кто хочет развиваться.</li>
@@ -129,7 +130,7 @@ alert(response.message);
 
 <a class="title" href="events-program.html"><h4>Желание, власть и любовь: свобода и управление</h4>
 
-<img class="emotional-stress-img" src="img/spanish-2.jpg" alt=""></a>
+<img class="emotional-stress-img" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/spanish-2.jpg" alt=""></a>
 
 <ul class="pers-cons-small-ul">
 <li>Объявляет набор в группу  на  программу по психоанализу, участвовать в семинарах могут все, кто хочет развиваться.</li>
@@ -147,7 +148,7 @@ alert(response.message);
 
 <a class="title" href="events-program.html"><h4>Влюблен по собственному желанию</h4>
 
-<img class="emotional-stress-img" src="img/spanish-3.jpg" alt=""></a>
+<img class="emotional-stress-img" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/spanish-3.jpg" alt=""></a>
 
 <ul class="pers-cons-small-ul">
 <li>Объявляет набор в группу  на  программу по психоанализу, участвовать в семинарах могут все, кто хочет развиваться.</li>
@@ -187,6 +188,24 @@ alert(response.message);
 <input onclick="SendApplication();" id="submit" type="submit" value="Записаться">
 </div>
 </div>
+
+<div class="depression depression-about depr-pers-cons">
+<a href="psychological-appartment.html">
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/depression-about.png" alt="">
+<h3>Психологический<br> квартирник</h3>
+<ul>
+	<li>- терапевтические группы</li>
+	<li>- встреч</li>
+	<li>- киноклуб</li>
+</ul>
+</a>
+</div>
+<div>
+<a class="go-program read-my-article read-my-article-cons" href="about.html">Узнать обо мне</a>
+<a class="go-program contact-with-me contact-with-me-cons" href="contacts.html">Связаться со мной</a></div>
+
+
+</div>
 <script type="text/javascript">
 //локализация календаря
 $.datepicker.regional['ru'] = {
@@ -224,49 +243,7 @@ alert(response.message);
 
 <script type="text/javascript">
 
-</script>	
-<div class="depression depression-about depr-pers-cons">
-<a href="psychological-appartment.html">
-<img src="img/depression-about.png" alt="">
-<h3>Психологический<br> квартирник</h3>
-<ul>
-	<li>- терапевтические группы</li>
-	<li>- встреч</li>
-	<li>- киноклуб</li>
-</ul>
-</a>
-</div><br>
-<a class="go-program read-my-article read-my-article-cons" href="about.html">Узнать обо мне</a>
-<a class="go-program contact-with-me contact-with-me-cons" href="contacts.html">Связаться со мной</a>
-</div>
-
-
-
-
-<p class="done"><a class="m2" href="http://mkvadrat.com ">Сделано в<br>MKVADRAT</a></p>
-<p class="protected">Все права защищены<br>2016</p>
-<ul class="menu-footer">
-<li>
-<a href="about.html">Обо мне</a>
-</li>
-<li>
-<a href="personal-consultations.html">Очные консультации</a>
-</li>
-<li>
-<a href="psychological-appartment.html">Психологический квартирник</a>
-</li>
-<li>
-<a href="spanish-group.html">Испанская группа</a>
-</li>
-<li>
-<a href="articles.html">Статьи</a>
-</li>
-<li>
-<a href="contacts.html">Контакты</a>
-</li>
-</ul>
-
-<!-- End footer -->
+</script>
 
 <div class="footer-line2 hidden-md hidden-lg"></div>
 

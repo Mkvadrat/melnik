@@ -3718,7 +3718,8 @@ body {
 .about #email,
 .about .email,
 .about #comment,
-.about .comment {
+.about .comment,
+.about #comment_form {
 
 	width: 100%;
 
@@ -9508,7 +9509,7 @@ h4 {
 	display: block;
 	width: 227px;
 	height: auto;
-	background: url(../img/advertising-bg.jpg);
+	background: url(img/advertising-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	-webkit-border-radius: 5px;
@@ -9540,4 +9541,141 @@ h4 {
 .advertising p b {
 	font-weight: 700;
 	text-transform: uppercase;
+}
+
+.spanish-group .portrait {
+	width: 618px;
+	height: 340px;
+	margin-left: 30px;
+}
+
+.spanish-group .emotional p,
+.spanish-group .depression p,
+.spanish-group .critical p {
+    font-family: "MyriadPro-Regular";
+    font-weight: bold;
+    text-shadow: 0.7px 0.7px 0 white;
+    color: #0b455a;
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    margin-left: 0;
+}
+
+.spanish-group  h4 {
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+	color: #17194a;
+	font-family: "MyriadPro-Regular";
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 39px;
+	padding-left: 30px;
+	padding-top: 33px;
+	padding-bottom: 10px;
+}
+
+.spanish-group  .emotional-stress-img {
+    width: 454px;
+    height: 200px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.spanish-group .pers-cons-small-ul {
+    color: #17194a;
+    font-family: "MyriadPro-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 18px 0px 10px 29px;
+}
+
+.spanish-group .more-pers-cons {
+    width: 129px;
+    height: 50px;
+    margin-top: 12px;
+}
+
+.spanish-group .personal-consultations-form {
+    width: 465px;
+    height: 300px;
+    margin-left: 30px;
+}
+
+.spanish-group .personal-consultations-form h5 {
+    text-shadow: 0.7px 0.7px 0 #def0f7;
+    color: #17194a;
+    font-family: "MyriadPro-Regular";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 39px;
+    padding-left: 0px;
+    padding-top: 33px;
+    padding-bottom: 16px;
+}
+
+.spanish-group .form p {
+    display: block;
+    position: absolute;
+    width: 110px;
+    height: 15px;
+    color: #0b455a;
+    font-family: "MyriadPro-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+.spanish-group .personal-consultations-form .name-f {
+    top: 74px;
+}
+
+.spanish-group .personal-consultations-form .surname-f {
+    top: 74px;
+    right: 125px;
+}
+
+.spanish-group .personal-consultations-form #surname,
+.spanish-group .personal-consultations-form #email,
+.spanish-group .personal-consultations-form #datepicker {
+    width: 225px;
+    height: 35px;
+    border: 1px solid #ccdee4;
+    border-radius: 3px;
+    box-shadow: inset 1.5px 1.5px 4px rgba(1, 2, 2, 0.1);
+    padding: 5px;
+    color: #0b455a;
+}
+
+.spanish-group .personal-consultations-form .e-mail-f {
+    top: 131px;
+    left: 0px;
+}
+
+.spanish-group .day {
+    top: 131px;
+    right: 124px;
+}
+
+.spanish-group .personal-consultations-form .text-message {
+    top: 191px;
+}
+
+.spanish-group .personal-consultations-form input {
+    margin-top: 7px;
+}
+
+.spanish-group .personal-consultations-form #email {
+    margin-top: 22px;
+}
+
+.spanish-group .depr-pers-cons {
+    top: 0px;
+    left: 15px;
+}
+
+.spanish-group .depression-about {
+	margin-top: 80px;
 }
