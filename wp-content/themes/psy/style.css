@@ -444,7 +444,7 @@ header {
 
 	position: absolute;
 
-	top: 58px;
+	top: 62px;
 
 	right: 18px;
 
@@ -480,7 +480,7 @@ header {
 
 	font-family: "MyriadPro-Regular";
 
-	font-size: 18px;
+	font-size: 14px;
 
 	font-weight: 400;
 
@@ -2137,13 +2137,15 @@ footer {
 
 	bottom: 7px;
 
-	width: 540px;
+	width: 650px;
 
 	height: auto;
 
 	margin: 0 auto;
 
 	z-index: 10;
+
+	left: 27px;
 
 }
 
