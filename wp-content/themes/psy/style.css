@@ -9311,7 +9311,7 @@ footer {
 }
 
 .about-content {
-	min-height: 1200px;
+	min-height: 1300px;
 	height: auto;
 }
 
@@ -9320,7 +9320,7 @@ footer {
 }
 
 .articles .about-content {
-	min-height: 1130px;
+	min-height: 1300px;
 }
 
 .articles-in .next-article {
@@ -9509,11 +9509,11 @@ h4 {
 	display: block;
 	width: 227px;
 	height: auto;
-	background: url(img/advertising-bg.jpg);
+	background: url(img/a_bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	-webkit-border-radius: 5px;
-	        border-radius: 5px;
+	border-radius: 5px;
 	margin-top: 20px;
 }
 
@@ -9637,8 +9637,8 @@ h4 {
     right: 125px;
 }
 
-.spanish-group .personal-consultations-form #surname,
-.spanish-group .personal-consultations-form #email,
+.spanish-group .personal-consultations-form #surname_consultation,
+.spanish-group .personal-consultations-form #email_consultation,
 .spanish-group .personal-consultations-form #datepicker {
     width: 225px;
     height: 35px;
@@ -9667,7 +9667,7 @@ h4 {
     margin-top: 7px;
 }
 
-.spanish-group .personal-consultations-form #email {
+.spanish-group .personal-consultations-form #email_consultation {
     margin-top: 22px;
 }
 

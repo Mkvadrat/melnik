@@ -801,11 +801,12 @@ function appointmentConsultation(){
 		}
 	}
 
-	if (isset($_POST['name']) && isset($_POST['surname']) && isset($_POST['email']) && isset($_POST['datepicker'])){
+	if (isset($_POST['name']) && isset($_POST['surname']) && isset($_POST['email']) && isset($_POST['datepicker']) && isset($_POST['comment'])){
 		$name = $_POST['name'];
-		$name = $_POST['surname'];
+		$surname = $_POST['surname'];
 		$email = $_POST['email'];
-		$name = $_POST['datepicker'];
+		$datepicker = $_POST['datepicker'];
+		$comment = $_POST['comment'];
 
 		if(!is_email($email)) {
 			$alert = array(
@@ -814,11 +815,12 @@ function appointmentConsultation(){
 			);
 		}
 
-		if ($name == '' || $surname == '' || $datepicker == '' || $email == '') {
+		if ($name == '' || $surname == '' || $datepicker == '' || $email == '' || $comment == '') {
 			unset($name);
 			unset($surname);
 			unset($email);
 			unset($datepicker);
+			unset($comment);
 			$alert = array(
 				'status' => 1,
 				'message' => 'Ошибка, сообщение не отправлено! Заполните все поля!'

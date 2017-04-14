@@ -24,7 +24,7 @@ get_header();
 						$cat_data = get_option("category_$cat_id");
 					?>
 					
-					<?php echo wpautop(stripcslashes( $cat_data['text_for_categories_articles_page'] ), $br = false); ?>
+					<?php echo stripcslashes( $cat_data['text_for_categories_articles_page'] ); ?>
 					
 					<div class="form">
 							<p class="name-f">Имя</p><p class="e-mail-f">E-mail</p>
@@ -65,6 +65,17 @@ get_header();
 							wp_reset_postdata();
 						?>
 					</div>
+					
+					<?php
+					$term_id = 9;
+					
+					$term_link = get_term_link($term_id, 'spanish-group-list');
+					?>
+					
+					<a class="advertising" href="<?php echo $term_link; ?>">
+					<h3 class="advertising-title">Испанская группа</h3>
+					<p>Групповые терапевтические встречи <b>в Испании с 21 по 27 октября 2017</b></p>
+					</a>
 				</div>
 				<!-- End side-bar -->
 
@@ -80,9 +91,9 @@ get_header();
 							$category_data = get_option("category_$category_id");
 						?>
 						
-						<h3><?php echo wpautop(stripcslashes( $category_data['title_for_categories_psy_appartment_list_page'] ), $br = false); ?></h3>
+						<h3><?php echo stripcslashes( $category_data['title_for_categories_psy_appartment_list_page'] ); ?></h3>
 						
-						<?php echo wpautop(stripcslashes( $category_data['text_for_categories_psy_appartment_list_page'] ), $br = false); ?>
+						<?php echo stripcslashes( $category_data['text_for_categories_psy_appartment_list_page'] ); ?>
 
 						<!-- End slider -->
 						<?php 

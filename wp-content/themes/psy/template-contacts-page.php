@@ -38,7 +38,6 @@ get_header();
 							
 							<!-- start map -->
 							<div class="map-iandex">
-								<?php if(!empty(get_field('email_contacts_page'))){?>
 									<div id="maps" style="width:100%; height:385px"></div>
 									<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&load=package.full" type="text/javascript"> </script>
 											<script type="text/javascript">
@@ -82,7 +81,6 @@ get_header();
 															);
 													}
 									</script>
-								<?php } ?>
 							</div>
 							
 							<div class="form personal-consultations-form form-in-contacts">

@@ -85,52 +85,10 @@ get_header();
 						<div class="about-me about-me-appart-in">
 							<?php $image_url = get_the_post_thumbnail( get_the_ID(), 'full'); ?>
 							
-							<?php if(!empty($image_url)){ ?>
-								<h1 class="meet meet-appart-in"><?php echo $image_url; ?><?php the_title(); ?></h1>
-							<?php }else{ ?>
-								<h1 class="meet meet-appart-in"><img class="slid-object" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/art.png"><?php the_title(); ?></h1>
-							<?php } ?>
-							
+							<h1 class="meet meet-appart-in"><?php the_title(); ?></h1>
+
 							<?php the_content(); ?>
 
-							<div class="topics-appartment topics-appartment-appart-in">
-								<h3>Темы квартирника</h3>
-								<?php 
-									$args_link = array(
-										'numberposts' => -1,
-										'orderby'     => 'date',
-										'order'       => 'DESC',
-										'post_type'   => 'psy-appartment',
-									);
-
-									$links = get_posts( $args_link );
-
-									foreach($links as $link){ setup_postdata($link);
-										$image_link = get_the_post_thumbnail( $link->ID, 'full'); 
-																			
-										if($link->ID != get_the_ID()){ ?>
-										
-											<?php if(!empty($image_link)){ ?>
-												<a href="<?php echo get_permalink($link->ID); ?>">
-													<h6 class="first-them">
-														<?php echo $image_link; ?>
-														<?php echo $link->post_title; ?>
-													</h6>
-												</a>
-											<?php }else{ ?>
-												<a href="<?php echo get_permalink($link->ID); ?>">
-													<h6 class="first-them">
-														<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/art.png">
-														<?php echo $link->post_title; ?>
-													</h6>
-												</a>
-											<?php } ?>
-
-								<?php
-										}
-									}
-								?>
-							</div>
 							<?php
 								$category = get_category(8);
 								$category_id = $category->term_taxonomy_id;

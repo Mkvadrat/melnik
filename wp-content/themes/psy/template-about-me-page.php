@@ -65,6 +65,17 @@ get_header();
 								wp_reset_postdata();
 							?>
 						</div>
+						
+					<?php
+					$term_id = 9;
+					
+					$term_link = get_term_link($term_id, 'spanish-group-list');
+					?>
+					
+					<a class="advertising" href="<?php echo $term_link; ?>">
+					<h3 class="advertising-title">Испанская группа</h3>
+					<p>Групповые терапевтические встречи <b>в Испании с 21 по 27 октября 2017</b></p>
+					</a>
 					</div>
 					<!-- End side-bar -->
 

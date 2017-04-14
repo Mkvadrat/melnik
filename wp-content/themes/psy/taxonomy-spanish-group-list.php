@@ -19,146 +19,111 @@ get_header();
 <!-- Start side-bar -->
 
 <div class="side-bar">
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/portrait.png" alt="">
-<p>Если у вас есть вопросы, вы можете задать их мне при помощи формы обратной связи</p>
+<?php
+$term = get_category(6);
+$cat_id = $term->term_taxonomy_id;
+$cat_data = get_option("category_$cat_id");
+?>
+
+<?php echo wpautop(stripcslashes( $cat_data['text_for_categories_articles_page'] ), $br = false); ?>
+
 <div class="form">
 <p class="name-f">Имя</p><p class="e-mail-f">E-mail</p>
-<input type="text" name="name" id="name_form"  size="25">
-<input type="text" name="email" id="email_form" size="25">
+<input type="text" name="name" id="name"  size="25">
+<input type="text" name="email" id="email" size="25">
 <p class="text-message">Текст сообщения</p>
-<textarea name="comment" id="comment_form" cols="48" rows="8"></textarea>
+<textarea name="comment" id="comment" cols="48" rows="8"></textarea>
 <input onclick="SendForm();" id="submit" type="submit" value="Отправить">
 </div>
-<script type="text/javascript">
-function SendForm() {	
-$.ajax({
-url: '/php/initialization.php',
-type: 'POST',
-dataType: 'json',
-data: {'name' : $('#name_form').val(), 'email' : $('#email_form').val(), 'comment' : $('#comment_form').val()},	
-success: function(response) {
-alert(response.message);
-}
-});
-};
-</script>	
+
 <div class="new-articles-on-the-site">
 <h3>Новые статьи на сайте</h3>
+<?php 
+$args_input = array(
+'numberposts' => 3,
+'category'    => 6,
+'orderby'     => 'date',
+'order'       => 'DESC',
+'post_type'   => 'post',
+'suppress_filters' => true, 
+);
+
+$articles_line = get_posts( $args_input );
+
+foreach($articles_line as $post){ setup_postdata($post);
+?>
 <div class="small-news1 small-news1-about">
-<a href="feeding-behavior.html">
-<h5>Пищевое поведение...</h5>
-<p>На приеме молодая женщина,<br>которая пришла с жалобами<br>на чувство голода...</p>
-<p class="date">23.08.16</p>
-</a>
-</div><br>
-<div class="small-news2 small-news2-about">
-<a href="article-mak.html">
-<h5>Заметки о теории и истории...</h5>
-<p>Пять лет назад метафорические<br>ассоцативные карты...</p>
-<p class="date">14.08.16</p>
-</a>
-</div><br>
-<div class="small-news3 small-news3-about">
-<a href="article-ispaniya.html">
-<h5>Зависимость...</h5>
-<p>Одним из самых<br>распространенных и болезненных...</p>
-<p class="date">28.07.16</p>
+<a href="<?php echo get_permalink($post->ID); ?>">
+<h5><?php echo wp_trim_words( $post->post_title, 2, '...' ); ?></h5>
+<p><?php echo wp_trim_words( $post->post_content, 13, '...' ); ?></p>
+<p class="date"><?php echo get_the_date( 'd.m.y', $post->ID ); ?></p>
 </a>
 </div>
+<?php
+
+}
+
+wp_reset_postdata();
+?>
 </div>
 
-<a class="advertising" href="#">
+<?php
+$term = get_the_terms($post->ID, 'spanish-group-list');
+
+$category_link = $term[0]->slug;
+?>
+
+<a class="advertising" href="<?php $category_link; ?>">
 <h3 class="advertising-title">Испанская группа</h3>
 <p>Групповые терапевтические встречи <b>в Испании с 21 по 27 октября 2017</b></p>
 </a>
-</div>
 
+</div>
 <!-- End side-bar -->
 
 <!-- Start about -->
-
 <div class="about-content">
 
-<div class="index-about-links">
-
-<a href="index.html">Главная</a> /
-
-<a class="about-content-active" href="spanish-group.html">Испанская группа (с 21.10.17 по 27.10.17)</a>
-
-</div>
+<?php if (function_exists('dimox_breadcrumbs')) dimox_breadcrumbs(); ?>
 
 <div class="about-me spanish-group">
+<?php
+$category = get_category(9);
+$category_id = $category->term_taxonomy_id;
+$category_data = get_option("category_$category_id");
+?>
 
-<h1>Испанская группа (с 21.10.17 по 27.10.17)</h1>
+<h1><?php echo stripcslashes( $category_data['title_for_categories_spanish_group_list_page'] ); ?></h1>
 
-<img class="portrait portrait-big-cons" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/spanish-group.jpg" alt="portrait">
-<img class="portrait-consul" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/portrait-small-consult.jpg" alt="">
+<?php echo stripcslashes( $category_data['text_for_categories_spanish_group_list_page'] ); ?>
 
-<div class="emotional emotional-new">
-<a href="benalmadena.html">
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/benalmadena.png" alt="">
-<p>Бенальмадена<br>(Benalmadena)</p>
-<ul>
-<li>Расположенная в провинции Андалусия, на побережье Коста дель Соль. Здесь вы будете услышаны и поняты </li>
-</ul>
-</a>
-</div>
-<div class="depression depression-new">
-<a href="events-program.html">
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/enroll.png" alt="">
-<p>Программа<br> мероприятий</p>
-<ul>
-<li>8 суток при сопровождении психотерапевта, индивидуальные психотерапевтические сессии</li>
-</ul>
-</a>
-</div>
+<?php 
+$args_list = array(
+'numberposts' => -1,
+'orderby'     => 'date',
+'order'       => 'DESC',
+'post_type'   => 'spanish-group',
+);
 
+$articles = get_posts( $args_list );
 
-<a class="title" href="benalmadena.html"><h4>Школа мышления</h4>
+foreach($articles as $post){ setup_postdata($post);
+$image_url = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full');
+?>
 
-<img class="emotional-stress-img" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/spanish-1.jpg" alt=""></a>
+<a class="title" href="<?php echo get_permalink($post->ID); ?>"><h4><?php echo $post->post_title; ?></h4>
 
-<ul class="pers-cons-small-ul">
-<li>Объявляет набор в группу  на  программу по психоанализу, участвовать в семинарах могут все, кто хочет развиваться.</li>
+<?php if(!empty($image_url)){ ?>
+<img class="emotional-stress-img" src="<?php echo $image_url[0]; ?>" alt="<?php echo get_post_meta( get_post_thumbnail_id($post->ID), '_wp_attachment_image_alt', true ); ?>">
+<?php }else{ ?>
+<img class="emotional-stress-img" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/spanish-1.jpg">
+<?php } ?>
 
-<li><strong>Временная рамка: с 12 до 20 часов  </strong></li>
-<li><strong>Начало занятий — 21-22 октября 2017 года</strong></li>
-<li><strong>Место – Бенальмадена, Испания</strong></li>
-</ul>
+<?php echo get_post_meta( $post->ID, 'short_description_spanish_group_page', $single = true ); ?>
 
-<a class="go-program more-pers-cons" href="benalmadena.html">Подробнее</a>
+<a class="go-program more-pers-cons" href="<?php echo get_permalink($post->ID); ?>">Подробнее</a>
 
-<a class="title" href="events-program.html"><h4>Желание, власть и любовь: свобода и управление</h4>
-
-<img class="emotional-stress-img" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/spanish-2.jpg" alt=""></a>
-
-<ul class="pers-cons-small-ul">
-<li>Объявляет набор в группу  на  программу по психоанализу, участвовать в семинарах могут все, кто хочет развиваться.</li>
-
-<li><strong>Временная рамка: с 19 до 22 часов </strong></li>
-<li><strong>Начало занятий — 23-25 октября 2017 года</strong></li>
-<li><strong>Место – Бенальмадена, Испания</strong></li>
-</ul>
-
-<a class="go-program more-pers-cons m-p-c" href="events-program.html">Подробнее</a>
-
-
-
-
-
-<a class="title" href="events-program.html"><h4>Влюблен по собственному желанию</h4>
-
-<img class="emotional-stress-img" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/spanish-3.jpg" alt=""></a>
-
-<ul class="pers-cons-small-ul">
-<li>Объявляет набор в группу  на  программу по психоанализу, участвовать в семинарах могут все, кто хочет развиваться.</li>
-
-<li><strong>Временная рамка: с 19 до 22 часов  </strong></li>
-<li><strong>Начало занятий — 26-27 октября 2017 года</strong></li>
-<li><strong>Место – Бенальмадена, Испания</strong></li>
-</ul>
-
-<a class="go-program more-pers-cons m-p-c" href="events-program.html">Подробнее</a>
+<?php } ?>
 
 <div id="form-enroll" class="form personal-consultations-form personal-consultations-form-small">
 
@@ -167,45 +132,25 @@ alert(response.message);
 <div>
 <p class="name-f">Имя</p>
 <p class="surname-f">Фамилия</p>
-<input type="hidden" name="check" id="check_form" value="form">
-<input type="text" name="name" id="name"  size="25">
 
-<input type="text" name="surname" id="surname"  size="25">
+<input type="text" name="name" id="name_consultation" class="name" size="25">
+
+<input type="text" name="surname" id="surname_consultation" class="surname" size="25">
 
 <p class="e-mail-f">E-mail</p>
 <p class="day">Выбрать дату</p>
-<!--<p class="mounths">Месяц</p>-->
 
-<input type="text" name="email" id="email" size="25">
+<input type="text" name="email" id="email_consultation" class="email" size="25">
 
 <input type="text" name="datepicker" id="datepicker" size="25">
 
 <p class="text-message">Текст сообщения</p>
 
-<textarea name="comment" id="comment" cols="48" rows="8" onfocus=" placeholder='';"></textarea>
+<textarea name="comment" id="comment_consultation" class="comment" cols="48" rows="8" onfocus=" placeholder='';"></textarea>
 
-<!--<input name="submit" type="submit" id="submit" value="Отправить">-->
-<input onclick="SendApplication();" id="submit" type="submit" value="Записаться">
-</div>
+<input onclick="appointmentConsultation();" id="submit" type="submit" value="Отправить">
 </div>
 
-<div class="depression depression-about depr-pers-cons">
-<a href="psychological-appartment.html">
-<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/depression-about.png" alt="">
-<h3>Психологический<br> квартирник</h3>
-<ul>
-	<li>- терапевтические группы</li>
-	<li>- встреч</li>
-	<li>- киноклуб</li>
-</ul>
-</a>
-</div>
-<div>
-<a class="go-program read-my-article read-my-article-cons" href="about.html">Узнать обо мне</a>
-<a class="go-program contact-with-me contact-with-me-cons" href="contacts.html">Связаться со мной</a></div>
-
-
-</div>
 <script type="text/javascript">
 //локализация календаря
 $.datepicker.regional['ru'] = {
@@ -227,23 +172,18 @@ $.datepicker.setDefaults($.datepicker.regional['ru']);
 
 //1 календарь
 $('#datepicker').datepicker();
-
-function SendApplication() {	
-$.ajax({
-url: '/php/initialization.php',
-type: 'POST',
-dataType: 'json',
-data: {'check' : $('#check_form').val(), 'name' : $('#name').val(), 'surname' : $('#surname').val(), 'email' : $('#email').val(), 'datepicker' : $('#datepicker').val(), 'comment' : $('#comment').val()},	
-success: function(response) {
-alert(response.message);
-}
-});
-};
 </script>
 
-<script type="text/javascript">
+</div>
 
-</script>
+<?php echo stripcslashes( $category_data['text_for_categories_spanish_group_list_footer_page'] ); ?><br>
+
+<div>
+<a class="go-program read-my-article read-my-article-cons" href="<?php echo get_permalink('108'); ?>">Узнать обо мне</a>
+<a class="go-program contact-with-me contact-with-me-cons" href="<?php echo get_permalink('12'); ?>">Связаться со мной</a>
+</div>
+
+</div>
 
 <div class="footer-line2 hidden-md hidden-lg"></div>
 
