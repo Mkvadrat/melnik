@@ -9681,3 +9681,192 @@ h4 {
 .spanish-group .depression-about {
 	margin-top: 80px;
 }
+
+/* -------------------------------------------- */
+
+/* ------   Start spanish-group-block   ------- */
+
+/* -------------------------------------------- */
+
+.spanish-group-block {
+	position: relative;
+	background-color: #fff;
+	border-radius: 15px 15px 15px 15px;
+	margin-top: 25px;
+	box-shadow: 0px 0px 20px 0px rgba(2, 2, 2, 0.5);
+	overflow: hidden;
+}
+
+.spanish-group-block .bg-spanish-group {
+	width: 100%;
+	height: auto;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.spanish-group-block .more-span-group {
+	width: 320px;
+	height: auto;
+	position: absolute;
+	top: 63px;
+	left: 50%;
+	margin-left: -160px;
+	text-align: center;
+}
+
+.spanish-group-block .more-span-group p:first-child {
+	color: white;
+	font-family: "MyriadPro-Regular";
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 30px;
+	padding-bottom: 11px;
+}
+
+.spanish-group-block .more-span-group p {
+	color: white;
+	font-family: "MyriadPro-Regular";
+	font-size: 18px;
+	font-weight: 400;
+	padding-bottom: 21px;
+	line-height: 25px;
+}
+
+.spanish-group-block .more-span-group span {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.spanish-group-block .more-span-group a {
+	opacity: 0.74;
+	background-color: #00aeef;
+	background-image: linear-gradient(to right, #82cde9 0%, #cdf1ff 80%, #82cde9 100%);
+	border: 1px solid #327a95;
+	border-radius: 5px;
+	box-shadow: 0 8px 5px rgba(29, 22, 14, 0.1);
+	padding: 12px 22px;
+	color: #0b455a;
+	font-family: "MyriadPro-Regular";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 39px;
+	text-decoration: none;
+}
+
+.spanish-group-block .more-span-group a:hover {
+	padding: 12px 40px;
+	border-radius: 25px;
+	opacity: 1;
+	transition: 1s;
+}
+
+.spanish-group-block .more-span-group a:not(:hover) {
+	transition: 1s;
+}
+
+.emotional-new,
+.depression-new {
+	top: -18px;
+}
+
+.emotional-new ul,
+.depression-new ul {
+	overflow: hidden;
+}
+
+.emotional-new ul li,
+.depression-new ul li {
+	line-height: 16px;
+}
+
+.critical-new {
+	top: 0px;
+	border: none;
+	box-shadow: none;
+}
+
+.critical-new ul li {
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+	color: #0b455a;
+	font-family: "MyriadPro-Regular";
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 4px;
+}
+
+.critical-new ul li span {
+	font-weight: 400;
+}
+
+.critical-new p {
+	text-shadow: 0.7px 0.7px 0 #def0f7;
+	color: #0b455a;
+	font-family: "MyriadPro-Regular";
+	font-size: 14px;
+	font-weight: 400;
+	padding-top: 0px;
+	line-height: 17px;
+	padding-bottom: 10px;
+}
+
+.critical-new a {
+	width: auto;
+	height: auto;
+	display: inline;
+	padding: 12px 22px;
+	font-family: "MyriadPro-Regular";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 39px;
+
+	text-align: center;
+
+	outline: none !important;
+
+	text-decoration: none !important;
+
+	color: #0b455a;
+
+	background-color: rgba(0, 174, 239, 0);
+
+	background-image: linear-gradient(to right, rgba(130,205,233,0.3) 0%, rgba(205,241,255,0.3) 80%, rgba(130,205,233,0.3) 100%);
+
+	border: 1px solid #ccdee4;
+
+	border-radius: 5px;
+
+	box-shadow: 0 8px 5px rgba(29, 22, 14, 0.1);
+
+	box-shadow: 0px 8px 5px 0px rgba(29, 22, 14, 0.1);
+}
+
+.critical-new a:hover {
+
+	color: #0b455a;
+
+	background-color: rgba(0, 174, 239, 0.1);
+
+	box-shadow: 0 4px 5px rgba(29, 22, 14, 0.1);
+
+	transition: 1s;
+
+}
+
+.critical-new a:not(:hover) {
+
+	transition: 1s;
+
+}
+
+.critical-new i {
+	color: #0b455a;
+	font-family: "MyriadPro-Regular";
+	font-size: 12px;
+	font-style: italic;
+	line-height: 41px;
+}
+
+/* ------------------------------------------ */
+
+/* ------   End spanish-group-block   ------- */
+
+/* ------------------------------------------ */

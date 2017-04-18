@@ -931,11 +931,23 @@ function dimox_breadcrumbs() {
       //Категории
       if ($show_home_link) echo $sep;
       if ( get_post_type() != 'post' ) {
-        $post_type = get_post_type_object(get_post_type());
-        //$slug = $post_type->rewrite;
-        $slug = get_terms( 'psy-appartment-list','OBJECT');
-        printf($link, $home_url . $slug[0]->slug . '/', $post_type->labels->singular_name);
-        if ($show_current) echo $sep . $before . get_the_title() . $after;
+		if( get_post_type() == 'psy-appartment' ){
+			$post_type = get_post_type_object(get_post_type());
+			$slug = get_terms( 'psy-appartment-list','OBJECT');
+			printf($link, $home_url . $slug[0]->slug . '/', $post_type->labels->singular_name);
+			if ($show_current) echo $sep . $before . get_the_title() . $after;
+		}else if(get_post_type() == 'spanish-group'){
+			$post_type = get_post_type_object(get_post_type());
+			$slug = get_terms( 'spanish-group-list','OBJECT');
+			printf($link, $home_url . $slug[0]->slug . '/', $post_type->labels->singular_name);
+			if ($show_current) echo $sep . $before . get_the_title() . $after;
+		}else{
+			$post_type = get_post_type_object(get_post_type());
+			$slug = $post_type->rewrite;
+			printf($link, $home_url . $slug['slug'] . '/', $post_type->labels->singular_name);
+			if ($show_current) echo $sep . $before . get_the_title() . $after;
+		}
+		
       } else {
         $cat = get_the_category(); $cat = $cat[0];
         $cats = get_category_parents($cat, TRUE, $sep);
