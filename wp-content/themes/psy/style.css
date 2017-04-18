@@ -9896,3 +9896,7 @@ h4 {
 .spanish-group-block .critical li {
 	padding-left: 0;
 }
+
+.about-me h2 {
+	padding: 20px 0 20px 30px;
+}
