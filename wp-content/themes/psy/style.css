@@ -809,7 +809,7 @@ header {
 
 	width: 297px;
 
-	height: auto;
+	height: 100%;
 
 	display: block;
 
@@ -9870,3 +9870,29 @@ h4 {
 /* ------   End spanish-group-block   ------- */
 
 /* ------------------------------------------ */
+
+
+
+/*----- 18.04.2017 ----- */
+
+.spanish-group-block .emotional p,
+.spanish-group-block .depression p {
+    font-family: "MyriadPro-Regular";
+    font-weight: bold;
+    text-shadow: 0.7px 0.7px 0 white;
+    color: #0b455a;
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+.spanish-group-block .emotional a p:first-child,
+.spanish-group-block .depression a p:first-child {
+	display: none;
+}
+
+.spanish-group-block .critical li {
+	padding-left: 0;
+}
