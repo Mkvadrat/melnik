@@ -1,3 +1,5 @@
+var alertTypes = ['error', 'warning', 'info', 'success', 'input', 'prompt'];
+
 import {
   isIE8
 } from './utils';
