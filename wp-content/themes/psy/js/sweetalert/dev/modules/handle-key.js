@@ -1,4 +1,3 @@
-import { stopEventPropagation, fireClick } from './handle-dom';
 import { setFocusStyle } from './handle-swal-dom';
 
 

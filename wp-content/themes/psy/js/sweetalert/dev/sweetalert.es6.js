@@ -1,21 +1,3 @@
-// SweetAlert
-// 2014-2015 (c) - Tristan Edwards
-// github.com/t4t5/sweetalert
-
-/*
- * jQuery-like functions for manipulating the DOM
- */
-import {
-  hasClass, addClass, removeClass,
-  escapeHtml,
-  _show, show, _hide, hide,
-  isDescendant,
-  getTopMargin,
-  fadeIn, fadeOut,
-  fireClick,
-  stopEventPropagation
-} from './modules/handle-dom';
-
 /*
  * Handy utilities
  */

@@ -1,4 +1,3 @@
-import { hexToRgb } from './utils';
 import { removeClass, getTopMargin, fadeIn, show, addClass } from './handle-dom';
 import defaultParams from './default-params';
 

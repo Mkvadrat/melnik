@@ -16,6 +16,57 @@
 
 @media only screen and (max-width : 992px) {
 
+	/*----- start spanisg group page 29.05.2017 -----*/
+
+	.spanish-group .emotional {
+		margin-left: auto;
+	}
+
+	.spanish-group .title,
+	.spanish-group .form {
+		margin: 0 auto;
+	}
+
+	.spanish-group .personal-consultations-form {
+		height: 370px;
+	}
+
+	.spanish-group .depr-pers-cons {
+		left: 0;
+	}
+
+	.spanish-group .title .pers-cons-small-ul {
+		padding-left: 0;
+		text-align: center;
+		max-width: 100%;
+	}
+
+	/*----- end spanisg group page 29.05.2017 -----*/
+
+	.spanish-group-block .critical-new {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	.spanish-group-block .critical-new a {
+		margin: 10px;
+		display: inline-block;
+	}
+
+	.spanish-group-block p:first-child br {
+		display: none;
+	}
+
+	.spanish-group-block .bg-spanish-group-1 {
+		display: none;
+	}
+
+	.spanish-group-block .bg-spanish-group-2 {
+		display: block;
+		width: 968px;
+		height: auto;
+	}
+
 	.articles-in .next-article-in {
 		margin-right: 0;
 	}
@@ -1539,6 +1590,26 @@
 
 @media only screen and (max-width : 541px) {
 
+	.spanish-group-block .more-span-group {
+    	width: 280px;
+    	margin-left: -140px;
+    }
+
+    .spanish-group-block .more-span-group .phone-block a {
+    	display: block;
+    	margin: 0;
+    	margin-bottom: 10px;
+    }
+
+    .spanish-group-block .bg-spanish-group-2 {
+	    width: auto;
+	    height: 370px;
+	}
+
+    .spanish-group-block .more-span-group .phone-block br {
+    	display: none;
+    }
+
 	.personal-consultations .personal-consultations-form {
 		margin: 0;
 		padding-left: 20px;
@@ -1995,6 +2066,14 @@
 
 	}
 
+	/*----- start spanisg group page 29.05.2017 -----*/
+
+	.spanish-group .personal-consultations-form-small {
+		width: 456px !important;
+	}
+
+	/*----- end spanisg group page 29.05.2017 -----*/
+
 }
 
 
@@ -2006,6 +2085,53 @@
 		height: 170px;
 
 	}
+
+	/*----- start spanisg group page 29.05.2017 -----*/
+
+	.spanish-group .personal-consultations-form-small {
+		width: 92% !important;
+	}
+
+	.spanish-group .personal-consultations-form-small input,
+	.spanish-group .personal-consultations-form-small textarea {
+		display: block !important;
+		width: 100% !important;
+		margin-bottom: 20px !important;
+		margin-top: 0px !important;
+	}
+
+	.spanish-group .personal-consultations-form .name-f {
+	    top: 68px;
+	    margin-left: 10px !important;
+	}
+
+	.spanish-group .personal-consultations-form .surname-f {
+		left: 0 !important;
+		top: 122px;
+		margin-left: 10px !important;
+	}
+
+	.spanish-group .personal-consultations-form .e-mail-f {
+    	top: 178px;
+    	margin-left: 10px !important;
+    }
+
+    .spanish-group .personal-consultations-form .day {
+    	left: 0 !important;
+    	top: 232px;
+    	margin-left: 10px !important;
+    }
+
+    .spanish-group .personal-consultations-form .text-message {
+	    top: 288px;
+	    margin-left: 10px !important;
+	}
+
+	.spanish-group .personal-consultations-form {
+	    height: 460px;
+	}
+
+	/*----- end spanisg group page 29.05.2017 -----*/
 
 }
 
@@ -2443,6 +2569,10 @@
 
 @media only screen and (max-width : 399px) {
 
+	.depression {
+		height: 170px;
+	}
+
 	.carousel {
 
 		min-height: 210px;
@@ -2734,6 +2864,11 @@
 
 		height: 188px;
 
+	}
+
+	.period-button {
+		height: auto !important;
+		width: auto !important;
 	}
 
 

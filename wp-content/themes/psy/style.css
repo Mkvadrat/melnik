@@ -9601,7 +9601,7 @@ h4 {
 }
 
 .spanish-group .personal-consultations-form {
-    width: 465px;
+    width: 456px;
     height: 300px;
     margin-left: 30px;
 }
@@ -9697,19 +9697,24 @@ h4 {
 	overflow: hidden;
 }
 
-.spanish-group-block .bg-spanish-group {
+.spanish-group-block .bg-spanish-group-1,
+.spanish-group-block .bg-spanish-group-2 {
 	width: 100%;
 	height: auto;
 	border-radius: 15px 15px 0px 0px;
 }
 
+.spanish-group-block .bg-spanish-group-2 {
+	display: none;
+}
+
 .spanish-group-block .more-span-group {
-	width: 320px;
+	width: 400px;
 	height: auto;
 	position: absolute;
-	top: 63px;
+	top: 25px;
 	left: 50%;
-	margin-left: -160px;
+	margin-left: -200px;
 	text-align: center;
 }
 
@@ -9731,12 +9736,26 @@ h4 {
 	line-height: 25px;
 }
 
+.spanish-group-block .more-span-group .phone-block a {
+	font-family: "MyriadPro-Regular";
+	line-height: 20px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.spanish-group-block .more-span-group .phone-block a:nth-child(1),
+.spanish-group-block .more-span-group .phone-block a:nth-child(4) {
+	margin-right: 20px;
+}
+
 .spanish-group-block .more-span-group span {
 	font-weight: 700;
 	text-transform: uppercase;
 }
 
-.spanish-group-block .more-span-group a {
+.spanish-group-block .more-span-group .button {
+	text-shadow: none;
 	opacity: 0.74;
 	background-color: #00aeef;
 	background-image: linear-gradient(to right, #82cde9 0%, #cdf1ff 80%, #82cde9 100%);
@@ -9752,20 +9771,20 @@ h4 {
 	text-decoration: none;
 }
 
-.spanish-group-block .more-span-group a:hover {
+.spanish-group-block .more-span-group .button:hover {
 	padding: 12px 40px;
 	border-radius: 25px;
 	opacity: 1;
 	transition: 1s;
 }
 
-.spanish-group-block .more-span-group a:not(:hover) {
+.spanish-group-block .more-span-group .button:not(:hover) {
 	transition: 1s;
 }
 
 .emotional-new,
 .depression-new {
-	top: -18px;
+	top: 0px;
 }
 
 .emotional-new ul,
@@ -9801,7 +9820,7 @@ h4 {
 	text-shadow: 0.7px 0.7px 0 #def0f7;
 	color: #0b455a;
 	font-family: "MyriadPro-Regular";
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 	padding-top: 0px;
 	line-height: 17px;

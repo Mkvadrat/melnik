@@ -1,5 +1,3 @@
-var gulp = require('gulp');
-
 var glob       = require('glob');
 var path       = require('path');
 var jshint     = require('gulp-jshint');
